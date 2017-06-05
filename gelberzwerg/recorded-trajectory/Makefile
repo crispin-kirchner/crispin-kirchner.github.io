@@ -1,5 +1,5 @@
+.DEFAULT_GOAL:= trajectory.json
 .PHONY: clean
-.DEFAULT_GOAL: trajectory.json
 
 clean:
 	rm -rf simplified trajectory.gpx
