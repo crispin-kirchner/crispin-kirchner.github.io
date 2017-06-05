@@ -1,4 +1,38 @@
-var backend_root = "https://crispin-kirchner.github.io/gelberzwerg/";
+var backend_root = "https://crispin-kirchner.github.io/gelberzwerg/",
+	YEAR = 0,
+	MONTH = 1,
+	DAY = 2;
+	
+function getMonthName(monthNumber) {
+	var monthName = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+	
+	return monthName[monthNumber - 1];
+}
+
+function getDateString(date) {
+	return getMonthName(date[MONTH]) + " " + date[DAY] + ", " + date[YEAR];
+}
+
+function twoDigitPad(number) {
+	var numberString = "" + number;
+	
+	if(numberString.length < 2) {
+		numberString = "0" + numberString;
+	}
+	
+	return numberString;
+}
+
+function getUrl(markerData) {
+	var urlTail = markerData.url
+		? markerData.url
+		: "" + markerData.date[YEAR] + "/" +
+		  twoDigitPad(markerData.date[MONTH]) + "/" +
+		  twoDigitPad(markerData.date[DAY]) + "/" +
+		  markerData.title.replace(" ","-");
+		
+	return "https://kcrispin9.wixsite.com/gelberzwerg/single-post/" + urlTail;
+}
 			
 $.getJSON(backend_root + "blog-entries.json", function(markers) {
 	
@@ -35,9 +69,9 @@ $.getJSON(backend_root + "blog-entries.json", function(markers) {
 		var markerData = markers[i];
 		L.marker(markerData.coordinate)
 		 .addTo(map)
-		 .bindPopup(markerData.date +
-		 ' <a href="https://kcrispin9.wixsite.com/gelberzwerg/single-post/' +
-		 markerData.url + '" target="_blank"><strong>' +
+		 .bindPopup(getDateString(markerData.date) +
+		 ' <a href="' + getUrl(markerData) +
+		 '" target="_blank"><strong>' +
 		 markerData.title + '</strong></a><br />' + markerData.desc);
 	}
 });
