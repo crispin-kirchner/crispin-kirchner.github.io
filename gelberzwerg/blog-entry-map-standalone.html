@@ -11,7 +11,9 @@
 		<div id="map" style="width:100%;height:100%;margin:0px"></div>
 		
 		<script>
-			$.getJSON("https://crispin-kirchner.github.io/gelberzwerg/blog-entries.json", function(markers) {
+			var backend_root = "https://crispin-kirchner.github.io/gelberzwerg/";
+			
+			$.getJSON(backend_root + "blog-entries.json", function(markers) {
 				
 				var maxLon = 0,
 					maxLat = 0,
@@ -33,6 +35,10 @@
 							  (minLon + maxLon) * 0.5];
 				
 				var map = L.map('map').setView(center, 6);
+				
+				$.getJSON(backend_root + "recorded-trajectory/trajectory.json", function(track) {
+					L.geoJson(track).addTo(map);
+				});
 
 				L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 					attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
