@@ -21,7 +21,7 @@ $.getJSON(backend_root + "blog-entries.json", function(markers) {
 	var center = [(minLat + maxLat) * 0.5,
 				  (minLon + maxLon) * 0.5];
 	
-	var map = L.map('map').setView(center, 6);
+	var map = L.map('map').setView(center, 5);
 	
 	$.getJSON(backend_root + "recorded-trajectory/trajectory.json", function(track) {
 		L.geoJson(track).addTo(map);
