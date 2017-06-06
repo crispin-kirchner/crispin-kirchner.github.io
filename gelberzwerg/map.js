@@ -64,8 +64,13 @@ $.getJSON(backendRoot + "blog-entries.json", function(markers) {
 		attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 	}).addTo(map);
 	
-	for (var i=0; i < markers.length; i++) {		
+	for (var i=0; i < markers.length; i++) {
 		var markerData = markers[i];
+		
+		if(markerData.hidden) {
+			continue;
+		}
+		
 		L.marker(markerData.coordinate)
 		 .addTo(map)
 		 .bindPopup(getDateString(markerData.date) +
