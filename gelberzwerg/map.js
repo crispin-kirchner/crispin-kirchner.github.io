@@ -1,5 +1,4 @@
-var backend_root = "https://crispin-kirchner.github.io/gelberzwerg/",
-	YEAR = 0,
+var	YEAR = 0,
 	MONTH = 1,
 	DAY = 2;
 	
@@ -34,7 +33,7 @@ function getUrl(markerData) {
 	return "https://kcrispin9.wixsite.com/gelberzwerg/single-post/" + urlTail;
 }
 			
-$.getJSON(backend_root + "blog-entries.json", function(markers) {
+$.getJSON(backendRoot + "blog-entries.json", function(markers) {
 	
 	var maxLon = 0,
 		maxLat = 0,
@@ -57,7 +56,7 @@ $.getJSON(backend_root + "blog-entries.json", function(markers) {
 	
 	var map = L.map('map').setView(center, 5);
 	
-	$.getJSON(backend_root + "recorded-trajectory/trajectory.json", function(track) {
+	$.getJSON(backendRoot + "recorded-trajectory/trajectory.json", function(track) {
 		L.geoJson(track).addTo(map);
 	});
 
@@ -65,7 +64,7 @@ $.getJSON(backend_root + "blog-entries.json", function(markers) {
 		attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 	}).addTo(map);
 	
-	for (var i=0; i < markers.length; i++) {
+	for (var i=0; i < markers.length; i++) {		
 		var markerData = markers[i];
 		L.marker(markerData.coordinate)
 		 .addTo(map)
