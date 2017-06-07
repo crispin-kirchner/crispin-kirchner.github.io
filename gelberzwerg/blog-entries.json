@@ -59,7 +59,7 @@
 			18.619766
 		],
 		"date": [2017,5,25],
-		"url": "2017/06/01/Do-Whatever-Makes-You-Happy",
+		"publishingDate": [2017,6,1],
 		"title": "Do Whatever Makes You Happy",
 		"desc": "This is my last night in Croatia, tomorrow I‘m crossing the border to Serbia. Italy was the last country I’ve been to before, since Slovenia every country I come across is completely new to me."
 	},
@@ -69,6 +69,7 @@
 			20.624269
 		],
 		"date": [2017,5,29],
+		"publishingDate": [2017,6,7],
 		"title": "War and Stoves, Beer and Tea",
 		"desc": "Proper borders (well, it’s only the second for me) still intimidate me; far more serious than the abandoned buildings on the inside-Schengen borders. Where I crossed over to Serbia, the Danube is the border – since I had last seen it (a stream which I could wade through), it had grown considerably"
 	}

@@ -28,13 +28,18 @@ function titleToUrl(title) {
 	            .replace(/ /g, '-');
 }
 
+function dateToUrl(date) {
+	return date[YEAR] + "/" + twoDigitPad(date[MONTH]) + "/" +
+		   twoDigitPad(date[DAY]);
+}
+
 function getUrl(markerData) {
-	var urlTail = markerData.url
-		? markerData.url
-		: "" + markerData.date[YEAR] + "/" +
-		  twoDigitPad(markerData.date[MONTH]) + "/" +
-		  twoDigitPad(markerData.date[DAY]) + "/" +
-		  titleToUrl(markerData.title);
+	
+	var urlDate = markerData.publishingDate
+	            ? markerData.publishingDate
+	            : markerData.date;
+	
+	var urlTail = dateToUrl(urlDate) + "/" + titleToUrl(markerData.title);
 		
 	return "https://kcrispin9.wixsite.com/gelberzwerg/single-post/" + urlTail;
 }
