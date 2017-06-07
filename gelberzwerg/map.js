@@ -22,13 +22,19 @@ function twoDigitPad(number) {
 	return numberString;
 }
 
+function titleToUrl(title) {
+	return title.replace(/[^0-9a-z ]/gi, '')
+	            .replace(/  +/g, ' ')
+	            .replace(/ /g, '-');
+}
+
 function getUrl(markerData) {
 	var urlTail = markerData.url
 		? markerData.url
 		: "" + markerData.date[YEAR] + "/" +
 		  twoDigitPad(markerData.date[MONTH]) + "/" +
 		  twoDigitPad(markerData.date[DAY]) + "/" +
-		  markerData.title.replace(" ","-");
+		  titleToUrl(markerData.title);
 		
 	return "https://kcrispin9.wixsite.com/gelberzwerg/single-post/" + urlTail;
 }
