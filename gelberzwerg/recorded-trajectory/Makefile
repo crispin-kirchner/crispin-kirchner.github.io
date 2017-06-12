@@ -1,16 +1,26 @@
-.DEFAULT_GOAL:= trajectory.json
-.PHONY: clean
+.PHONY: clean all
+
+all: trajectory.json simplified-trajectory.gpx 
 
 clean:
-	rm -rf simplified trajectory.gpx
+	rm -rf simplified downsampled trajectory.gpx simplified-trajectory.gpx
 
 simplified:
 	mkdir -p simplified
+	
+downsampled:
+	mkdir -p downsampled
 
 simplified/%.gpx: raw/%.gpx simplified
-	gpsbabel -i gpx -f $< -x position,distance=10m -x simplify,count=50 -o gpx -F $@
+	gpsbabel -i gpx -f $< -x position,distance=10m -o gpx -F $@
 	
-trajectory.gpx: $(patsubst raw/%.gpx,simplified/%.gpx,$(wildcard raw/*.gpx))
+simplified-trajectory.gpx: $(patsubst raw/%.gpx,simplified/%.gpx,$(wildcard raw/*.gpx))
+	gpsbabel $(^:%.gpx=-i gpx -f %.gpx) -x track,pack -o gpx -F $@
+	
+downsampled/%.gpx: simplified/%.gpx downsampled
+	gpsbabel -i gpx -f $< -x simplify,count=50 -o gpx -F $@
+	
+trajectory.gpx: $(patsubst raw/%.gpx,downsampled/%.gpx,$(wildcard raw/*.gpx))
 	gpsbabel $(^:%.gpx=-i gpx -f %.gpx) -x track,pack -o gpx -F $@
 
 %.json: %.gpx
