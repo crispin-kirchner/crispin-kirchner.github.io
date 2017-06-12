@@ -1,6 +1,6 @@
 .PHONY: clean all
 
-all: trajectory.json simplified-trajectory.gpx 
+all: trajectory.json simplified-trajectory.gpx statistics.json 
 
 clean:
 	rm -rf simplified downsampled trajectory.gpx simplified-trajectory.gpx
@@ -25,3 +25,6 @@ trajectory.gpx: $(patsubst raw/%.gpx,downsampled/%.gpx,$(wildcard raw/*.gpx))
 
 %.json: %.gpx
 	ogr2ogr -f GeoJSON $@ $< tracks
+	
+statistics.json: simplified-trajectory.json
+	nodejs statistics.js $< $@
