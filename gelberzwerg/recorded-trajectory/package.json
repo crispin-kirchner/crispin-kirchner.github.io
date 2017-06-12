@@ -1,0 +1,15 @@
+{
+  "name": "trajectory-statistics",
+  "version": "0.0.1",
+  "description": "Computes statistics from a recorded GPS trajectory",
+  "main": "statistics.js",
+  "dependencies": {
+    "geodesy": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "make statistics.json"
+  },
+  "author": "Crispin Kirchner",
+  "license": "GPL-3.0"
+}
