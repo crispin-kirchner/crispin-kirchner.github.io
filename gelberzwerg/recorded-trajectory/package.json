@@ -4,7 +4,8 @@
   "description": "Computes statistics from a recorded GPS trajectory",
   "main": "statistics.js",
   "dependencies": {
-    "geodesy": "^1.1.1"
+    "geodesy": "^1.1.1",
+    "promise": "^7.3.0"
   },
   "devDependencies": {},
   "scripts": {

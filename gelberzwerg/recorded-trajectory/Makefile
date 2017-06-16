@@ -27,4 +27,4 @@ trajectory.gpx: $(patsubst raw/%.gpx,downsampled/%.gpx,$(wildcard raw/*.gpx))
 	ogr2ogr -f GeoJSON $@ $< tracks
 	
 statistics.json: simplified-trajectory.json
-	nodejs statistics.js $< $@
+	nodejs statistics.js $< raw $@

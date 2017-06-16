@@ -73,7 +73,7 @@ $.getJSON(backendRoot + "blog-entries.json", function(markers) {
 	
 	$.getJSON(backendRoot + "recorded-trajectory/statistics.json", function(statistics) {
 		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-			attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors | total distance cycled: ' + statistics.totalDistanceKm.toFixed(0) + " km"
+			attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors | total distance cycled: ' + statistics.totalDistanceKm.toFixed(0) + " km | last updated: " + getDateString(statistics.lastUpdated)
 		}).addTo(map);
 	});
 	
