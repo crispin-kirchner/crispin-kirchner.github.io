@@ -66,7 +66,7 @@ function writeStatistics() {
 	Promise.all([computeTotalDistance(process.argv[2]),
 						determineLastUpdated(process.argv[3]) ])
 	.then((results) => {
-		statistics.totalDistanceKm = results[0] * 1e-3;
+		statistics.totalDistanceKm = results[0] * 1e-3 - 80;
 		statistics.lastUpdated = results[1];
 		
 		fs.writeFile(process.argv[4], JSON.stringify(statistics));
