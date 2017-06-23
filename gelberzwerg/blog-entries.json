@@ -72,5 +72,25 @@
 		"publishingDate": [2017,6,7],
 		"title": "War and Stoves, Beer and Tea",
 		"desc": "Proper borders (well, it’s only the second for me) still intimidate me; far more serious than the abandoned buildings on the inside-Schengen borders. Where I crossed over to Serbia, the Danube is the border – since I had last seen it (a stream which I could wade through), it had grown considerably"
-	}
+	},
+  {
+    "coordinate": [
+      43.159967,
+      22.577905
+    ],
+    "date": [2017,6,3],
+    "title": "The Perfect Camp Spot",
+    "hidden": true,
+    "desc": "One day when I was going upwards slowly, there were what felt like herds of cyclists. First there was a couple oncoming, similarly heavy loaded as me. Unfortunately (I can’t blame them, though) they did not interrupt their easy-going descend to tell  me where they went."
+  }
+  {
+    "coordinate": [
+      42.345390,
+      23.515815
+    ],
+    "date": [2017,6,8],
+    "title": "The Ticket to Iran",
+    "hidden": true,
+    "desc": "Leaving Pirot the next day, I ate my first Burek (it had to be in Serbia I had been told before, so it was high time)."
+  }
 ]
