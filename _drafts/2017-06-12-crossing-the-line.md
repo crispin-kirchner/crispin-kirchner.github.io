@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Crossing the Line"
-location: Edirne
+location: "Edirne, Turkey"
 coordinates:
   - 41.676515
   - 26.555795

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Ticket to Iran"
-location: "Somewhere in Bulgaria, 900m above sea level"
+location: "Prodanovci, Bulgaria"
 coordinates:
   - 42.345390
   - 23.515815
