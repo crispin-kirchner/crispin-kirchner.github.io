@@ -5,7 +5,6 @@ location: Edirne
 coordinates:
   - 41.676515
   - 26.555795
-teaser: "Bli bla blubb"
 ---
 One of the main points in doing this trip was to get out of the christian-western bubble in which I grew up, to see a world that’s new to me and widen my horizon. I had the privilege to be able to travel a lot throughout all my life, yet I had never yet left Europe. The furthest I felt from home was in Iceland, the furthest east I've been was Prague, but that's... well, let's talk about something different.
 Leaving western Europe when crossing the border to Croatia has already been a pleasant change, but I knew that there would be more to it; and indeed there was.

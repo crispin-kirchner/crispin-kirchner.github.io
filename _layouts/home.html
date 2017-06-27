@@ -20,7 +20,7 @@ layout: default
       .bindPopup('{{ post.date | date: date_format }} <a href="{{ post.url | relative_url }}"><strong>{{ post.title | escape }}</strong></a><br />{{ post.teaser }}');
     {% endfor %}
     
-    $.getJSON('/trajectory.json', function(track) {
+    $.getJSON('/gelberzwerg/recorded-trajectory/trajectory.json', function(track) {
       L.geoJson(track).addTo(map);
     });
   </script>
