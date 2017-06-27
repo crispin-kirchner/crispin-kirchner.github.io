@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<div class="home">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <div id="map" style="width:100%;height:30em"></div>
+  <script>
+    var map = L.map('map').setView([41.676515, 26.555795], 5);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors '
+		}).addTo(map);
+    
+    {% for post in site.posts %}
+      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+      L.marker([ {{ post.coordinates[0] }}, {{ post.coordinates[1] }} ])
+      .addTo(map)
+      .bindPopup('{{ post.date | date: date_format }} <a href="{{ post.url | relative_url }}"><strong>{{ post.title | escape }}</strong></a><br />{{ post.teaser }}');
+    {% endfor %}
+    
+    $.getJSON('/trajectory.json', function(track) {
+      L.geoJson(track).addTo(map);
+    });
+  </script>
+
+  <!-- <h1 class="page-heading">Stepstones</h1> -->
+  
+  {{ content }}
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}: {{ post.location | default: "" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+        {{ post.teaser }}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+</div>
