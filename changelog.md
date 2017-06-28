@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Changelog
-menu: true
 ---
 
 * Jul 1, 2017: Migrated to github-pages and Jekyll, for posting from the tent and boiling the publishing effort down from half an hour per post to a matter of minutes
