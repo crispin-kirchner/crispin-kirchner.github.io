@@ -4,6 +4,7 @@ location: "Pirot, Serbia"
 coordinates:
   - 43.159967
   - 22.577905
+preview: img_2691.jpg
 ---
 
 > ![Dragomir's bicycle](/images/img_2609.jpg)

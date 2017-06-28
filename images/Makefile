@@ -15,4 +15,4 @@ full:
 	convert $< -auto-orient -scale 800 $@
 
 preview/%.jpg: full/%.jpg preview
-	convert $< -auto-orient -scale 150 -crop 150x150 $@
+	convert $< -auto-orient -scale 200 $@

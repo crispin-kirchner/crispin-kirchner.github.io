@@ -6,7 +6,7 @@ layout: default
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
 	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <div id="map" style="width:100%;height:30em"></div>
+  <div id="map" style="width:100%;height:30em;margin-bottom:3em;"></div>
   <script>
     var map = L.map('map').setView([41.676515, 26.555795], 5);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -25,20 +25,22 @@ layout: default
     });
   </script>
 
-  <!-- <h1 class="page-heading">Stepstones</h1> -->
+  <!--<h1 class="page-heading">Posts</h1>-->
   
   {{ content }}
 
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
+        <img src="/images/preview/{{ post.preview }}" alt="{{ post.title | escape }}" style="margin-right:1ex;" />
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}: {{ post.location | default: "" }}</span>
+        <div style="display:inline-block;vertical-align:top;">
+          <span class="post-meta">{{ post.date | date: date_format }}: {{ post.location | default: "" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-        {{ post.teaser }}
+          <h2>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </h2>
+        </div>
       </li>
     {% endfor %}
   </ul>
