@@ -42,7 +42,7 @@
         Submit your mail address here in order to get notified when there is a new blog post.
         <form action="https://getsimpleform.com/messages?form_api_token=ab263004f9f523dd796b4fcc2e48d542" method="post">
           <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-          <!-- <input type='hidden' name='redirect_to' value='' /> -->
+          <input type='hidden' name='redirect_to' value='{{ site.url }}/thank-you.html' />
           <!-- all your input fields here.... -->
           <input type='text' name='mail-address' />
           <input type='submit' value='Subscribe' />
