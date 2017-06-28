@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Inspiration
+menu: true
 ---
 
 * [cyclingfar](https://cyclingfar.wordpress.com/)\\
