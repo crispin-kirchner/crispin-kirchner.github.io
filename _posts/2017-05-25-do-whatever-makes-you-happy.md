@@ -4,15 +4,16 @@ preview: img_2449.jpg
 coordinates:
   - 45.558595
   - 18.619766
+location: "Briješce, Croatia"
 ---
 
-> ![](/images/img_2449.jpg)
-At the entrance of the gym in which I spent one night
+> ![At the entrance of the gym in which I spent one night](/images/img_2449.jpg)
+> *At the entrance of the gym in which I spent one night*
 
 This is my last night in Croatia, tomorrow I‘m crossing the border to Serbia. Italy was the last country I’ve been to before, since Slovenia every country I come across is completely new to me. After Slovenia seemed pretty much like the western European countries to me, Croatia was different. The cars in the streets were less modern. I think this is a positive thing. It suggests that there is no consummation society and the available resources are used as long as possible. Instead of throwing things away once they suffer some damage, they are repaired and kept until their lifespan is over. More than once I saw people having a second, broken down car of the same make in the backyard, probably for getting spare parts.
 
-> ![](/images/img_2383.jpg)
-Car junkyard straight after entering Croatia
+> ![Car junkyard straight after entering Croatia](/images/img_2383.jpg)
+*Car junkyard straight after entering Croatia*
 
 In the villages, almost every house was having a garden where people grew crops. Besides some huge and very modern farming vehicles, it was a common sight to see people working in their fields and gardens by hand. Many houses had wells, whether in use or not I can’t tell, but often artfully decorated. Same as the houses, they existed in all states of decay, from taken care of, to nearly broken down. Regarding houses: there were quite a lot obviously inhabited, but only half finished houses. No plaster or isolation, just the raw masonry. Sometimes there were even whole villages of these half-finished houses.
 
