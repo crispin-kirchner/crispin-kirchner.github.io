@@ -6,9 +6,30 @@ layout: default
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
 	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <div id="map" style="width:100%;height:30em;margin-bottom:3em;"></div>
+  <div id="map" style="width:100%;height:30em;margin-bottom:1em;"></div>
+  <p id="totalDistance" style="margin-bottom: 3em;"></p>
   <script>
-    var map = L.map('map').setView([41.676515, 26.555795], 5);
+    var	YEAR = 0,
+        MONTH = 1,
+        DAY = 2;
+        
+    function getMonthName(monthNumber) {
+      var monthName = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+      
+      return monthName[monthNumber - 1];
+    }
+    
+    function getDateString(date) {
+      return getMonthName(date[MONTH]) + " " + date[DAY] + ", " + date[YEAR];
+    }
+    
+    var map = L.map('map');
+    
+    $.getJSON('/gelberzwerg/recorded-trajectory/statistics.json', function(statistics) {
+      map.fitBounds(L.latLngBounds(statistics.topLeft, statistics.bottomRight));
+      $("#totalDistance").text("Total distance cycled: " + statistics.totalDistanceKm.toFixed(0) + " km (" + getDateString(statistics.lastUpdated) + ")");
+    });
+    
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 			attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors '
 		}).addTo(map);

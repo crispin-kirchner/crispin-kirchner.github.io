@@ -23,9 +23,19 @@ function computeTotalDistance(trajectoryPath) {
 			var totalDistance = 0.0;
 			var point = points[0];
 			var lastGeo = new geo(point[1], point[0]);
+      
+      var minLat = Number.MAX_VALUE,
+          maxLat = -Number.MAX_VALUE,
+          minLon = Number.MAX_VALUE,
+          maxLon = -Number.MAX_VALUE;
 			
 			for(var i = 1; i < points.length; ++i) {
 				point = points[i];
+        
+        minLon = Math.min(minLon, point[0]);
+        maxLon = Math.max(maxLon, point[0]);
+        minLat = Math.min(minLat, point[1]);
+        maxLat = Math.max(maxLat, point[1]);
 				
 				var currentGeo = new geo(point[1], point[0]);
 				
@@ -34,7 +44,7 @@ function computeTotalDistance(trajectoryPath) {
 				lastGeo = currentGeo;
 			}
 			
-			resolve(totalDistance);
+			resolve({totalDistance: totalDistance, topLeft: [minLat, minLon], bottomRight: [maxLat, maxLon]});
 		});
 	});
 }
@@ -66,7 +76,9 @@ function writeStatistics() {
 	Promise.all([computeTotalDistance(process.argv[2]),
 						determineLastUpdated(process.argv[3]) ])
 	.then((results) => {
-		statistics.totalDistanceKm = results[0] * 1e-3 - 80;
+		statistics.totalDistanceKm = results[0].totalDistance * 1e-3 - 80;
+    statistics.topLeft = results[0].topLeft;
+    statistics.bottomRight = results[0].bottomRight;
 		statistics.lastUpdated = results[1];
 		
 		fs.writeFile(process.argv[4], JSON.stringify(statistics));
