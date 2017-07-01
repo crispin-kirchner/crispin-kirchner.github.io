@@ -4,6 +4,7 @@ coordinates:
   - 45.861713
   - 15.836277
 preview: img_2369.jpg
+location: "Jablanovec, Croatia"
 ---
 On my 15th day on the road, I observe a cyclist with little luggage who obviously tries to find a cycle route. He is Norwegian, from somewhere close to Trondheim. His occupation is to care for the drilling fluid on drilling platforms in the north sea, by education he is a civil engineer. Work on drilling platforms is intense: In two weeks time, he works so many hours that he gets the following four weeks off. With this rhythm, he has the same working hours in a year as someone with a regular 9-to-5 job. As the process of drilling for oil is completely unknown and mysterious to me, I ask a lot of questions. We split up as I begin looking for a spot to make my lunch, as he is a little bit in a hurry – he goes from Munich to Venice with luggage transport service and had an unexpectedly long tour that day as he had to circumvent a construction site.
 
@@ -20,7 +21,8 @@ Alps like the Andes
 
 Nature is again overwhelming: steep slopes densely grown over with forests everywhere. As the valley opens, the motorway to Venice comes into sight: a monstruous construction on spires, spanning the whole valley. There is even a merging of two highways on these pillars, suspended above the jungle. Not only the motorway reminds that Venice is close, also the architecture: many churches in the villages have towers resembling the St. Mark’s Campanile.
 
-> ![]()
+> ![The highway to Venice](/images/img_2238.jpg)
+The highway to Venice
 
 > !["Venetian" church tower](/images/img_2248.jpg)
 "Venetian" church tower
@@ -40,25 +42,28 @@ Next to the forest there is a canal; down by the water there is an almost ghostl
 On mother’s day I come across a completely straight road leading to Udine. There is a lot of traffic, but I still decide to take it. First, because there is a rather wide hard shoulder, allowing me to drive safe, and because it goes exactly in the direction I’m interested in. I remember that Manuel had recommended me this exact road, and I had neglected his advice saying I was not in a hurry. But now that I see it it’s all too tempting to go straight for some time and not to have to check the direction at each cross or T-junction. To honor Sunday, I get asparagus for lunch and have a risotto on a playground in a village, arriving in Udine shortly later.
 
 > ![](/images/img_2270.jpg)
-> ![]()
+>
+> ![](/images/img_2273.jpg)
 Udine impressions
 
 When cycling out of Udine I come across an ice cream shop that has quite some visitors and I decide that the time for granting myself an ice cream has come – especially because I’m about to leave the country famous for it. That evening I come across a wonderful campsite: amidst of fields, there is a small island with some trees and a lawn; I’m surrounded by open space as far as the eye can see, and still I have all the privacy I can wish for. As I am not washing in a river that day, but showering with my water bag, I use my shampoo for the first time in 13 days. It feels glorious. The hair that used to cling together in thick dags is suddenly fine again.
 
-> [Nice camp spot: privacy in spite of open space](/images/img_2282.jpg)
+> ![Nice camp spot: privacy in spite of open space](/images/img_2282.jpg)
 > Nice camp spot: privacy in spite of open space
 
 When packing together in the morning, I notice that the luggage carrier is now also broken on the other side. As the repair had worked out well, I had not replaced it, but continued using it for 5 more days. I repeat the repair of last time, but also see that I won’t make it far that way. Spokes bend too easily, and now that the whole carrier is kept together only by spokes, it is no longer stiff enough for all the luggage. I decide that it will be replaced in Ljubljana and hope that the fix will hold until there. Sure it doesn’t, and a little bit later I adjust the tilting of the carrier such that the luggage compresses it instead of bending. I am closer to the Slovenian border than I knew and I’m suddenly in a different country. The border is barely noticeable: later that day I come across a sign again stating the end of Italy – I hadn’t even noticed leaving Slovenia again. Slovenian seems similar to Czech for me, and although I only know some words of Czech, I instantly feel kind of at home. A street sign from Prague at a bar increases this feeling even more. I notice with glee that people speak English here way more often than it has been the case in Italy. Straight after the border, Cherries are being sold – I have never seen ripe cherries that early in the year. The spot where I cook my lunch that day also as a cherry tree next to it and I eat some while waiting for the rice to soak. There are also rusty pieces of reinforcement steel. I check whether it’s possible to break off parts of it, which luckily works; my luggage carrier is therefore strengthened by this way more robust material. Concluding, it is kept together by cable ties and rusty bits of metal, but this combination makes it feel really sturdy and trustworthy again.
 
-> ![]()
+> ![Quick-fixed luggage carrier](/images/img_2294.jpg)
+Quick-fixed luggage carrier
 
 > ![Heading to Slovenia](/images/img_2293.jpg)
 Heading to Slovenia
 
-> ![]()
+> ![Šmartno, Slovenia from the outside](/images/img_2298.jpg)
+Šmartno, Slovenia from the outside
 
-> ![Slovenian historical village](/images/img_2299.jpg)
-Slovenian historical village
+> ![...and from the inside](/images/img_2299.jpg)
+...and from the inside
 
 Right with the Slovenian border, the hills started again. On a hilltop I come across a view tower and for the first time on my trip I can see the sea in the south. Turning around, there are snow-capped summits in the north. I suddenly have an attack of cereal bar-appetite and eat 7 of them; afterwards I’m cycling a lot uphill with a lot of energy. On a field, there are young cows and a bull joyfully jumping around and playing – a rare and wonderful sight.
 
@@ -87,7 +92,7 @@ Dušan tells me that German labeling of a product is seen as a grant of quality 
 
 > ![](/images/img_2343.jpg)
 >
-> ![]()
+> ![](/images/img_2342.jpg)
 >
 > ![](/images/img_2338.jpg)
 Ljubljana impressions
@@ -97,7 +102,8 @@ Dušan and me on top of Ljubljana castle
 
 On my last day in Ljubljana, Dušan shows me around the city a bit by daylight. We go up the castle and enjoy the view all around the city. After lunch I’m packing my things and leave for putting a little bit of distance under my tires. I escape Ljubljana’s rush hour by swerving onto forest tracks. Because of the good weather forecast, many farmers have mowed their fields and I am camping on a huge piece of land where the hay has already been collected. The river Sava is close by. Up here it is flowing with intimidating speed, but I, also because of the water temperature, only wash myself at its bank instead of going for a swim.
 
-> ![]()
+> ![River Sava in Slovenia](/images/img_2351.jpg)
+River Sava in Slovenia
 
 The coming days, Sava is my companion, except for when I take a detour. It flows wildly here, with maddening speed and many rocks in between. Most of the time there is a tiny street going from village to village on one bank of the river, and I try to follow these. I have lunch in the shadows of the trees at the river bank. The bank is quite steep, and in a vain attempt to save me some of the hassle of carrying down my bags individually, I drop the bag with my passport, money and phone down the slope. Looking after it, I realize that the vegetation is not as dense as it seemed, because the damn thing keeps on rolling in the direction of the river, ever faster. With adrenaline rushing, I climb and run behind it, pushing plants to the side, ready to jump into the river and swim after my bag. Luckily it stops rolling just at the waterline. I decide to use a less valuable bag for such experiments in the future.
 
