@@ -1,7 +1,7 @@
 ---
 title: "Break and Pass"
 layout: post
-location: "Bla"
+location: "Susch, Switzerland"
 preview: img_1930.jpg
 coordinates:
   - 46.757972
