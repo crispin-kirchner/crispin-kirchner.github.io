@@ -42,7 +42,7 @@ layout: default
     {% endfor %}
     
     $.getJSON('/gelberzwerg/recorded-trajectory/trajectory.json', function(track) {
-      L.geoJson(track).addTo(map);
+      L.geoJson(track, { style: {color: "#f38148"}}).addTo(map);
     });
   </script>
 

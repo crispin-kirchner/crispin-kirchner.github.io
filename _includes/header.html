@@ -3,7 +3,7 @@
   <div class="wrapper">
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
-    <a class="site-title" href="{{ "/" | relative_url }}">Map &amp; Posts</a>
+    <a class="site-title" href="{{ "/" | relative_url }}"><img src="/assets/gelberzwerg_48x48.png" alt="Logo" style="margin-bottom:-1px;" /> Map &amp; Posts</a>
   
     {% if page_paths %}
       <nav class="site-nav">
