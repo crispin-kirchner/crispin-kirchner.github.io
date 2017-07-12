@@ -71,12 +71,15 @@ function determineLastUpdated(rawPath) {
 }
 
 function writeStatistics() {
+  var distanceByFerry = 80,
+      distanceByCar = 10;
+      
 	var statistics = {};
 	
 	Promise.all([computeTotalDistance(process.argv[2]),
 						determineLastUpdated(process.argv[3]) ])
 	.then((results) => {
-		statistics.totalDistanceKm = results[0].totalDistance * 1e-3 - 80;
+		statistics.totalDistanceKm = results[0].totalDistance * 1e-3 - distanceByFerry - distanceByCar;
     statistics.topLeft = results[0].topLeft;
     statistics.bottomRight = results[0].bottomRight;
 		statistics.lastUpdated = results[1];
