@@ -53,7 +53,7 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <img src="/images/preview/{{ post.preview }}" alt="{{ post.title | escape }}" style="margin-right:1ex;" />
+        <a href="{{ post.url | relative_url }}"><img src="/images/preview/{{ post.preview }}" alt="{{ post.title | escape }}" style="margin-right:1ex;" /></a>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <div style="display:inline-block;vertical-align:top;">
           <span class="post-meta">{{ post.date | date: date_format }}: {{ post.location | default: "" }}</span>
