@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<link rel="stylesheet" href="/assets/lightbox/css/lightbox.min.css">
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -20,4 +21,27 @@ layout: default
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}
+  
+  <script src="/assets/lightbox/js/lightbox.min.js"></script>
+  <script>
+      lightbox.option({
+          fadeDuration: 0,
+          resizeDuration: 50,
+          imageFadeDuration: 50
+      });
+      
+      $("img").each(function() {
+        var src = $(this).attr("src");
+        var dirname = src.match(/.*\//);
+        
+        if(dirname != "/images/") {
+          return;
+        }
+        
+        var basename = src.replace(/.*\//, "");
+        
+        $(this).after('<br />' + this.alt);
+        $(this).wrap('<a href="' + dirname + "1080/" + basename + '" data-lightbox="slideshow" data-title="' + this.alt + '" />');
+      });
+  </script>
 </article>
