@@ -3,7 +3,7 @@ layout: post
 preview: IMG_3262.JPG
 coordinates:
   - 41.966405
-  - 34  .855501
+  - 34.855501
 location: "Yeniçam, Turkey"
 title: "Ramazan Bayramı"
 ---
