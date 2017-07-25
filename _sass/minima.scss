@@ -52,3 +52,7 @@ $on-laptop:        800px !default;
   display: block;
   float: right;
 }
+
+div.post-content img {
+  border: 1px solid $grey-color;
+}
