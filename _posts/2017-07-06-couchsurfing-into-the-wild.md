@@ -4,7 +4,7 @@ coordinates:
   - 41.606483
   - 35.656929
 location: "Kazoǧlu, Turkey"
-title: "Couchsurfing into the Wild"
+title: "Couchsurfing Into the Wild"
 preview: IMG_3545.JPG
 ---
 
