@@ -5,45 +5,8 @@ layout: default
 <div class="home">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
 	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
-  <div id="map" style="width:100%;height:30em;margin-bottom:1em;"></div>
-  <p id="totalDistance" style="margin-bottom: 3em;"></p>
-  <script>
-    var	YEAR = 0,
-        MONTH = 1,
-        DAY = 2;
-        
-    function getMonthName(monthNumber) {
-      var monthName = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-      
-      return monthName[monthNumber - 1];
-    }
-    
-    function getDateString(date) {
-      return getMonthName(date[MONTH]) + " " + date[DAY] + ", " + date[YEAR];
-    }
-    
-    var map = L.map('map');
-    
-    $.getJSON('/gelberzwerg/recorded-trajectory/statistics.json', function(statistics) {
-      map.fitBounds(L.latLngBounds(statistics.topLeft, statistics.bottomRight));
-      $("#totalDistance").text("Total distance cycled: " + statistics.totalDistanceKm.toFixed(0) + " km (" + getDateString(statistics.lastUpdated) + ")");
-    });
-    
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-			attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors '
-		}).addTo(map);
-    
-    {% for post in site.posts %}
-      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-      L.marker([ {{ post.coordinates[0] }}, {{ post.coordinates[1] }} ])
-      .addTo(map)
-      .bindPopup('{{ post.date | date: date_format }} <a href="{{ post.url | relative_url }}"><strong>{{ post.title | escape }}</strong></a><br />{{ post.teaser }}');
-    {% endfor %}
-    
-    $.getJSON('/gelberzwerg/recorded-trajectory/trajectory.json', function(track) {
-      L.geoJson(track, { style: {color: "#f38148"}}).addTo(map);
-    });
-  </script>
+  
+  {% include post-map.html %}
 
   <!--<h1 class="page-heading">Posts</h1>-->
   

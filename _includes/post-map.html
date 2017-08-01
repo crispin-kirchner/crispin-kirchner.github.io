@@ -1,0 +1,12 @@
+<div id="map" style="width:100%;height:30em;margin-bottom:1em;"></div>
+<p id="totalDistance" style="margin-bottom: 3em;"></p>
+<script src="/assets/post-map.js"></script>
+
+<script>
+  {% for post in site.posts %}
+    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+    L.marker([ {{ post.coordinates[0] }}, {{ post.coordinates[1] }} ])
+    .addTo(map)
+    .bindPopup('{{ post.date | date: date_format }} <a href="{{ post.url | relative_url }}"><strong>{{ post.title | escape }}</strong></a><br />{{ post.teaser }}');
+  {% endfor %}
+</script>
