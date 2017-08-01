@@ -2,7 +2,7 @@
 
 mkdir -p preview full 1080
 
-for i in orig/*; do
+for i in ../_orig_images/*; do
   base=$(basename "$i")
   
   if [ ! -e "$base" ] ; then

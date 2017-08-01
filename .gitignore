@@ -1,4 +1,3 @@
 _site
 .sass-cache
-images/orig
-images/full
+_orig_images
