@@ -69,15 +69,11 @@ div#mapKey {
 
 div#mapKey div {
   flex-grow: 1;
-  text-align: center;
+  text-align: right;
 }
 
 div#mapKey div:first-child {
   text-align: left;
-}
-
-div#mapKey div:last-child {
-  text-align: right;
 }
 
 div#mapKey div svg {
