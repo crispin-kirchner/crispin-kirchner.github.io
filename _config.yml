@@ -46,3 +46,4 @@ exclude:
   - recorded-trajectory/README.md
   - recorded-trajectory/package.json
   - recorded-trajectory/make-trajectories.sh
+  - images/update-images.sh
