@@ -96,17 +96,42 @@ function make_downsampled_trajectory {
 }
 
 function make_statistics {
-  if newer_than statistics.json simplified-trajectory.json ; then
+  local path=$1
+  
+  local target=$path/statistics.json
+  local source=$path/simplified-trajectory.json
+  
+  if newer_than $target $source ; then
     return
   fi
   
-  local command="nodejs statistics.js simplified-trajectory.json $RAW statistics.json"
+  local command="nodejs statistics.js $source $path/$RAW $target"
   echo $command
   $command
 }
 
-make_simplified_parts
-make_simplified_trajectory
-make_downsampled_parts
-make_downsampled_trajectory
-make_statistics
+function make_means {
+  cd means/$1
+  
+  make_simplified_parts
+  make_downsampled_parts
+  make_downsampled_trajectory
+  
+  if [ "$1" == "bicycle" ]; then
+    make_simplified_trajectory
+  fi
+  
+  cd ../..
+  
+  if [ "$1" == "bicycle" ]; then
+    make_statistics means/$1
+  fi
+}
+
+function make_all_means {
+  for directory in means/*; do
+    make_means $(basename $directory)
+  done
+}
+
+make_all_means
