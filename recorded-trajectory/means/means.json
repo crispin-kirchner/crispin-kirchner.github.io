@@ -7,6 +7,11 @@
   {
     "path": "ferry",
     "name": "ferry",
-    "color": "#8149f2"
+    "color": "#496FF2"
+  },
+  {
+    "path": "bus",
+    "name": "bus",
+    "color": "#00bf21"
   }
 ]

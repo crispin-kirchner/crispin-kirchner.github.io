@@ -130,6 +130,10 @@ function make_means {
 
 function make_all_means {
   for directory in means/*; do
+    if [ ! -d "$directory" ]; then
+      continue;
+    fi
+    
     make_means $(basename $directory)
   done
 }
