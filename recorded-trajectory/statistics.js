@@ -36,13 +36,7 @@ function computeTotalDistance(trajectoryPath) {
         var points = feature.geometry.coordinates[0];
 			
         var point = points[0];
-        firstGeo = new geo(point[1], point[0]);
-        if(j > 0) {
-          if(lastGeo.distanceTo(firstGeo) > 2) {
-            console.log("distance between " + FILES_SORTED[j-1] + " and " + FILES_SORTED[j] + " too large");
-          }
-        }
-        lastGeo = firstGeo;
+        lastGeo = new geo(point[1], point[0]);
         
         for(var i = 1; i < points.length; ++i) {
           point = points[i];
