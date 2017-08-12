@@ -59,18 +59,6 @@ function computeTotalDistance(trajectoryPath) {
 	});
 }
 
-function determineLastUpdated() {			
-  var newestFile = FILES_SORTED[FILES_SORTED.length - 1];
-  
-  var date = [];
-  
-  date[YEAR] = Number(newestFile.substring(0,4));
-  date[MONTH] = Number(newestFile.substring(5, 7));
-  date[DAY] = Number(newestFile.substring(8, 10));
-  
-  return date;
-}
-
 function writeStatistics() {
   var distanceByCar = 10;
       
@@ -80,7 +68,6 @@ function writeStatistics() {
 		statistics.totalDistanceKm = result.totalDistance * 1e-3 - distanceByCar;
     statistics.topLeft = result.topLeft;
     statistics.bottomRight = result.bottomRight;
-		statistics.lastUpdated = determineLastUpdated();
 		
 		fs.writeFileSync(process.argv[4], JSON.stringify(statistics));
 	}, (reason) => {

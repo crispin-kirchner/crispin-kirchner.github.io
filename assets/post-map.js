@@ -1,17 +1,3 @@
-var	YEAR = 0,
-    MONTH = 1,
-    DAY = 2;
-    
-function getMonthName(monthNumber) {
-  var monthName = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-  
-  return monthName[monthNumber - 1];
-}
-
-function getDateString(date) {
-  return getMonthName(date[MONTH]) + " " + date[DAY] + ", " + date[YEAR];
-}
-
 function getKeySvg(color) {
   var width = 25;
   
@@ -24,7 +10,7 @@ var map = L.map('map');
 
 $.getJSON('/recorded-trajectory/means/bicycle/statistics.json', function(statistics) {
   map.fitBounds(L.latLngBounds(statistics.topLeft, statistics.bottomRight));
-  $("#totalDistance").text("Total distance cycled: " + statistics.totalDistanceKm.toFixed(0) + " km (" + getDateString(statistics.lastUpdated) + ")");
+  $("#totalDistance").text("Total distance cycled: " + statistics.totalDistanceKm.toFixed(0) + " km");
 });
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
