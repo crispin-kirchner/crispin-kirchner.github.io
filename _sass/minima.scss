@@ -56,3 +56,30 @@ $on-laptop:        800px !default;
 div.post-content img {
   border: 1px solid $grey-color;
 }
+
+div#map {
+  width:100%;
+  height:30em;
+  margin-bottom:1em;
+}
+
+div#mapKey {
+  display: flex;
+}
+
+div#mapKey div {
+  flex-grow: 1;
+  text-align: center;
+}
+
+div#mapKey div:first-child {
+  text-align: left;
+}
+
+div#mapKey div:last-child {
+  text-align: right;
+}
+
+div#mapKey div svg {
+  vertical-align: middle;
+}

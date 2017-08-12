@@ -1,0 +1,12 @@
+[
+  {
+    "path": "bicycle",
+    "name": "bicycle",
+    "color": "#f38148"
+  },
+  {
+    "path": "ferry",
+    "name": "ferry",
+    "color": "#8149f2"
+  }
+]
