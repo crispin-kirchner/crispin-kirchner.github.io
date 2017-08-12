@@ -35,6 +35,7 @@ exclude:
   - recorded-trajectory/means/bicycle/00_raw
   - recorded-trajectory/means/bicycle/01_simplified
   - recorded-trajectory/means/bicycle/02_downsampled
+  - recorded-trajectory/means/bicycle/simplified_trajectory.json
   - recorded-trajectory/means/bus/00_raw
   - recorded-trajectory/means/bus/01_simplified
   - recorded-trajectory/means/bus/02_downsampled
@@ -42,3 +43,6 @@ exclude:
   - recorded-trajectory/means/ferry/01_simplified
   - recorded-trajectory/node_modules
   - recorded-trajectory/means/ferry/02_downsampled
+  - recorded-trajectory/README.md
+  - recorded-trajectory/package.json
+  - recorded-trajectory/make-trajectories.sh
