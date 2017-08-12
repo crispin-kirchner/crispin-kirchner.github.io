@@ -72,13 +72,12 @@ function determineLastUpdated() {
 }
 
 function writeStatistics() {
-  var distanceByFerry = 80,
-      distanceByCar = 10;
+  var distanceByCar = 10;
       
 	var statistics = {};
 	
 	computeTotalDistance(process.argv[2]).then( (result) => {
-		statistics.totalDistanceKm = result.totalDistance * 1e-3 - distanceByFerry - distanceByCar;
+		statistics.totalDistanceKm = result.totalDistance * 1e-3 - distanceByCar;
     statistics.topLeft = result.topLeft;
     statistics.bottomRight = result.bottomRight;
 		statistics.lastUpdated = determineLastUpdated();
