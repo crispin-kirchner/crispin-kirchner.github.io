@@ -26,7 +26,7 @@ I built up my tent with mixed feelings in the evening. The highly frequented maj
 
 > ![A reservoir lake](/images/IMG_3779 - IMG_3781.jpg)
 
-It was now close to the anniversary of the unsuccessful military putsch. Loudspeakers, as they are permanently installed in all villages in Turkey, were reminding the population multiple times a day about the "celebration of democracy". TV was showing images of the 15th July of the previous year, accompanied by dramatic music.
+It was now close to the anniversary of the unsuccessful military putsch. Loudspeakers, as they are permanently installed in all villages in Turkey, were reminding the population multiple times a day about the "celebration of democracy". TV was showing images of the 15<sup>th</sup> July of the previous year, accompanied by dramatic music.
 
 Sitting in the shadow next to a supermarket to have lunch, I had an interesting acquaintance. A German woman was coming along, inquiring what I was doing, rudely asking why I was sitting on the street like that, eating, instead of going to a restaurant. With a commanding tone, she invited me to the restaurant of some relative after my lunch, to have a tea. I didn't go. She also warned me not to cycle at night (as if I would even have thought of doing that), due to "strange people". While she was ranting, a friendly Turk came along and sat next to me on the curb. He didn't talk too much, but he invited me to his home to stay there for the night. I rejected however, as it was just the middle of the day. Without comment, he picked up my helmet and sunglasses and put them on.
 
