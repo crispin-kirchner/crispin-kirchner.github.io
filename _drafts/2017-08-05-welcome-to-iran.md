@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Welcome to Iran!"
+location: "Hashtrud, Iran"
+coordinates:
+  - 37.477569
+  - 47.052622
+preview: IMG_4196.JPG
+---
+A traveling bike draws attention. For that reason, the officials at the Iranian border treated me with priority. I had queued a everybody, but seeing the bike they asked me to come to the front of the queue. However, a traveling bike also requires ***Penibilität***, and so I was again the reason for an ever-growing queue, but still too tired to care. The official even went to his superior to discuss something, clacking his heels in salute. After some questioning ("What's the purpose of your travel?" "What's your itinerary?" "Which embassy did you get the visa from?"), I was invited to cross over with a warm smile. From that moment on, I was treated very gently, the lady at the baggage control even giving me hints on what to visit in Julfa. Just outside the border station, I got a welcome selfie with a jolly local. Slowly rolling through downtown Julfa, many people addressed me in English, wishing me welcome. At the same time, I slowly begin to realize how badly I was prepared for that change -- I didn't speak the language, couldn't read the script. Even the numbers are written differently in Farsi. I had no internet connection to make up for the lack of knowledge, and I didn't have any money in the local currency, nor did I know the exchange rate for sure.
+
+Consequently, I entered the first bank I encountered. The clerk did not speak English, but I could make myself understood by showing him a fifty dollar bill. The people next to me at the counter carried large bundles of Rial notes in plastic bags, and I ***inständig*** hoped that I would not get to carry such an unhandy amount of bills. The bundle of 50 000 Rial notes that I got in exchange for the fifty Dollars was impressive enough, but luckily still fit my ***pouch***, however on the verge of ***sprengen*** it. My confusion was completed when the clerk noted down the exchange rate. It looked like something close to 8000, while I had had roughly 40 000 in the back of my head. I accepted that as this was my first "withdrawal", that it was the way it is and I would get a better rate next time.
+
+Still with the 8000 Rial per dollar in the back of my head, I went to get some cheese. The ***Verkäufer*** asked 2500 Rial for it, which seemed reasonable, given the 8000-rate. When I gave him a 5000 note, he however started to explain me that the last zero on the notes did not count, asking for a 50 000 note instead. I was reluctant to give it to him, however, as the whole thing was utterly confusing to me. When he suddenly offered to give me the cheese for free, I decided that it was high time to count my bundle of Rials. Computing the exchange rate myself, I actually came to a result close to the 40 000 in the back of my head, and the price the ***Verkäufer*** was asking no longer seemed ***unverschämt***.
+
+I decided to get an Iranian SIM card next. I asked multiple people and got directions to a shop, however I was still not able to find it. I gave up for the moment and started to look for my groceries, which was not easy either, as shops over here seemed to be more specialized on one particular thing, and I was not able to find something that resembled a supermarket enough to reach my needs.
+This was when Mohammad asked me whether I needed some help -- he is a taxi driver, and speaks very decent English. He told me where I could get all my groceries, including fresh-baked Sangak bread, and walked me through the city in search of a shop selling SIM cards. We tried three until we found one that had what I needed.
+
+On the way back, there were at least three more people greeting me and welcoming me to their country. The most impressive was: "Welcome, thank you for visiting my country. If you need anything, I am here for you." ***Ich war baff.*** 
