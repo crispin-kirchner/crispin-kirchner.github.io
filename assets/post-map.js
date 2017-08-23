@@ -22,7 +22,11 @@ $.getJSON('recorded-trajectory/means/means.json', function(allMeans) {
     $.getJSON('recorded-trajectory/means/' + means.name + '/downsampled-trajectory.json', function(track) {
       L.geoJson(track, {style: {color: means.color}}).addTo(map);
     });
-    
+  });
+  
+  allMeans
+  .sort(function(a, b) { return a.keyIndex - b.keyIndex; })
+  .forEach(function(means) {
     $("#mapKey").append("<div><p>" + getKeySvg(means.color) + ' ' + means.name + "</p></div>");
   });
 });
