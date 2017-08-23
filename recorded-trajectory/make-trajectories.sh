@@ -111,6 +111,11 @@ function make_statistics {
 }
 
 function make_means {
+  if [ ! -e "means/$1/$RAW" ]; then
+    echo "Error making mean '$1': directory '$RAW' not found"
+    return 1
+  fi
+  
   cd means/$1
   
   make_simplified_parts
