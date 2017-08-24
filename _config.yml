@@ -21,7 +21,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://crispin-kirchner.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  crispin-kirchner
 facebook_username: Crispy Müller
-warmshowers_username: Crispin Kirchner
+warmshowers_account: 66735
+warmshowers_user: Crispin Kirchner
 author: Crispin Kirchner
 
 # Build settings
