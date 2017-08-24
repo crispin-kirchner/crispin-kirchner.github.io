@@ -67,7 +67,7 @@ The Bazar is huge, far larger than the one I had visited in Istanbul. In a maze 
 
 > ![The carpet maker hall](/images/IMG_4244.JPG)
 
-> ![The sign reads 'Please don't sit on the carpets'](/images/IMG_4248.JPG)
+> ![The sign reads &quot;Please do not sit on the carpets&quot;](/images/IMG_4248.JPG)
 
 > ![In the spice merchants' quarters](/images/IMG_4253.JPG)
 
@@ -96,3 +96,41 @@ In the evening we hiked up Mount Eynali, which is a popular leisure destination 
 > ![Ice cream speciality with fruit and nuts](/images/IMG_4277.JPG)
 
 On the way back home, we took one last detour to taste different local ice cream specialities. I decided for a ***something***, an ice cream with whipped cream, pineapple and ground pistachio. Mateusz tried a typical Iranian ice cream in the form of noodles.
+
+For the next day, I had planned to stay athome during the day to make up my mind about my future route. Being honest to myself, I realized however that there was no need to muse too much about that decision. In spite of the warm welcome I was getting each day, I noticed that I just felt like going home again. Period. While the others were discussing what to visit that day, I booked the flight and wrote messages to Warmshowers hosts in Hashtrud, which is one day from Tabriz, and Zanjan, three days ahead. Between Hashtrud and Zanjan there were no cities large enough to find a host, so I planned to bridge the gap camping.
+
+When I was done, the others had just sorted out that the plan was to visit lake Urmia with Pouya and Mobin, as Mehdi had to stay at home for studying. Lake Urmia is next to the Turkish-Iranian border. It used to be a huge lake, but these days most of it has dried out, leaving the remaining water quite salty. ***some facts about lake urmia*** They picked us up at Mehdi's front door, in Mobin's Peugeot Pars.
+
+***Add paragraph about Peugeot Pars, maybe extend to mini-sedans***
+
+> ![Peugeot 206 sedan](/images/IMG_4226.JPG)
+
+> ![An old ***Iran Khodro***](/images/IMG_4315.JPG)
+
+> ![One of the well-kept Mercedes trucks which populate Iran's roads and blacken Iran's air](/images/IMG_4286.JPG)
+
+The ride to the lake took about one and a half hour and was spectacular. We rolled down the windows, turned up the music and sang together. Arriving at the lake, it required knowing that there was indeed a lake -- the desert at the side of the road did not look too different from the no-lake desert. We took a turn away from the "shore" and into the "lake", on a road that crosses the lake in the center and leads to Urmia city. Now, the ground next to the road began to whiten, and soon puddles of water became distinguishable in the white desert. Further on, the puddles had grown significantly -- now the reddish remainders of the lake were extending up to the horizon. Only that the horizon had disappeared. According to Mateusz, the high salt concentration in the water is accompanied by a change in the reflection properties of the water, making the line between the water and the sky blur out ***bis zur Unkenntlichkeit***.
+
+> ![Lucky wood](/images/IMG_4289.JPG)
+
+> ![Unlucky wood](/images/IMG_4312.JPG)
+
+> ![Red floods](/images/IMG_4300.JPG)
+
+We stopped the car next to a stranded ferry, stuck in the salt. It was ***the Iranian weekend***, so there were families all around, bathing in the warm, salty ***Lake***. The ferry had the looks of being ready to ***ablegen*** at any time; it required boarding the ship to see that there were was no more cockpit on board. However, a man standing at the rail looked like he was only waiting for the passengers to board.
+
+> ![Oh captain, my captain](/images/IMG_4293.JPG)
+
+The salt had all degrees of hardness. Well away from the water, it was rock-solid, not even crunching below the feet. Close to the water, it could not withstand my body weight, and walking opened ankle-deep puddles of warm water. Where the water had dried out recently, the salt had ***crystalized*** into small discs.
+
+> ![Heart-shaped salt](/images/IMG_4310.JPG)
+
+There were no elevated structures to be found at all, the heat was excruciating and the sun was burning ***relentlessly***. My circulation was down to a low, and I felt ***utterly*** ***erschöpft***. Therefore I was relieved when we turned towards the car again. On the way back, we saw a camel herd grazing next to the road and their shepherd. In the evening, we had dinner in a restaurant which did not have tables and chairs. Well, there was a kind of a mixture of both: There were low tables, big enough to hold a large carpet, and at three of its edges, there were backrests like on a bench -- the furniture needed to eat the iranian way in a restaurant. During dinner we were talking a little bit about how it is to have relationships in a muslim dictatorship, and learned that unmarried couples holding hands in public get two days of prison.
+
+Afterwards we went to ***park***.
+
+> ![Landscape like a painting](/images/IMG_4320.JPG)
+
+The next morning, Mehdi got up early with me and helped me doing my groceries for the way. We went to a bakery where Sangak, one of the many traditional Iranian bread kinds, is made. It is baked in a large oven, on a bed of ***pebbles***. Because of the size of the oven, the bakers ***hantieren*** with tools made of sticks of multiple meters length. The dough is prepared on a board of approximately 45cm length, and then spread over the pebble bed, such that the finished bread is about one meter long. The final task, quality control, is left to the client: The finished breads are laid out on an iron grid, and the customer who bought the bread ***schnipsen*** the remaining pebbles out of the bread. When I had first bought a Sangak, I had naturally neglected this duty, and had bitten on a stone. Now I had many examples of this art by the numerous clients queuing before us. Fetching bread seems to be men's business, out of 12 clients, one was female.
+
+I took my time to have breakfast with Mehdi, Ivana and Mateusz. It was difficult for me to leave the friends I had made in the last two days. The farewell from Mobin and Pouya the evening before had already been hard, I had really enjoyed the company of these two ***Tunichtgut***. Ivana asked an important question: She wanted to know how many kilometers I had to drive to Hashtrud that day. I did not know for sure any more, as I had looked up the distances while being in Marand, and guessed that it had been around 80km. I was wrong. Being on the road, I realized my mistake; for riding 130km, I had definitely set off too late.

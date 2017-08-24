@@ -49,7 +49,7 @@ My front rim kept eating brake shoes these days; I will maybe have to replace it
 
 According to my load, I crossed the Swiss border on the track for trucks. Once in Switzerland it was more difficult than expected to find farmers to ask for a place to stay the night. However I came across a site next to a forest trail that looked so obviously like a camping spot that I decided to just go for it. I had no water left to cook rice, so I improvised a new dish: Curry on bread. This night five layers were enough, but there was also no frost.
 
-> !["Wild" camping in Switzerland](/images/img_1814.jpg)
+> ![&quot;Wild&quot; camping in Switzerland](/images/img_1814.jpg)
 
 > ![Next day's morning sky](/images/img_1816.jpg)
 
