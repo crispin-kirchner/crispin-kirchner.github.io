@@ -1,0 +1,43 @@
+.transition {
+    transition-duration: .25s;
+}
+
+.bg-image {
+    filter: blur(10px) brightness(70%); 
+    transform: scale(1.05);
+}
+
+#map-visible:checked ~ #image-frame {
+    height: calc(100vh - 200px);
+}
+
+#image-frame {
+    height: 100%;
+    transition-property: height;
+}
+
+#map-container {
+    height: 200px;
+    top: 100vh;
+    transition-property: top;
+}
+
+#map-visible:checked ~ #map-container {
+    top: calc(100vh - 200px);
+}
+
+#map-visible:checked ~ div #expand-map {
+    display: none;
+}
+
+#map-visible:not(:checked) ~ div #collapse-map {
+    display: none;
+}
+
+.control-bg {
+    background-color: rgba(0, 0, 0, .4) !important;
+}
+
+.text-shadow {
+    text-shadow: 0px 0px 7px black;
+}
