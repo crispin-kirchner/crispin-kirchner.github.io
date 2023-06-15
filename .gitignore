@@ -1,3 +1,5 @@
+images/orig
+
 node_modules/*
 
 !node_modules/bootstrap
@@ -15,6 +17,7 @@ node_modules/leaflet/*
 node_modules/leaflet/dist/*
 !node_modules/leaflet/dist/leaflet.css
 !node_modules/leaflet/dist/leaflet.js
+!node_modules/leaflet/dist/images
 
 !node_modules/bootstrap-icons
 node_modules/bootstrap-icons/*
