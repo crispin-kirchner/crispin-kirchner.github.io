@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "npx http-server -c-1",
+    "start": "http-server -c-1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Crispin Kirchner",
