@@ -23,4 +23,12 @@ ENTRIES = {
     date: "2023-06-15",
     orientation: "landscape"
   },
+  "2023-06-16T10:57:00-feuersalamander": {
+    img: "DSC03181.JPG",
+    title: "Feuersalamander",
+    text: "Der erste Feuersalamander, den ich in meinem Leben sehe, sitzt einfach vor mir auf dem Weg. Während ich ihn fotografiere, rührt er keinen Muskel.",
+    latLon: [46.13056, 14.01631],
+    date: "2023-06-16",
+    orientation: "portrait"
+  },
 };
