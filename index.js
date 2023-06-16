@@ -36,7 +36,6 @@ KEYS.forEach((key, i) => {
         .bindTooltip(`<img src="images/thumbs/${entry.img}"/><br/>${entry.caption}`)
         .addTo(MAP);
 });
-MAP.setMaxBounds(ALL_ENTRIES_BOUNDS.pad(0.25));
 
 document.getElementById('map-visible').onchange = evt => {
     localStorage.setItem('mapVisible', evt.target.checked);
