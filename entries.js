@@ -41,8 +41,8 @@ ENTRIES = {
   },
   "2023-06-17T10:28:00-senik": {
     img: "DSC03313.JPG",
-    title: "Senik",
-    text: "Die Seniks sind typisch für Slowenien und deshalb Denkmalgeschützt. Fast jeder Hof hat einen, und sie sind von Region zu Region verschieden. Hier sehen sie aus wie Scheunen ohne Wände, weiter nördlich sind es oft nur drei Säulen mit Gestänge dazwischen und einem ganz schmalen Dach.",
+    title: "Kozolec",
+    text: 'Die <em>Kozolec</em>s (<a href="https://de.m.wikipedia.org/wiki/Harpfe" target="_blank">Harpfen</a>) empfinde ich als typisch für Slowenien. Sie sind denkmalgeschützt. Fast jeder Hof hat einen, und sie sind von Region zu Region verschieden. Hier sehen sie aus wie Scheunen ohne Wände, weiter nördlich sind es oft nur drei Säulen mit Gestänge dazwischen und einem ganz schmalen Dach.',
     latLon: [46.17309, 14.03483],
     date: "2023-06-17",
     orientation: "portrait"
@@ -58,7 +58,7 @@ ENTRIES = {
   "2023-06-17T19:39:00-koca-na-poreznu": {
     img: "DSC03402.JPG",
     title: "Die Porezen-Hütte ist direkt in/an den Fels gebaut",
-    text: "Diese längliche, an den Fels geschmiegte Bauweise gibt es hier häufiger. Ursprünglich bestand die Hütte nur aus dem unteren Stockwerk, der Holz-Teil wirde später aufgesetzt, wie mir der Hüttenwart erzählt. In den Räumen am Fels herrscht ein spezielles Klima, man kann unabhängig von der Aussentemperatur den eigenen Atem sehen. Im Klo ist es sogar so feucht, dass Tröpfchen an den Wänden sind, die so wirken als würden sie nie trocknen.",
+    text: "Diese längliche, an den Fels geschmiegte Bauweise gibt es hier häufiger. Ursprünglich bestand die Hütte nur aus dem unteren Stockwerk, der Holz-Teil wurde später aufgesetzt, wie mir der Hüttenwart erzählt. In den Räumen am Fels herrscht ein spezielles Klima, man kann unabhängig von der Aussentemperatur den eigenen Atem sehen. Im Klo ist es sogar so feucht, dass Tröpfchen an den Wänden sind, die so wirken als würden sie nie trocknen.",
     latLon: [46.17884, 13.97577],
     date: "2023-06-17",
     orientation: "portrait"
