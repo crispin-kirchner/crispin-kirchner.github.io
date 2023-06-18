@@ -31,4 +31,36 @@ ENTRIES = {
     date: "2023-06-16",
     orientation: "portrait"
   },
+  "2023-06-17T09:19:00-skilift": {
+    img: "DSC03307.JPG",
+    title: "Skilift im Sommer",
+    text: "Wir befinden uns auf 1280m Höhe, ich frage mich wie oft der Skilift diesen Winter in Betrieb war. Ich komme am zwei Speicherseen für Kunstschnee vorbei, die Hähne für die Schneekanonen scheinen aber über den Sommer abgestellt zu sein. Wäre wahrscheinlich auch ein zu großes Vandalismus-Risiko.",
+    latLon: [46.16440, 14.06534],
+    date: "2023-06-17",
+    orientation: "landscape"
+  },
+  "2023-06-17T10:28:00-senik": {
+    img: "DSC03313.JPG",
+    title: "Senik",
+    text: "Die Seniks sind typisch für Slowenien und deshalb Denkmalgeschützt. Fast jeder Hof hat einen, und sie sind von Region zu Region verschieden. Hier sehen sie aus wie Scheunen ohne Wände, weiter nördlich sind es oft nur drei Säulen mit Gestänge dazwischen und einem ganz schmalen Dach.",
+    latLon: [46.17309, 14.03483],
+    date: "2023-06-17",
+    orientation: "portrait"
+  },
+  "2023-06-17T13:50:90-porezen": {
+    img: "DSC03351.JPG",
+    title: "Endspurt zum Porezen",
+    text: "Der Hügel im Vordergrund heißt Medrce, er macht Vorfreude auf den Gipfel des Tages. Auf dem Weg begegne ich noch zufällig einem Freund des Hüttenwarts vom ersten Abend wieder.",
+    latLon: [46.16478, 13.99268],
+    date: "2023-06-17",
+    orientation: "landscape"
+  },
+  "2023-06-17T19:39:00-koca-na-poreznu": {
+    img: "DSC03402.JPG",
+    title: "Die Porezen-Hütte ist direkt in/an den Fels gebaut",
+    text: "Diese längliche, an den Fels geschmiegte Bauweise gibt es hier häufiger. Ursprünglich bestand die Hütte nur aus dem unteren Stockwerk, der Holz-Teil wirde später aufgesetzt, wie mir der Hüttenwart erzählt. In den Räumen am Fels herrscht ein spezielles Klima, man kann unabhängig von der Aussentemperatur den eigenen Atem sehen. Im Klo ist es sogar so feucht, dass Tröpfchen an den Wänden sind, die so wirken als würden sie nie trocknen.",
+    latLon: [46.17884, 13.97577],
+    date: "2023-06-17",
+    orientation: "portrait"
+  },
 };
