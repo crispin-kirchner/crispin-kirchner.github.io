@@ -63,4 +63,27 @@ ENTRIES = {
     date: "2023-06-17",
     orientation: "portrait"
   },
+  "2023-06-17T20:40:00-sonnenuntergang-porezen": {
+    img: "DSC03447.JPG",
+    title: "Sonnenuntergang auf dem Porezen",
+    text: "Der Wegweiser zeigt auf den höchsten Gipfel Sloweniens, den Triglav. Früher stand auf dem Porezen-Gipfel die erste Hütte. Am Ende des 2. Weltkriegs war der Gipfel als Grenzverlauf zwischen Italien und Slowenien umkämpft, heute steht hier ein Mahnmahl und die Hütte ein wenig weiter unten.",
+    latLon: [46.17714, 13.97437],
+    date: "2023-06-17",
+    orientation: "landscape"
+  },
+  "2023-06-18T07:57:00-blick-uber-hugel-nach-osten": {
+    img: "DSC03456.JPG",
+    title: "Blick durch den morgendlichen Dunst in Richtung Osten",
+    latLon: [46.18274, 13.97878],
+    date: "2023-06-18",
+    orientation: "portrait"
+  },
+  "2023-06-18T08:26:00-buchenwald": {
+    img: "DSC03467.JPG",
+    title: "Buchenwald",
+    text: "Mein Weg führt heute durch viele Buchenwälder, die mir bei der Wärme angenehmen Schatten spenden. Ich steige tief ins Tal ab und auf der anderen Seite wieder auf.",
+    latLon: [46.19255, 13.98539],
+    date: "2023-06-18",
+    orientation: "landscape"
+  },
 };
