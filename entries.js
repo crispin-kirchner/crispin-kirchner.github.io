@@ -58,7 +58,7 @@ ENTRIES = {
   "2023-06-17T19:39:00-koca-na-poreznu": {
     img: "DSC03402.JPG",
     title: "Die Porezen-Hütte ist direkt in/an den Fels gebaut",
-    text: "Diese längliche, an den Fels geschmiegte Bauweise gibt es hier häufiger. Ursprünglich bestand die Hütte nur aus dem unteren Stockwerk, der Holz-Teil wurde später aufgesetzt, wie mir der Hüttenwart erzählt. In den Räumen am Fels herrscht ein spezielles Klima, man kann unabhängig von der Aussentemperatur den eigenen Atem sehen. Im Klo ist es sogar so feucht, dass Tröpfchen an den Wänden sind, die so wirken als würden sie nie trocknen.",
+    text: "Diese längliche, an den Fels geschmiegte Bauweise gibt es hier häufiger. Ursprünglich bestand die Hütte nur aus dem unteren Stockwerk, der Holz-Teil wurde später aufgesetzt, wie mir der Hüttenwart erzählt. In den Räumen am Fels herrscht ein spezielles Klima, man kann unabhängig von der Aussentemperatur den eigenen Atem sehen. Im Klo ist es sogar so feucht, dass Tröpfchen an den Wänden sind, die so wirken als würden sie nie trocknen.<br/>Auf der Hütte fällt mir auch der augenscheinlich andere Umgang mit Alkohol auf; Während ich am Sonntag am Frühstück sitze, kommt einer angewandert und bestellt zur Erfrischung gleich zwei Schnäpse nacheinander. Es sind 4cl-Gläser, aber nicht nur bis zum Eichstrich befüllt.",
     latLon: [46.17884, 13.97577],
     date: "2023-06-17",
     orientation: "portrait"
@@ -84,6 +84,38 @@ ENTRIES = {
     text: "Mein Weg führt heute durch viele Buchenwälder, die mir bei der Wärme angenehmen Schatten spenden. Ich steige tief ins Tal ab und auf der anderen Seite wieder auf.",
     latLon: [46.19255, 13.98539],
     date: "2023-06-18",
+    orientation: "landscape"
+  },
+  "2023-06-19T09:53:00-novi-vrh": {
+    img: "DSC03519.JPG",
+    title: "Novi Vrh, 1942m",
+    text: "Nach der anfänglichen Kraxelei wird der Gratweg einfacher. Die Sonne strahlt und der Wind entlang des Grats ist angenehm kühl. Der Novi Vrh beeindruckt mich mit seinen fast senkrecht stehenden Gesteinsschichten.",
+    latLon: [46.22782, 13.88244],
+    date: "2023-06-19",
+    orientation: "landscape"
+  },
+  "2023-06-19T11:12:00-hornkuh": {
+    img: "DSC03537.JPG",
+    title: "Die Kühe hier tragen ihre Hörner elegant",
+    text: "Ich habe noch kaum eine Kuh hier gesehen, die nicht diese wunderbar elegante Hornform hatte. Auch kein Jungvieh mit Hornspange.",
+    latLon: [46.22935, 13.85612],
+    date: "2023-06-19",
+    orientation: "portrait"
+  },
+  "2023-06-19T14:23:00-gipfelfoto-vogel": {
+    img: "DSC03563.JPG",
+    title: "Auf dem Vogel, 1922m",
+    text: "Auf dem Bild hinter mir der Grat, den ich heute abgewandert bin. Der Vogel ist der letzte Gipfel vor dem Abstieg auf die planina Razor. Er ist auch ein sehr beliebter Ausflugsberg, weil eine Gondel in der Nähe ist. Mir kommt eine riesige italienische Reisegruppe entgegen und ich treffe Schotten.",
+    latLon: [46.23831, 13.81254],
+    date: "2023-06-19",
+    orientation: "landscape"
+  },
+  "2023-06-19T16:42:00-gipfelfoto-vogel": {
+    img: "DSC03585.JPG",
+    title: "Der Quarkstrudel wird vorbereitet",
+    text: 'Von der haute cuisine der Koča na planini Razor wurde mir schon auf der vorherigen Hütte vorgeschwärmt. Der Koch allein ist auch schon eine Reise wert: er singt während dem Kochen mit Elan und Lautstärke mit, meist slowenische Schlager (Mir schwingt "Shopping shopping in Graz" jetzt noch im Ohr). Außerdem ist er Hut-Fan; am nächsten Morgen hat er eine andere auffällige Mütze auf.',
+    latLon: [46.23569, 13.79319],
+    date: "2023-06-19",
     orientation: "landscape"
   },
 };
