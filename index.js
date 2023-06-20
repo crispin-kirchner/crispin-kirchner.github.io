@@ -27,7 +27,7 @@ const ALL_ENTRIES_BOUNDS = L.latLngBounds();
 KEYS.forEach((key, i) => {
     let entry = ENTRIES[key];
     ALL_ENTRIES_BOUNDS.extend(L.latLng(entry.latLon));
-    entry.caption = `${entry.title}, ${DATE_FORMAT.format(new Date(entry.date))}`;
+    entry.caption = `${entry.title}, ${DATE_FORMAT.format(new Date(key.substr(0, 10)))}`;
     L.marker(entry.latLon)
         .on('click', evt => {
             INDEX = i;
