@@ -13,7 +13,7 @@ function doConvert {
     return 0
   fi
   echo "$target"
-  convert "$sourceFilePath" $args -interlace line "$target"
+  convert "$sourceFilePath" $args -interlace line -quality 92 "$target"
 }
 
 mkdir -p bg
