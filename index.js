@@ -27,7 +27,7 @@ const ALL_ENTRIES_BOUNDS = L.latLngBounds();
 KEYS.forEach((key, i) => {
     let entry = ENTRIES[key];
     ALL_ENTRIES_BOUNDS.extend(L.latLng(entry.latLon));
-    entry.caption = `${entry.title}, ${DATE_FORMAT.format(new Date(key.substr(0, 10)))}`;
+    entry.caption = `${DATE_FORMAT.format(new Date(key.substr(0, 10)))}<br/>${entry.title}`;
     L.marker(entry.latLon)
         .on('click', evt => {
             INDEX = i;
@@ -39,6 +39,9 @@ KEYS.forEach((key, i) => {
 
 document.getElementById('map-visible').onchange = evt => {
     localStorage.setItem('mapVisible', evt.target.checked);
+}
+document.getElementById('read-more').onchange = evt => {
+    localStorage.setItem('readMore', evt.target.checked);
 }
 
 Array.prototype.forEach.call(
@@ -54,8 +57,6 @@ function zoomToCurrentEntry() {
 }
 
 function render() {
-    // TODO Fallback when no entries are available
-    // TODO publish
     // TODO only show controls while hovering
     // TODO spinner while loading images
     // TODO add sizes attribute for portrait images
@@ -83,11 +84,13 @@ function render() {
     });
 
     document.getElementById('map-visible').checked = localStorage.getItem('mapVisible') === 'true';
+    document.getElementById('read-more').checked = localStorage.getItem('readMore') === 'true';
 
     document.getElementById('bgimage').src = `images/bg/${entry.img}`;
     document.getElementById('image').srcset = `images/720w/${entry.img} 720w, images/1280w/${entry.img} 1280w, images/1920w/${entry.img} 1920w, images/2560w/${entry.img} 2560w, images/4096w/${entry.img} 4096w`;
     document.getElementById('image').src = `images/4096w/${entry.img}`;
-    document.getElementById('caption').textContent = entry.caption;
+    document.getElementById('caption').innerHTML = entry.caption;
+    document.getElementById('entry-text').innerHTML = entry.text ? entry.text : '';
 
     toggleClass(document.getElementById('nav-left'), 'd-none', INDEX === 0);
     toggleClass(document.getElementById('nav-start'), 'd-none', INDEX === 0);
@@ -120,4 +123,11 @@ function toggleClass(elem, clazz, toggle) {
     }
 }
 
-onload = render
+onload = render;
+
+(function () {
+    var src = 'node_modules/eruda/eruda.js';
+    if (/crispin-kirchner.github.io/.test(window.location)) return;
+    document.write('<script src="' + src + '"></script>');
+    document.write('<script>eruda.init();</script>');
+})();

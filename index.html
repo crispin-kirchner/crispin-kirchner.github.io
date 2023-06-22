@@ -12,107 +12,123 @@
 </head>
 
 <body class="h-100">
-    <div class="container-fluid bg-dark h-100 p-0 position-relative overflow-hidden">
-        <input type="checkbox" name="map-visible" id="map-visible" class="d-none">
-        <div id="image-frame" class="position-absolute top-0 start-0 w-100 position-relative transition">
-            <div class="position-absolute top-0 start-0 w-100 h-100 overflow-hidden">
-                <img id="bgimage" src="" class="bg-image w-100 h-100 object-fit-cover" />
-            </div>
-            <div class="position-absolute position-relative top-0 start-0 w-100 h-100">
-                <img id="image" src="" class="w-100 h-100 object-fit-contain" />
-                <div class="position-absolute bottom-0 start-50 translate-middle-x p-2">
-                    <div id="caption" class="p-1 rounded fst-italic text-light control-bg">
-                    </div>
-                </div>
-            </div>
-            <div class="position-absolute top-0 start-0 p-2">
-                <button id="nav-start" type="button" class="btn btn-dark control-bg text-light d-none"
-                    onclick="INDEX = 0; render();">
-                    <i class="bi-chevron-bar-left"></i>
-                </button>
-            </div>
-            <div class="position-absolute top-0 end-0 p-2">
-                <span class="text-shadow text-light m-2">
-                    <i class="bi-question-circle"></i>
-                    <a class="text-light" href="#" onclick="showAbout(true)">
-                        Über
-                    </a>
-                </span>
-                <span class="text-shadow text-light m-2">
-                    <i class="bi-bell-fill"></i>
-                    <a class="subscribe-link text-light" href="#">
-                        Abonnieren
-                    </a>
-                </span>
-            </div>
-            <div class="position-absolute bottom-0 start-0 p-2">
-                <a class="text-light small text-shadow" href="#" onclick="showPrivacy(true)">Datenschutz</a>
-            </div>
-            <div class="position-absolute bottom-0 end-0 p-2">
-                <label for="map-visible" class="btn btn-dark control-bg text-light">
-                    <i id="expand-map" class="bi-caret-up-fill"></i>
-                    <i id="collapse-map" class="bi-caret-down-fill"></i>
-                    <i class="bi-map"></i>
+  <div class="container-fluid bg-dark h-100 p-0 position-relative overflow-hidden">
+    <input type="checkbox" name="map-visible" id="map-visible" class="d-none">
+    <input type="checkbox" name="read-more" id="read-more" class="d-none">
+    <div id="image-frame" class="position-absolute top-0 start-0 w-100 position-relative transition">
+      <div class="position-absolute top-0 start-0 w-100 h-100">
+        <img id="bgimage" src="" class="w-100 h-100 object-fit-cover" />
+      </div>
+      <div class="position-absolute top-0 start-0 w-100 h-100">
+        <img id="image" src="" class="w-100 h-100 object-fit-contain" />
+      </div>
+      <div id="caption-and-controls" class="position-absolute position-relative top-0 start-0 w-100 h-100">
+        <div id="controls" class="position-relative h-100">
+          <div class="position-absolute top-0 start-0 p-2">
+              <button id="nav-start" type="button" class="btn btn-dark control-bg text-light d-none"
+                  onclick="INDEX = 0; render();">
+                  <i class="bi-chevron-bar-left"></i>
+              </button>
+          </div>
+          <div class="position-absolute top-0 end-0 p-2">
+              <span class="text-shadow text-light m-2">
+                  <i class="bi-question-circle"></i>
+                  <a class="text-light" href="#" onclick="showAbout(true)">
+                      Über
+                  </a>
+              </span>
+              <span class="text-shadow text-light m-2">
+                  <i class="bi-bell-fill"></i>
+                  <a class="subscribe-link text-light" href="#">
+                      Abonnieren
+                  </a>
+              </span>
+          </div>
+          <div class="position-absolute bottom-0 start-0 p-2">
+              <a class="text-light small text-shadow" href="#" onclick="showPrivacy(true)">Datenschutz</a>
+          </div>
+          <div class="position-absolute bottom-0 end-0 p-2">
+              <label for="map-visible" class="btn btn-dark control-bg text-light">
+                  <i id="expand-map" class="bi-caret-up-fill"></i>
+                  <i id="collapse-map" class="bi-caret-down-fill"></i>
+                  <i class="bi-map"></i>
+              </label>
+          </div>
+          <div id="nav-left" class="position-absolute top-50 start-0 translate-middle-y p-2">
+              <button class="btn btn-dark control-bg position-relative" type="button" onClick="--INDEX; render()">
+                  <i class="bi-chevron-left"></i>
+                  <span id="unread-indicator"
+                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger d-none"></span>
+              </button>
+          </div>
+          <div id="nav-right" class="position-absolute top-50 end-0 translate-middle-y p-2">
+              <button class="btn btn-dark control-bg" type="button" onClick="++INDEX; render()">
+                  <i class="bi-chevron-right"></i>
+              </button>
+          </div>
+        </div>
+        <div id="caption-text" class="p-2">
+            <div class="p-1 rounded text-light control-bg overflow-auto">
+              <div class="overflow-auto">
+                <label for="read-more" class="float-end">
+                  <u>
+                    <span id="read-more-more">Mehr</span>
+                    <span id="read-more-less">Weniger</span>
+                    lesen</u>
+                  <i id="read-more-chevron" class="bi-chevron-up transition d-inline-block"></i>
                 </label>
+                <span id="caption" class="fst-italic"></span>
+              </div>
+              <div id="entry-text" class="transition"></div>
             </div>
         </div>
-        <div id="map-container" class="position-absolute position-relative start-0 w-100 transition">
-            <div id="map" class="w-100 h-100"></div>
-            <div class="position-absolute top-0 end-0 p-2" style="z-index: 1000">
-                <button type="button" class="btn btn-dark control-bg text-light" onclick="zoomMapToAllEntries()">
-                    <i class="bi-fullscreen"></i>
-                </button><br />
-                <button type="button" class="btn btn-dark control-bg text-light mt-2" onclick="zoomToCurrentEntry()">
-                    <i class="bi-geo-alt-fill"></i>
-                </button>
-            </div>
-        </div>
-        <div id="nav-left" class="position-absolute top-50 start-0 translate-middle-y p-2">
-            <button class="btn btn-dark control-bg position-relative" type="button" onClick="--INDEX; render()">
-                <i class="bi-chevron-left"></i>
-                <span id="unread-indicator"
-                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger d-none"></span>
+      </div>
+    </div>
+    <div id="map-container" class="position-absolute position-relative start-0 w-100 transition">
+        <div id="map" class="w-100 h-100"></div>
+        <div class="position-absolute top-0 end-0 p-2" style="z-index: 1000">
+            <button type="button" class="btn btn-dark control-bg text-light" onclick="zoomMapToAllEntries()">
+                <i class="bi-fullscreen"></i>
+            </button><br />
+            <button type="button" class="btn btn-dark control-bg text-light mt-2" onclick="zoomToCurrentEntry()">
+                <i class="bi-geo-alt-fill"></i>
             </button>
-        </div>
-        <div id="nav-right" class="position-absolute top-50 end-0 translate-middle-y p-2">
-            <button class="btn btn-dark control-bg" type="button" onClick="++INDEX; render()">
-                <i class="bi-chevron-right"></i>
-            </button>
-        </div>
-        <!-- TODO Glass pane behind overlays -->
-        <div id="about"
-            class="position-absolute top-50 start-50 translate-middle control-bg rounded text-light p-4 d-none mh-100">
-            <div class="position-relative p-4">
-                <a href="#" class="position-absolute top-0 end-0 text-light" onclick="showAbout(false)">
-                    <i class="bi-x-lg"></i>
-                </a>
-                <h1>Bilder und Koordinaten</h1>
-                <p>Ich wandere diesen Sommer in den Alpen und lade hier hin und wieder ein Foto hoch.</p>
-                <p>
-                    Möchtest du nichts verpassen?
-                    Ich kann dich gerne benachrichtigen wenn ich etwas hinzufüge.
-                    Klick einfach auf <a class="subscribe-link text-light" href="#">abonnieren</a></p>
-                <p>Erstellt mit Bootstrap, ImageMagick, Leaflet, OpenTopoMap</p>
-            </div>
-        </div>
-        <div id="privacy"
-            class="position-absolute top-50 start-50 translate-middle control-bg rounded text-light p-4 d-none">
-            <div class="position-relative p-4">
-                <a href="#" class="position-absolute top-0 end-0 text-light" onclick="showPrivacy(false)">
-                    <i class="bi-x-lg"></i>
-                </a>
-                <h1>Datenschutz</h1>
-                <p>Diese Webseite speichert Daten über den Zustand der Seite auf dem Gerät der Benutzenden. Dies
-                    dient der Funktion der Webseite. Die Daten verbleiben auf dem Gerät der Benutzenden und werden
-                    nicht gesammelt oder ausgewertet.</p>
-                <p>Die Webseite wird auf der Plattform GitHub Pages betrieben. GitHub protokolliert aus
-                    Sicherheitsgründen die IP-Adresse aller Besucher:innen.</p>
-            </div>
         </div>
     </div>
-    <script src="node_modules/leaflet/dist/leaflet.js"></script>
-    <script src="entries.js"></script>
-    <script src="index.js"></script>
+    <!-- TODO Glass pane behind overlays -->
+    <div id="about"
+        class="position-absolute top-50 start-50 translate-middle control-bg rounded text-light p-4 d-none mh-100">
+        <div class="position-relative p-4">
+            <a href="#" class="position-absolute top-0 end-0 text-light" onclick="showAbout(false)">
+                <i class="bi-x-lg"></i>
+            </a>
+            <h1>Bilder und Koordinaten</h1>
+            <p>Ich wandere diesen Sommer in den Alpen und lade hier hin und wieder ein Foto hoch.</p>
+            <p>
+                Möchtest du nichts verpassen?
+                Ich kann dich gerne benachrichtigen wenn ich etwas hinzufüge.
+                Klick einfach auf <a class="subscribe-link text-light" href="#">abonnieren</a></p>
+            <p>Erstellt mit Bootstrap, ImageMagick, Leaflet, OpenTopoMap</p>
+        </div>
+    </div>
+    <div id="privacy"
+        class="position-absolute top-50 start-50 translate-middle control-bg rounded text-light p-4 d-none">
+        <div class="position-relative p-4">
+            <a href="#" class="position-absolute top-0 end-0 text-light" onclick="showPrivacy(false)">
+                <i class="bi-x-lg"></i>
+            </a>
+            <h1>Datenschutz</h1>
+            <p>Diese Webseite speichert Daten über den Zustand der Seite auf dem Gerät der Benutzenden. Dies
+                dient der Funktion der Webseite. Die Daten verbleiben auf dem Gerät der Benutzenden und werden
+                nicht gesammelt oder ausgewertet.</p>
+            <p>Die Webseite wird auf der Plattform GitHub Pages betrieben. GitHub protokolliert aus
+                Sicherheitsgründen die IP-Adresse aller Besucher:innen.</p>
+        </div>
+    </div>
+  </div>
+  <script src="node_modules/leaflet/dist/leaflet.js"></script>
+  <script src="entries.js"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>
