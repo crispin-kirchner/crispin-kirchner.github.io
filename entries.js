@@ -103,4 +103,32 @@ ENTRIES = {
     latLon: [46.23569, 13.79319],
     orientation: "landscape"
   },
+  "2023-06-20T09:54:00-bohinj-see": {
+    img: "DSC03610.JPG",
+    title: "Bohinj-See",
+    text: 'Ich entscheide mich, trotz schlechtem Wetter wieder über den Grat zu gehen, in der Hoffnung dass ich über den Wolken wandern werde. Oben am Sattel wird klar, dass das nicht der Fall sein wird, aber ich werde mit dem einzigen vollständigen Bohinj-Blick meiner Wanderung belohnt.',
+    latLon: [46.25693, 13.77549],
+    orientation: "landscape"
+  },
+  "2023-06-20T10:35:00-dicker-altschnee": {
+    img: "DSC03630.JPG",
+    title: "Auf der Nordseite ist der Altschnee noch mächtig",
+    text: 'Auf dem Weg zum nächsten Sattel muss ich ein paar kleine Schneefelder überqueren. Auf der Südseite des Grats sind sie schon fast geschmolzen, aber ich kann endlich meine Stöcke sinnvoll verwenden. Auf der Nordseite des Sattels ist aber noch ein sehr mächtiges Altschneefeld; zum Glück führt mich mein Weg auf dem Grat weiter.',
+    latLon: [46.26126, 13.76565],
+    orientation: "landscape"
+  },
+  "2023-06-20T10:58:00-zeleni-vrh": {
+    img: "DSC03636.JPG",
+    title: "Zeleni Vrh, 2047m",
+    text: 'Auf meinem ersten Gipfel sind Sonne und Wind mir gnädig und ich kann kurz einen Blick auf die Umgebung erhaschen. Den Rest des Grats bleibe ich im Nebel und hangle mich von Markierung zu Markierung.',
+    latLon: [46.26076, 13.76358],
+    orientation: "landscape"
+  },
+  "2023-06-20T12:09:00-vrh-planje": {
+    img: "DSC03650.JPG",
+    title: "Beim Mittagessen legt der Wind den Vrh Planje frei",
+    text: 'Am Vormittag haben sich die Markierungen versteckt, weshalb ich noch nicht weit bin am Mittag. Es bleibt den Rest des Tages neblig. Den letzten Gipfel des Grates umgehe ich daher, als sich die Gelegenheit bietet. Am Ende angekommen ist der Himmel wieder blau, ala wäre nichts gewesen.',
+    latLon: [46.26245, 13.75388],
+    orientation: "landscape"
+  },
 };
