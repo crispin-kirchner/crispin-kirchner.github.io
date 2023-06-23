@@ -4,6 +4,7 @@
 const LAST_READ = 'lastRead';
 const DATE_FORMAT = new Intl.DateTimeFormat(navigator.language, { dateStyle: 'medium' });
 const EMAIL_ADDRESS = ['h_c_._n_i_w_e_u_l_b', 'm_a_p_s_._r_e_n_h_c_r_i_k_._n_i_p_s_i_r_c'];
+const DEFAULT_ZOOM_LEVEL = 15;
 
 // Initialization
 const KEYS = Object.keys(ENTRIES)
@@ -53,7 +54,7 @@ function zoomMapToAllEntries() {
 }
 
 function zoomToCurrentEntry() {
-    MAP.setView(ENTRIES[KEYS[INDEX]].latLon, 13);
+    MAP.setView(ENTRIES[KEYS[INDEX]].latLon, DEFAULT_ZOOM_LEVEL);
 }
 
 function render() {
@@ -78,7 +79,7 @@ function render() {
 
     let entry = ENTRIES[key];
 
-    MAP.setView(entry.latLon, MAP.getZoom() || 13, {
+    MAP.setView(entry.latLon, MAP.getZoom() || DEFAULT_ZOOM_LEVEL, {
         animate: true,
         duration: 1
     });
