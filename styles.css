@@ -53,6 +53,9 @@
 #read-more:checked ~ div #entry-text {
   height: 5em;
 }
+#read-more:not(:checked) ~ div #caption-title {
+  display: block;
+}
 
 #caption-and-controls {
   display: flex;

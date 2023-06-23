@@ -131,4 +131,11 @@ ENTRIES = {
     latLon: [46.26245, 13.75388],
     orientation: "landscape"
   },
+  "2023-06-21T07:43:00-planinski-dom-pri-krnskih-jezerih": {
+    img: "DSC03685.JPG",
+    title: "Die Krn-See-Hütte",
+    text: 'Aus sicherer Distanz sieht die Hütte ganz friedlich aus, aber der Aufenthalt war sehr spannend. Auch zu Gast waren ca. 40 slowenische Schulkinder. Nach außen machten sie den Eindruck eines komplett unkontrollierbaren physikalischen Phänomens, wie ein sehr lautes, wildes und gleichzeitig scheues Tier. Mensch kann es vielleicht in einen Käfig sperren. Da sich seine Teile aber unabhängig voneinander bewegen, witscht es immer wieder durch die Gitterstäbe und tut seinen Triumph über die gelungene Überlistung in einer schallenden Kakophponie kund. Und trotzdem haben es die Betreuungspersonen irgendwie geschafft, dass alle ihr Abendessen bekommen und irgendwann ins Bett gehen. Wie ein Wunder.',
+    latLon: [46.29261, 13.69447],
+    orientation: "portrait"
+  },
 };

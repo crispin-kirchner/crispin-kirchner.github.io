@@ -28,13 +28,13 @@ const ALL_ENTRIES_BOUNDS = L.latLngBounds();
 KEYS.forEach((key, i) => {
     let entry = ENTRIES[key];
     ALL_ENTRIES_BOUNDS.extend(L.latLng(entry.latLon));
-    entry.caption = `${DATE_FORMAT.format(new Date(key.substr(0, 10)))}<br/>${entry.title}`;
+    entry.dateFormatted = DATE_FORMAT.format(new Date(key.substr(0, 10)));
     L.marker(entry.latLon)
         .on('click', evt => {
             INDEX = i;
             render();
         })
-        .bindTooltip(`<img src="images/thumbs/${entry.img}"/><br/>${entry.caption}`)
+        .bindTooltip(`<img src="images/thumbs/${entry.img}"/><br/>${entry.dateFormatted} ${entry.title}`)
         .addTo(MAP);
 });
 
@@ -90,7 +90,8 @@ function render() {
     document.getElementById('bgimage').src = `images/bg/${entry.img}`;
     document.getElementById('image').srcset = `images/720w/${entry.img} 720w, images/1280w/${entry.img} 1280w, images/1920w/${entry.img} 1920w, images/2560w/${entry.img} 2560w, images/4096w/${entry.img} 4096w`;
     document.getElementById('image').src = `images/4096w/${entry.img}`;
-    document.getElementById('caption').innerHTML = entry.caption;
+    document.getElementById('caption-date').innerHTML = entry.dateFormatted;
+    document.getElementById('caption-title').innerHTML = entry.title;
     document.getElementById('entry-text').innerHTML = entry.text ? entry.text : '';
 
     toggleClass(document.getElementById('nav-left'), 'd-none', INDEX === 0);

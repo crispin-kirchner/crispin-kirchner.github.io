@@ -12,7 +12,7 @@ mkdir -p 1920w
 mkdir -p 2560w
 mkdir -p 4096w
 
-for i in ~/storage/shared/Imaging\ Edge\ Mobile/blog/*.JPG ; do
+for i in ~/storage/external-1/blog/*.JPG ; do
   sourceFilename="$(basename "$i")"
   if [ -e "4096w/$sourceFilename" ] ; then
     continue
