@@ -138,4 +138,11 @@ ENTRIES = {
     latLon: [46.29261, 13.69447],
     orientation: "portrait"
   },
+  "2023-06-21T14:25:00-soca": {
+    img: "DSC03730.JPG",
+    title: "Soča",
+    text: 'Nach einem kleinen Pass steige ich ins Tal ab und laufe entlang der Lepnjica zur Soča. Zunächst überrascht mich die Hitze; am ersten einladenden natürlichen Pool mit aquamarinblauem Wasser beschließe ich, zu baden. Dann überraschen mich die Menschenmengen: noch bevor ich die Badehose ausgepackt habe, tauchen aus dem Nichts acht Leute und zwei Hunde auf, die den natürlichen Pool auch sehr schön finden. Ich packe meine Badesachen wieder ein und finde zum Glück an der Soča noch eine diskretere Badestelle. Den ganzen Tag laufe ich flussaufwärts und erhasche immer wieder wunderschöne Blicke auf das wilde, leuchtende, klare Nass. Es bleibt so heiß, dass ich noch ein zweites Mal baden gehen muss. Ich wandere bis Trenta, dort nehme ich den Bus nach Bovec, wo ich eine Pause einlegen werde um den kommenden Wanderanschnitt zu planen.',
+    latLon: [46.34146, 13.67537],
+    orientation: "portrait"
+  },
 };
