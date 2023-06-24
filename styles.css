@@ -64,8 +64,9 @@ label[for="fullscreen-map"] > i::before {
 }
 
 #read-more:checked ~ div #entry-text {
-  height: 5em;
+  height: 6em;
 }
+
 #read-more:not(:checked) ~ div #caption-title {
   display: block;
 }
@@ -81,6 +82,7 @@ label[for="fullscreen-map"] > i::before {
   left: 50%;
   transform: translate(-50%);
   max-width: 20em;
+  padding: 0.5rem;
 }
 
 #read-more:checked ~ div #caption-text {
@@ -95,6 +97,11 @@ label[for="fullscreen-map"] > i::before {
     transform: none;
     max-width: 100%;
     width: 100%;
+    padding: 0;
+  }
+
+  #read-more:checked ~ div #caption-text > div {
+    border-radius: 0 !important;
   }
 }
 
