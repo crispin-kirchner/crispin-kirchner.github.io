@@ -5,6 +5,7 @@ const LAST_READ = 'lastRead';
 const DATE_FORMAT = new Intl.DateTimeFormat(navigator.language, { dateStyle: 'medium' });
 const EMAIL_ADDRESS = ['h_c_._n_i_w_e_u_l_b', 'm_a_p_s_._r_e_n_h_c_r_i_k_._n_i_p_s_i_r_c'];
 const DEFAULT_ZOOM_LEVEL = 15;
+const TRANSITION_DELAY_MS = 250;
 
 // Initialization
 const KEYS = Object.keys(ENTRIES)
@@ -31,8 +32,8 @@ KEYS.forEach((key, i) => {
     entry.dateFormatted = DATE_FORMAT.format(new Date(key.substr(0, 10)));
     L.marker(entry.latLon)
         .on('click', evt => {
-            INDEX = i;
-            render();
+          INDEX = i;
+          render();
         })
         .bindTooltip(`<img src="images/thumbs/${entry.img}"/><br/>${entry.dateFormatted} ${entry.title}`)
         .addTo(MAP);
@@ -40,10 +41,13 @@ KEYS.forEach((key, i) => {
 
 document.getElementById('map-visible').onchange = evt => {
     localStorage.setItem('mapVisible', evt.target.checked);
-}
+};
 document.getElementById('read-more').onchange = evt => {
     localStorage.setItem('readMore', evt.target.checked);
-}
+};
+document.getElementById('fullscreen-map').onchange = evt => {
+  setTimeout(() => MAP.invalidateSize(), TRANSITION_DELAY_MS);
+};
 
 Array.prototype.forEach.call(
     document.getElementsByClassName('subscribe-link'),
@@ -58,45 +62,53 @@ function zoomToCurrentEntry() {
 }
 
 function render() {
-    // TODO only show controls while hovering
-    // TODO spinner while loading images
-    // TODO add sizes attribute for portrait images
-    // TODO lazy initialize/maintain map only when visible
+  // TODO only show controls while hovering
+  // TODO spinner while loading images
+  // TODO add sizes attribute for portrait images
+  // TODO lazy initialize/maintain map only when visible
 
-    let key = KEYS[INDEX];
-    let lastRead = localStorage.getItem(LAST_READ) || '';
-    if (key > lastRead) {
-        lastRead = key;
-        localStorage.setItem(LAST_READ, lastRead);
-    }
-    let lastReadIndex = KEYS.findIndex(el => el === lastRead);
-    let unreadIndicator = document.getElementById('unread-indicator');
-    let hasUnread = lastReadIndex > 0;
-    if (hasUnread) {
-        unreadIndicator.textContent = lastReadIndex;
-    }
-    toggleClass(unreadIndicator, 'd-none', !hasUnread);
+  let key = KEYS[INDEX];
+  let lastRead = localStorage.getItem(LAST_READ) || '';
+  if (key > lastRead) {
+      lastRead = key;
+      localStorage.setItem(LAST_READ, lastRead);
+  }
+  let lastReadIndex = KEYS.findIndex(el => el === lastRead);
+  let unreadIndicator = document.getElementById('unread-indicator');
+  let hasUnread = lastReadIndex > 0;
+  if (hasUnread) {
+      unreadIndicator.textContent = lastReadIndex;
+  }
+  toggleClass(unreadIndicator, 'd-none', !hasUnread);
 
-    let entry = ENTRIES[key];
+  let entry = ENTRIES[key];
 
+  let fullscreenMap = document.getElementById('fullscreen-map');
+  let delay = 0;
+  if(fullscreenMap.checked) {
+    delay = TRANSITION_DELAY_MS + 50;
+    fullscreenMap.click();
+  }
+  setTimeout(() => {
     MAP.setView(entry.latLon, MAP.getZoom() || DEFAULT_ZOOM_LEVEL, {
         animate: true,
         duration: 1
     });
+  }, delay);
 
-    document.getElementById('map-visible').checked = localStorage.getItem('mapVisible') === 'true';
-    document.getElementById('read-more').checked = localStorage.getItem('readMore') === 'true';
+  document.getElementById('map-visible').checked = localStorage.getItem('mapVisible') === 'true';
+  document.getElementById('read-more').checked = localStorage.getItem('readMore') === 'true';
 
-    document.getElementById('bgimage').src = `images/bg/${entry.img}`;
-    document.getElementById('image').srcset = `images/720w/${entry.img} 720w, images/1280w/${entry.img} 1280w, images/1920w/${entry.img} 1920w, images/2560w/${entry.img} 2560w, images/4096w/${entry.img} 4096w`;
-    document.getElementById('image').src = `images/4096w/${entry.img}`;
-    document.getElementById('caption-date').innerHTML = entry.dateFormatted;
-    document.getElementById('caption-title').innerHTML = entry.title;
-    document.getElementById('entry-text').innerHTML = entry.text ? entry.text : '';
+  document.getElementById('bgimage').src = `images/bg/${entry.img}`;
+  document.getElementById('image').srcset = `images/720w/${entry.img} 720w, images/1280w/${entry.img} 1280w, images/1920w/${entry.img} 1920w, images/2560w/${entry.img} 2560w, images/4096w/${entry.img} 4096w`;
+  document.getElementById('image').src = `images/4096w/${entry.img}`;
+  document.getElementById('caption-date').innerHTML = entry.dateFormatted;
+  document.getElementById('caption-title').innerHTML = entry.title;
+  document.getElementById('entry-text').innerHTML = entry.text ? entry.text : '';
 
-    toggleClass(document.getElementById('nav-left'), 'd-none', INDEX === 0);
-    toggleClass(document.getElementById('nav-start'), 'd-none', INDEX === 0);
-    toggleClass(document.getElementById('nav-right'), 'd-none', INDEX === KEYS.length - 1);
+  toggleClass(document.getElementById('nav-left'), 'd-none', INDEX === 0);
+  toggleClass(document.getElementById('nav-start'), 'd-none', INDEX === 0);
+  toggleClass(document.getElementById('nav-right'), 'd-none', INDEX === KEYS.length - 1);
 }
 
 function showOverlay(name, visible) {

@@ -19,7 +19,20 @@
 #map-container {
     height: 200px;
     top: 100vh;
-    transition-property: top;
+    transition-property: top, height;
+}
+
+label[for="fullscreen-map"] > i::before {
+  content: "\f14d";
+}
+
+#fullscreen-map:checked ~ div label[for="fullscreen-map"] > i::before {
+  content: "\f659";
+}
+
+#fullscreen-map:checked ~ #map-container {
+  top: 0 !important;
+  height: 100vh;
 }
 
 #map-visible:checked ~ #map-container {

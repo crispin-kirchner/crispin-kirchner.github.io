@@ -15,6 +15,7 @@
   <div class="container-fluid bg-dark h-100 p-0 position-relative overflow-hidden">
     <input type="checkbox" name="map-visible" id="map-visible" class="d-none">
     <input type="checkbox" name="read-more" id="read-more" class="d-none">
+    <input type="checkbox" name="fullscreen-map" id="fullscreen-map" class="d-none">
     <div id="image-frame" class="position-absolute top-0 start-0 w-100 position-relative transition">
       <div class="position-absolute top-0 start-0 w-100 h-100">
         <img id="bgimage" src="" class="w-100 h-100 object-fit-cover" />
@@ -27,7 +28,7 @@
           <div class="position-absolute top-0 start-0 p-2">
               <button id="nav-start" type="button" class="btn btn-dark control-bg text-light d-none"
                   onclick="INDEX = 0; render();">
-                  <i class="bi-chevron-bar-left"></i>
+                  <i class="bi-house-door"></i>
               </button>
           </div>
           <div class="position-absolute top-0 end-0 p-2">
@@ -87,10 +88,14 @@
     </div>
     <div id="map-container" class="position-absolute position-relative start-0 w-100 transition">
         <div id="map" class="w-100 h-100"></div>
-        <div class="position-absolute top-0 end-0 p-2" style="z-index: 1000">
-            <button type="button" class="btn btn-dark control-bg text-light" onclick="zoomMapToAllEntries()">
+        <div class="position-absolute top-0 end-0 p-2 text-end" style="z-index: 1000">
+            <button type="button" class="btn btn-dark control-bg text-light me-1" onclick="zoomMapToAllEntries()">
                 <i class="bi-fullscreen"></i>
-            </button><br />
+            </button>
+            <label for="fullscreen-map" class="btn btn-dark control-bg text-light">
+              <i class="bi"></i>
+            </label>
+            <br />
             <button type="button" class="btn btn-dark control-bg text-light mt-2" onclick="zoomToCurrentEntry()">
                 <i class="bi-geo-alt-fill"></i>
             </button>
