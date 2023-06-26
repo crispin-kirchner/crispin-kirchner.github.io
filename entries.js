@@ -145,4 +145,32 @@ ENTRIES = {
     latLon: [46.34146, 13.67537],
     orientation: "portrait"
   },
+  "2023-06-24T12:15-ponza": {
+    img: "DSC03759.JPG",
+    title: "Der Slowenisch-Italienische Grenzgrat",
+    text: 'Ich bin letztlich zwei Tage in Bovec geblieben, war zum ersten Mal Canyonen und musste sonst lernen, mich damit abzufinden dass die Planung nicht so funktionieren würde wie gewünscht. Letztlich habe ich, aufgrund der Hütten- und Wegsituation, Bovec mit dem Bus verlassen, und bin dann im Tal zu Fuss über die Italienische Grenze.',
+    latLon: [46.48989, 13.73566],
+    orientation: "landscape"
+  },
+  "2023-06-24T15:14-die-natur-ist-geduldig": {
+    img: "DSC03789.JPG",
+    title: "Die Natur ist geduldig",
+    text: 'Nach der mitunter frustrierenden Pause tut es sehr gut, wieder zu laufen. Der Weg ist schnurgerade, da er auf einer ehemaligen, grenzüberquerenden Bahntrasse aus der Blütezeit der Eisenbahn verläuft. Die Eisenbahn brachte Wohlstand ins Tal, da die Anwohnenden Eis aus dem <em>Ledenik</em> (ein See, der Name bedeutet irgendwas mit Eis) schnitten. Diese Eisblöcke wurden dann verwendet, um Frischwaren gekühlt in Hotels in Ljubljana oder sogar Zagreb zu transportieren. Der See ist auf meiner Karte noch eingezeichnet, aber inzwischen offenbar verlandet. Die Eisenbahnstrecke wurde zu meiner Überraschung erst in den 60er Jahren und nicht während des Krieges stillgelegt.',
+    latLon: [46.50220, 13.62295],
+    orientation: "portrait"
+  },
+  "2023-06-24T17:41-wer-hat-den-langsten-bart": {
+    img: "DSC03811.JPG",
+    title: "Die Königin von Pontebba",
+    text: 'Bei dieser Katze beschleicht mich das Gefühl, dass sie ihre Schnurrhaare nur schneidet, wenn sie einen Kampf verliert.',
+    latLon: [46.50374, 13.30555],
+    orientation: "landscape"
+  },
+  "2023-06-24T17:49-ponebba": {
+    img: "DSC03816.JPG",
+    title: "Pontebba",
+    text: 'In Italien nehme ich noch kurz den Zug, um zum Ausgangspunkt für den Karnischen Höhenweg zu kommen. Das Tal ist abgefahren steil, die längste Zeit der 20 Minuten Zugfahrt führt durch Tunnels. Pontebba ist zwischen den Bergen eingeklemmt und wird durch einen Fluss und die Bahnlinie geviertelt. Es ist klein und belebt, es sind Motorrad-, Fahrradtouristen und ich da. Obwohl es winzig ist gibt es zwei Kirchen, wobei bei der einen die Uhr 4 Minuten nachgeht.',
+    latLon: [46.50554, 13.30493],
+    orientation: "portrait"
+  },
 };
