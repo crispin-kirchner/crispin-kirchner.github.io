@@ -166,11 +166,18 @@ ENTRIES = {
     latLon: [46.50374, 13.30555],
     orientation: "landscape"
   },
-  "2023-06-24T17:49-ponebba": {
+  "2023-06-24T17:49-pontebba": {
     img: "DSC03816.JPG",
     title: "Pontebba",
     text: 'In Italien nehme ich noch kurz den Zug, um zum Ausgangspunkt für den Karnischen Höhenweg zu kommen. Das Tal ist abgefahren steil, die längste Zeit der 20 Minuten Zugfahrt führt durch Tunnels. Pontebba ist zwischen den Bergen eingeklemmt und wird durch einen Fluss und die Bahnlinie geviertelt. Es ist klein und belebt, es sind Motorrad-, Fahrradtouristen und ich da. Obwohl es winzig ist gibt es zwei Kirchen, wobei bei der einen die Uhr 4 Minuten nachgeht.',
     latLon: [46.50554, 13.30493],
     orientation: "portrait"
+  },
+  "2023-06-25T13:41-erosion": {
+    img: "DSC03861.JPG",
+    title: "Erosion",
+    text: 'Heue steige ich von Pontebba auf bis zur Nassalp. Anfänglich geht es sanft durch Föhrenwälder, ein kurzes Stück ist der Weg spektakulär in die Wand geschlagen. Wie überall in diesem Gebiet gibt es auch hier ein Kriegszeugnis; Soldatengräber im Wald. Unversehens endet der Wald und ich bin in einer Mondlandschaft sondersgleichen. Der Weg ist hier mit sehr neuen Stahlseilen gesichert, was bitter nötig ist. Und an einer Stelle hat sogar diese neue Sicherung anscheinend schon etwas abbekommen. Es ist zwar nicht sehr ausgesetzt, aber der Untergrund scheint zu weichen, wenn man das Wort "Erosion" nur ausspricht. Wie eine Wanderung auf einer Sandburg. Der Monte Cerchio hat Flanken aus dieser instabilen Substanz, auf denen riesige Felsen liegen, die nur auf ihren Moment zum herunterrutschen zu warten scheinen. Ich bin sehr erleichtert, dass mein Weg nicht darunter durch führt.<br/>Wenig später wandere ich wieder durch ganz harmlose Buchenwälder, schlussendlich durch Fichtenwälder, bis ich an der Baumgrenze angekommen bin.',
+    latLon: [46.53585, 13.32107],
+    orientation: "landscape"
   },
 };
