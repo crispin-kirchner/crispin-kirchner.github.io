@@ -52,7 +52,7 @@ label[for="fullscreen-map"] > i::before {
 }
 
 .text-shadow {
-    text-shadow: 0px 0px 7px black;
+    text-shadow: 0px 0px 9px black;
 }
 
 #entry-text {
@@ -103,6 +103,14 @@ label[for="fullscreen-map"] > i::before {
   #read-more:checked ~ div #caption-text > div {
     border-radius: 0 !important;
   }
+
+  #read-more:checked ~ #privacy-box {
+    padding-bottom: calc(8em + 0.5rem);
+  }
+
+  #map-visible:checked ~ #privacy-box {
+    padding-bottom: 0.5rem;
+  }
 }
 
 /* TODO (optional) transition width&position */
@@ -131,3 +139,6 @@ label[for="fullscreen-map"] > i::before {
   transform: rotate(180deg);
 }
 
+#privacy-box {
+  padding: 0.5rem;
+}
