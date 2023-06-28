@@ -142,3 +142,7 @@ label[for="fullscreen-map"] > i::before {
 #privacy-box {
   padding: 0.5rem;
 }
+
+.z-2000 {
+  z-index: 2000;
+}
