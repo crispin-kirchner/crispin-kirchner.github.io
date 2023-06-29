@@ -201,4 +201,11 @@ ENTRIES = {
     latLon: [46.59262, 13.15416],
     orientation: "landscape"
   },
+  "2023-06-26T19:44-zollnerseehutte-katze": {
+    img: "DSC03946.JPG",
+    title: "Die Katze der Zollnersee-Hütte mustert mich verwegen",
+    text: 'Auf der Zollnersee-Hütte treffe ich die einzige andere Wandergästin vom Vortag wieder. Langsam lege ich mein Eigenbrötlertum ab und komme mehr in Hüttenstimmung, wo es OK ist einfach jeden anzuquatschen. Die Schlafsäle sind sehr interessant gebaut, unten gibt es einen Eingang, dann die üblichen Doppelstockbetten. Zusätzlich gibt es aber noch eine Raumspar-Wendeltreppe, die in schwindelerregender Höhe ins obere Geschoss des Lagers führt; wiederum ein Raum mit Doppelstockbetten. Der Fluchtweg fürs obere Geschoss führt übers Dach.<br/>Der Wirt ist sehr stolz auf sein <em>Knödel-Tris</em> (= Trio), für das die Hütte wohl in der Region bekannt ist. Es besteht aus Spinatknödel, Randenknödel mit Meerrettichsauce und Kaspressknödel. Eine ordentliche Portion und unglaublich fein. Ausser mir nächtigt noch Marco, ein Franzose im Lager und mir fällt die Rolle des Übersetzers zu. Während ich in der Schweiz mit meinem Französisch hinterm Berg halte, weil andere das viel besser können, fühle ich mich hier in Österreich wie eine kleine Sensation, weil ich etwas Französisch spreche. Marco läuft die komplette Via Alpina, von Triest bis Monaco.',
+    latLon: [46.60537, 13.07067],
+    orientation: "landscape"
+  },
 };
