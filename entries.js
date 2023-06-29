@@ -187,4 +187,11 @@ ENTRIES = {
     latLon: [46.53585, 13.32107],
     orientation: "landscape"
   },
+  "2023-06-26T09:04-blick-zuruck-nach-italien": {
+    img: "DSC03913.JPG",
+    title: "Blick zurück nach Italien",
+    text: 'Der Aufenthalt bei Plattners war wunderbar. Obwohl es ein Hotel mitten im Skigebiet ist und obwohl ich als Alpenvereinsmitglied im günstigstmöglichen Zimmer übernachte, werde ich total herzlich empfangen. Es gibt vegetarische und vegane Gerichte auf der Karte, und die Zutaten sind regional.<br/>Am nächsten Morgen steige ich entlang der Skilifte auf. Der Blick zurück ist atemberaubend; im Morgendunst reiht sich Bergkette hinter Bergkette.<br/>Wie in den kommenden Tagen bin ich auch hier entlang der Italienisch-Österreichischen Grenze unterwegs. Es sind alle paar Meter nationalistisch-klischeehafte Spielplätze eingerichtet; eine Spiel-Zollstation im Österreich-Design, Schaukeln mit Österreich-Wappen auf der einen und Italien-Wappen auf der anderen Seite, drei Vespas in den Farben der Tricolore.',
+    latLon: [46.55935, 13.25624],
+    orientation: "landscape"
+  },
 };
