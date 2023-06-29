@@ -208,4 +208,18 @@ ENTRIES = {
     latLon: [46.60537, 13.07067],
     orientation: "landscape"
   },
+  "2023-06-27T08:32-wie-heisst-diese-pflanze": {
+    img: "DSC03964.JPG",
+    title: "Weiss jemensch, wie diese Pflanze heisst?",
+    text: 'Heute hängen die Wolken tief. Nach einem kurzen Anstieg, einer Alp und einer Gruppe sehr interessierter Ziegen (die mutigsten knabbern an meinem Hosensaum), fangen bald die heutigen Traversen an. Ein grosser Teil der Etappe führt quer über dicht bewachsene Hänge. Die Gräser überwachsen den Weg, kratzen und reizen die Haut an den Beinen, aber es ist zu schwül um in eine lange Hose zu wechseln. Am Wegesrand fallen mir immer wieder diese hüfthohen Pflanzen auf, mit meist weissen Blüten, aber manche haben auch diese wunderschönen zweifarbigen Blüten.',
+    latLon: [46.60197, 13.03741],
+    orientation: "landscape"
+  },
+  "2023-06-27T14:43-im-tal-erwischt-mich-das-gewitter": {
+    img: "DSC03989.JPG",
+    title: "Im Tal erwischt mich das Gewitter",
+    text: 'Am Ende eines langen Abstiegs, ganz unten im Tal, fängt es schlagartig an heftig zu gewittern. Ich warte unter Vordächern ab, dass es weniger wird. Es flaut immer wieder ab, aber es hört nicht ganz auf. Da ich nicht weit von der Unterkunft bin, laufe ich während der nächsten Flaute los. Als ich im Wald bin, fängt es wieder so richtig an zu schütten, aber die neue Regenjacke hält. Die Kühle belebt mich, es ist herrlich, nach den vielen Tagen sehr heissem oder schwülem Wetter, durch den angenehm kühlen, tropfenden Wald zu laufen. Ich freue mich, nicht mit dem Zelt unterwegs zu sein, denn Regenwetter macht auch sehr viel Spass in einer warmen Stube.',
+    latLon: [46.61614, 12.95306],
+    orientation: "landscape"
+  },
 };
