@@ -66,6 +66,7 @@ function render() {
   // TODO spinner while loading images
   // TODO add sizes attribute for portrait images
   // TODO lazy initialize/maintain map only when visible
+  // FIXME scrollt man in der textbox runter ist nach bildwechsel immer noch gescrollt
 
   let key = KEYS[INDEX];
   let lastRead = localStorage.getItem(LAST_READ) || '';
