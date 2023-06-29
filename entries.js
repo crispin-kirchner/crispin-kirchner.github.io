@@ -194,4 +194,11 @@ ENTRIES = {
     latLon: [46.55935, 13.25624],
     orientation: "landscape"
   },
+  "2023-06-26T13:33-die-alpenrosen-etappe": {
+    img: "DSC03918.JPG",
+    title: "Die Alpenrosen-Etappe",
+    text: 'Es ist ein langer Weg von der Nassalp zur Zollnersee-Hütte. Am Anfang eine Blockhalde, in der ich mich sehr konzentrieren muss, aber danach einfach ein Weg. Das Wetter ist fabelhaft, die Sonne brennt. Leider gibt es nur selten Schatten; die Vegetation ist nur in Ausnahmefällen höher als die Alpenrosen, die auf den Hügeln um die Wette leuchten. So muss ich mich und mein Mittagessen in der Mittagspause zudecken, um nicht einzugehen. Zum Glück gibt es unterwegs mehrere Alpen, sodass das Trinkwasser kein Problem ist.',
+    latLon: [46.59262, 13.15416],
+    orientation: "landscape"
+  },
 };
