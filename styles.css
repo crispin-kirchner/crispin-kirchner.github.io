@@ -22,11 +22,11 @@
     transition-property: top, height;
 }
 
-label[for="fullscreen-map"] > i::before {
+#fullscreen-map-button > i::before {
   content: "\f14d";
 }
 
-#fullscreen-map:checked ~ div label[for="fullscreen-map"] > i::before {
+#fullscreen-map:checked ~ div #fullscreen-map-button > i::before {
   content: "\f659";
 }
 

@@ -26,24 +26,23 @@
       <div id="caption-and-controls" class="position-absolute position-relative top-0 start-0 w-100 h-100">
         <div id="controls" class="position-relative h-100">
           <div class="position-absolute top-0 start-0 p-2">
-              <button id="nav-start" type="button" class="btn btn-dark control-bg text-light d-none"
-                  onclick="INDEX = 0; render();">
-                  <i class="bi-house-door"></i>
-              </button>
+            <button id="nav-start" class="btn btn-dark control-bg text-light d-none" onclick="goToNewestEntry()">
+                <i class="bi-house-door"></i>
+            </button>
           </div>
           <div class="position-absolute top-0 end-0 p-2">
-              <span class="text-shadow text-light m-2">
-                  <i class="bi-question-circle"></i>
-                  <a class="text-light" href="#" onclick="showAbout(true)">
-                      Über
-                  </a>
-              </span>
-              <span class="text-shadow text-light m-2">
-                  <i class="bi-bell-fill"></i>
-                  <a class="subscribe-link text-light" href="#">
-                      Abonnieren
-                  </a>
-              </span>
+            <span class="text-shadow text-light m-2">
+              <i class="bi-question-circle"></i>
+              <a class="text-light" href="#/about">
+                Über
+              </a>
+            </span>
+            <span class="text-shadow text-light m-2">
+              <i class="bi-bell-fill"></i>
+              <a class="subscribe-link text-light" href="#">
+                Abonnieren
+              </a>
+            </span>
           </div>
           <div class="position-absolute bottom-0 end-0 p-2">
               <label for="map-visible" class="btn btn-dark control-bg text-light">
@@ -52,17 +51,17 @@
                   <i class="bi-map"></i>
               </label>
           </div>
-          <div id="nav-left" class="position-absolute top-50 start-0 translate-middle-y p-2">
-              <button class="btn btn-dark control-bg position-relative" type="button" onClick="--INDEX; render()">
-                  <i class="bi-chevron-left"></i>
-                  <span id="unread-indicator"
-                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger d-none"></span>
-              </button>
+          <div class="position-absolute top-50 start-0 translate-middle-y p-2">
+            <a id="nav-left" href="#" class="btn btn-dark control-bg position-relative">
+              <i class="bi-chevron-left"></i>
+              <span id="unread-indicator"
+                  class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger d-none"></span>
+            </a>
           </div>
-          <div id="nav-right" class="position-absolute top-50 end-0 translate-middle-y p-2">
-              <button class="btn btn-dark control-bg" type="button" onClick="++INDEX; render()">
-                  <i class="bi-chevron-right"></i>
-              </button>
+          <div class="position-absolute top-50 end-0 translate-middle-y p-2">
+            <a id="nav-right" href="#" class="btn btn-dark control-bg">
+              <i class="bi-chevron-right"></i>
+            </a>
           </div>
         </div>
         <div id="caption-text">
@@ -89,9 +88,9 @@
             <button type="button" class="btn btn-dark control-bg text-light me-1" onclick="zoomMapToAllEntries()">
                 <i class="bi-fullscreen"></i>
             </button>
-            <label for="fullscreen-map" class="btn btn-dark control-bg text-light">
+            <a id="fullscreen-map-button" href="#" class="btn btn-dark control-bg text-light">
               <i class="bi"></i>
-            </label>
+            </a>
             <br />
             <button type="button" class="btn btn-dark control-bg text-light mt-2" onclick="zoomToCurrentEntry()">
                 <i class="bi-geo-alt-fill"></i>
@@ -99,13 +98,12 @@
         </div>
     </div>
     <div id="privacy-box" class="position-absolute bottom-0 start-0 z-2000">
-      <a class="text-light small text-shadow" href="#" onclick="showPrivacy(true)">Datenschutz</a>
+      <a class="text-light small text-shadow" href="#/privacy">Datenschutz</a>
     </div>
-    <!-- TODO Glass pane behind overlays -->
     <div id="about"
         class="position-absolute top-50 start-50 translate-middle control-bg rounded text-light p-4 d-none mh-100 z-2000">
         <div class="position-relative p-4">
-            <a href="#" class="position-absolute top-0 end-0 text-light" onclick="showAbout(false)">
+            <a href="#" class="close-overlay position-absolute top-0 end-0 text-light">
                 <i class="bi-x-lg"></i>
             </a>
             <h1>Bilder und Koordinaten</h1>
@@ -113,14 +111,15 @@
             <p>
                 Möchtest du nichts verpassen?
                 Ich kann dich gerne benachrichtigen wenn ich etwas hinzufüge.
-                Klick einfach auf <a class="subscribe-link text-light" href="#">abonnieren</a></p>
+                Klick einfach auf <a class="subscribe-link text-light" href="#">abonnieren</a>
+            </p>
             <p>Erstellt mit Bootstrap, ImageMagick, Leaflet, OpenTopoMap</p>
         </div>
     </div>
     <div id="privacy"
         class="position-absolute top-50 start-50 translate-middle control-bg rounded text-light p-4 d-none z-2000">
         <div class="position-relative p-4">
-            <a href="#" class="position-absolute top-0 end-0 text-light" onclick="showPrivacy(false)">
+            <a href="#" class="close-overlay position-absolute top-0 end-0 text-light">
                 <i class="bi-x-lg"></i>
             </a>
             <h1>Datenschutz</h1>
@@ -137,6 +136,14 @@
             <p>
               Die Webseite wird auf Servern des US-Amerikanischen Unternehmens GitHub betrieben.
               GitHub protokolliert aus Sicherheitsgründen Zugriffszeitpunkt und IP-Adresse aller Besuchenden.</p>
+        </div>
+    </div>
+    <div id="404"
+        class="position-absolute top-50 start-50 translate-middle control-bg rounded text-light p-4 d-none">
+        <div class="position-relative p-4">
+            <h1>404</h1>
+            <p>Unter der Adresse <em id="404-address"></em> finde ich leider kein Bild. Ich zeige dir stattdessen ein anderes.</p>
+            <a href="#" class="close-overlay btn btn-primary w-100">OK</a>
         </div>
     </div>
   </div>
