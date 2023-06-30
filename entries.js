@@ -222,4 +222,18 @@ ENTRIES = {
     latLon: [46.61614, 12.95306],
     orientation: "landscape"
   },
+  "2023-06-28T10:28-morgentau-im-spinnennetz": {
+    img: "DSC04003.JPG",
+    title: "Morgentau im Spinnennetz",
+    text: 'Die nächste Etappe ist so kurz, dass ich mir keinen Wecker stelle und ausschlafe. Der Nebel hängt tief im Tal, man sieht nicht weit, aber es regnet nicht. Beim Abschied erzählt mir der Wirt noch vom Krieg, dessen Zeugnissen ich auf weiten Teilen begegnet bin. Demnach seien die meisten Soldaten nicht im Gefecht gestorben, sondern verhungert oder erfroren; <em>Stellungskrieg</em>. So viel Sinnlosigkeit aufs Mal überstegt mein Fassungsvermögen.<br/>Es ist das letzte Foto, das meine Kamera macht. Zuerst merke ich, dass Kondenswasser im Sucher ist, danach lässt sie sich nicht mehr einschalten. Wahrscheinlich hätte ich gestern im Regen nicht weiter fotografieren sollen. Ich nehme so schnell wie möglich den Akku raus, in der Hoffnung, dass ich noch keine bleibenden Schäden angerichtet habe.',
+    latLon: [46.62135, 12.91170],
+    orientation: "portrait"
+  },
+  "2023-06-28T20:14-wolayersee-mit-seekopf-in-der-abendsonne": {
+    img: "IMG_20230628_201444.JPG",
+    title: "Wolayersee mit Seekopf in der Abendsonne",
+    text: 'Zunächst führt der Weg zwischen Blockhalden hindurch. Der Nebel schluckt alle Geräusche und die Murmeltiere sind extrem sorglos; sie tummeln sich auf beiden Seiten des Weges, fressen in Ruhe. Wenn sie mich bemerken, verschwinden sie manchmal, aber kommen kurz darauf wieder. Ich laufe ganz behutsam, um sie nicht aufzuschrecken. Sie sind ganz nah.<br/>Später wird das Tal schmaler, es geht steil bergauf. Zwischenzeitlich entstehen Nebellücken und ich sehe Felswände, so steil und so hoch, dass sie fast den Himmel verdecken; mystisch verhüllt von Nebelschwaden. Ich fühle mich ganz klein.<br/>Am Mittag treffe ich Marco wieder und er offeriert mir einen Tee. Er hat einen Kocher und Teebeutel, die eine verblüffende Ähnlichkeit mit denen vom Frühstücksbuffet haben. Wir essen gemeinsam und geniessen die Sicht auf die Felswände, wenn immer wieder der Nebel weggeblasen wird. Es ist schön, das erlebte mit jemandem teilen zu können.<br/>Die Wolayersee-Hütte ist genau so spektakulär gelegen, wie der Weg dort hin; der See liegt inmitten riesiger, steiler Felswände. Der Essensraum hat eine Fensterfront auf dieses atemberaubende Panorama.',
+    latLon: [46.61137, 12.87023],
+    orientation: "portrait"
+  },
 };
