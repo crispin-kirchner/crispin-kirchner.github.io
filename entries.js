@@ -264,4 +264,18 @@ ENTRIES = {
     latLon: [46.64304, 12.74021],
     orientation: "portrait"
   },
+  "2023-06-30T07:44-raudenspitze-edigon-steinwand": {
+    img: "DSC04075.JPG",
+    title: "Raudenspitze, Edigon und Steinwand",
+    text: 'Am Morgen gibt sich die Sonne noch richtig Mühe, die Wolken zu vertreiben. Am Sattel angekommen verhält sich das Wetter allerdings streng nach Prognose.<br/> Heute laufen wir wieder fast den ganzen Tag auf der Italienischen Seite. Die Grenze ist hier noch deutlich spürbar; auf der Österreichischen Seite sind nur die Österreichischen Hütten angeschrieben, auf der Italienischen nur die Italienischen. Auch die Wegenummern ändern sich: Wir laufen entlang der <em>403</em>, dem <em>Karnischen Höhenweg</em>, aber auf der Italienischen Seite gibt es diesen gemäss Beschilderung nicht.',
+    latLon: [46.63941, 12.73152],
+    orientation: "landscape"
+  },
+  "2023-06-30T08:34-spaziergang-durch-den-krautergarten": {
+    img: "DSC04079.JPG",
+    title: "Spaziergang durch den Kräutergarten",
+    text: 'Bei der hohen Luftfeuchtigkeit scheinen sich die Düfte der Alpenkräuter besonders zu entfalten. Ich klappe meine Nasenflügel so weit auf wie es geht. Bei jedem Schritt nehme ich eine andere Nuance wahr; mal riecht es minzig-frisch, bald darauf samtig-schwer-salbeiig, dann wieder kräftig-würzig wie Liebstöckel, anschliessend lieblich-blumig. Ein ganz grosses Nasenvergnügen.',
+    latLon: [46.63758, 12.72128],
+    orientation: "landscape"
+  },
 };
