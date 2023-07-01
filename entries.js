@@ -250,4 +250,18 @@ ENTRIES = {
     latLon: [46.62078, 12.84716],
     orientation: "portrait"
   },
+  "2023-06-29T11:16-verlassene-alp-in-italien": {
+    img: "DSC04048.JPG",
+    title: "Verlassene Alp in Italien, im Hintergrund der Grenzgrat zu Österreich",
+    text: 'An der Grenze nach Italien warnt mich ein Schild: "Achtung, Grenzübertritt". Die Steine auf dem Weg haben eine beeindruckende Farbvielfalt. Manche sind weiss wie Kalk, manche grün wie verwittertes Kupfer, andere Rostrot, die nächsten gelblich, wenige tief dunkellila wie schwarze Johannisbeere. Am Mittag rasten wir an einer Alp, die auch eine sehr einfache Schutzhütte zu sein scheint. Wir sind direkt unterhalb des Grenzgrats, dennoch wird nur Italienisch gesprochen, <em>Ciao Grazie</em>. Wie schon in den letzten Tagen sind sehr viele Wandernde in die Gegenrichtung unterwegs.',
+    latLon: [46.63028, 12.78378],
+    orientation: "landscape"
+  },
+  "2023-06-29T18:54-marco": {
+    img: "DSC04062.JPG",
+    title: "Marco",
+    text: 'Nach zwei gemeinsamen Wandertagen ist es Zeit, Marco vorzustellen. Er ist Pensionär und sagt das ist der Job, den er bis jetzt am meisten geniesst. In seinem Beruf hat er immer alles geplant; um zu vermeiden dass er jetzt ohne Job seine Freunde und Familie plant, macht er Fernwanderwege, die er nicht plant. Nach mehreren Meer-zu-Meer-Wegen ist sein aktuelles Projekt die Via Alpina. An seinem Rucksack hängt ein kleines Kuscheltier-Murmeli, ein Andenken seiner Enkel. Trotzdem und trotz kompletter Camping-Ausrüstung wiegt sein Rucksack nur 11kg. Durch ihn bekomme ich einen ordentlichen Französisch-Boost, wir unterhalten uns unterwegs auf Französisch, manchmal dolmetsche ich auf den Hütten.',
+    latLon: [46.64304, 12.74021],
+    orientation: "portrait"
+  },
 };
