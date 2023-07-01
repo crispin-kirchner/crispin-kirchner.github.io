@@ -236,4 +236,18 @@ ENTRIES = {
     latLon: [46.61137, 12.87023],
     orientation: "portrait"
   },
+  "2023-06-29T08:03-waldweide-an-der-oberen-wolayer-alm": {
+    img: "DSC04016.JPG",
+    title: "Waldweide an der oberen Wolayer Alm",
+    text: 'Am nächsten Tag starte ich mit Marco zusammen. Meine Kamera hat die Nacht im Trockenraum verbracht, das Kondenswasser ist aus dem Sucher verschwunden. Bangend setze ich den Akku ein und siehe da; beim 2. Anlauf reagiert sie auf meinen Einschaltwunsch. Ich bin erleichtert und froh. Marco sagt, er habe zum Schutzheiligen der verlorenen Dinge für meine Kamera gebetet; es scheint geklappt zu haben.<br/>Die Felswände sind immer noch imposant, aber weiter weg als gestern. An der Wolayer Alm dürfen die Kühe bis in den Wald hinein weiden.',
+    latLon: [46.62015, 12.84789],
+    orientation: "landscape"
+  },
+  "2023-06-29T08:08-murmeltier": {
+    img: "DSC04030.JPG",
+    title: "Murmeltier",
+    text: 'An einer Wegbiegung wartet ein Murmeltier auf uns. Es sitzt auf einem Felsen und schaut uns zu. Als ich auf leisen Sohlen näher komme, flüchtet es sich hinter den Fels. Zu meiner Überraschung harrt es aber dahinter aus; der Wanderweg führt am Fels vorbei und das Tier steht da, aufrecht und aufmerksam; und lässt sich auch nicht aus der Ruhe bringen, als ich es fotografiere. So nah hatte ich noch keins vor der Linse, es ist wirklich nur wenige Meter entfernt. Als ich mich begeistert mit Marco darüber unterhalte, wie furchtlos die Murmelis hier sind meint er, ich röche inzwischen selbst wie eins, daher würden sie nicht sofort die Flucht ergreifen.',
+    latLon: [46.62078, 12.84716],
+    orientation: "portrait"
+  },
 };
