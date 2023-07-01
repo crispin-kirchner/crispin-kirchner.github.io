@@ -278,4 +278,11 @@ ENTRIES = {
     latLon: [46.63758, 12.72128],
     orientation: "landscape"
   },
+  "2023-06-30T09:30-auf-der-forststrasse": {
+    img: "DSC04083.JPG",
+    title: "Auf der Forststrasse",
+    text: 'Eigentlich führt der Höhenweg heute ausgesetzt über den Grat. Aufgrund von Wolken und vorausgesagtem Regen weichen wir aber auf die Alternativroute aus. Diese führt ca. 500 Höhenmeter tiefer über Forststrassen. Es sind insgesamt 25km, und je 2000 Höhenmeter rauf und 2000 runter; die bis jetzt längste Tagesetappe auf meiner Wanderung. Wir sind daher sehr auf Geschwindigkeit fokussiert und weniger auf Genuss. Da die Steigungen sehr sanft sind, halten meine Knie aber fast bis zum Schluss durch.',
+    latLon: [46.63285, 12.68824],
+    orientation: "portrait"
+  },
 };
