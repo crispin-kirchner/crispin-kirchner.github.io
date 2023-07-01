@@ -146,3 +146,13 @@
 .z-2000 {
   z-index: 2000;
 }
+
+.overlay {
+  width: 519px;
+}
+
+@media(max-width: 576px) {
+  .overlay {
+    width: 90%;
+  }
+}
