@@ -2,7 +2,7 @@
 
 // Constants
 const LAST_READ = 'lastRead';
-const DATE_FORMAT = new Intl.DateTimeFormat(navigator.language, { dateStyle: 'medium' });
+const DATE_FORMAT = new Intl.DateTimeFormat(navigator.language, { dateStyle: 'short' });
 const EMAIL_ADDRESS = ['h_c_._n_i_w_e_u_l_b', 'm_a_p_s_._r_e_n_h_c_r_i_k_._n_i_p_s_i_r_c'];
 const DEFAULT_ZOOM_LEVEL = 15;
 const TRANSITION_DELAY_MS = 250;
