@@ -84,11 +84,14 @@ function showImage(key) {
   
   currentKey = key;
 
+  // update last read
   let lastRead = localStorage.getItem(LAST_READ) || '';
   if (key > lastRead) {
       lastRead = key;
       localStorage.setItem(LAST_READ, lastRead);
   }
+
+  // display unread count
   let lastReadIndex = KEYS.findIndex(el => el === lastRead);
   let unreadIndicator = document.getElementById('unread-indicator');
   let hasUnread = lastReadIndex > 0;
@@ -122,7 +125,7 @@ function showImage(key) {
 
   let index = KEYS.findIndex(el => el === key);
   let isFirst = index === 0;
-  document.getElementById('nav-left').href = isFirst
+  document.getElementById('nav-left').href = index <= 1
     ? '#'
     : `#/${KEYS[index - 1]}`;
   toggleClass(document.getElementById('nav-left'), 'd-none', isFirst);
