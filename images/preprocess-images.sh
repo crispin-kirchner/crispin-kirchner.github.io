@@ -27,5 +27,11 @@ for i in ~/storage/external-1/blog/*.JPG ; do
   command="$command $(imInstruction "-scale 4096" 4096w/$sourceFilename)"
   echo $sourceFilename
   convert "$i" -write mpr:XY +delete -respect-parentheses $command null:
+  # FIXME fix this im behavior
+  sourceBase=${sourceFilename:0:8}
+  for size in bg thumbs 720w 1280w 1920w 2560w 4096w ; do
+    mv $size/$sourceBase-0.JPG $size/$sourceFilename
+    rm $size/$sourceBase-1.JPG
+  done
 done
 
