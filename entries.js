@@ -285,4 +285,11 @@ ENTRIES = {
     latLon: [46.63285, 12.68824],
     orientation: "portrait"
   },
+  "2023-07-01T08:10-aufbruch-von-der-porzehutte": {
+    img: "DSC04089.JPG",
+    title: "Aufbruch von der Porzehütte",
+    text: 'Heute steht mit nur eine sehr kurze Etappe bevor, ca. 3h Gehzeit. Ich hatte zuerst die Hütten reserviert und erst dann geschaut, wie weit sie voneinander weg sind.<br/>Gestern sind Laureen und Jordan auch auf der Porzehütte angekommen. Sie sprechen auch Französisch und ich hatte sie in Slowenien getroffen, in der <a href="#/2023-06-19T16:42:00-quarkstrudel">Koča na planini Razor</a>. Damals haben wir noch Englisch miteinander gesprochen, nach meinem mehrtägigen Französisch-Crashkurs mit Marco sind wir jetzt ein bisschen die Französische Gruppe.',
+    latLon: [46.65705, 12.57517],
+    orientation: "portrait"
+  },
 };
