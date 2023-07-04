@@ -306,4 +306,25 @@ ENTRIES = {
     latLon: [46.67068, 12.53446],
     orientation: "landscape"
   },
+  "2023-07-02T08:26-der-erste-blick-auf-die-dolomiten": {
+    img: "DSC04113.JPG",
+    title: "Der erste Blick auf die Dolomiten",
+    text: 'Als ich am nächsten Morgen über den Pass hinter der Hütte laufe, überrascht mich ein atemberaubendes Panorama, wo gestern noch undurchdringlicher Nebel war. Eine riesige Felswand, die den kompletten Horizont überspannt, ähnlich wie die Alpen in Bern. Nur dass diese Berge viel zerklüfteter sind; überall Felstürme und hintereinander gestaffelte Wände.',
+    latLon: [46.67169, 12.52795],
+    orientation: "landscape"
+  },
+  "2023-07-02T10:48-schmetterling-auf-kackwurst": {
+    img: "DSC04126_1.JPG",
+    title: "Schmetterling auf Kackwurst",
+    text: 'Heute steige ich ins Tal ab, um dort einen Tag Pause zu machen und den nächten Abschnitt zu planen. Nach dem letzten Pass erreichen mich die ersten Anzeichen von touristischer Infrastruktur: mir kommt eine riesige Gruppe Mountainbiker, ca. 50 Stück, entgegen. Danach entecke ich diesen leuchtend blauen Schmetterling, der sich leider ein wenig elegantes Sitzmöbel ausgesucht hat; schön ist er trotzdem.',
+    latLon: [46.67256, 12.43903],
+    orientation: "landscape"
+  },
+  "2023-07-02T10:56-die-wachterin": {
+    img: "DSC04128.JPG",
+    title: "Die Wächterin",
+    text: 'Wenig später ist erwartet mich diese Kuh. Sie steht am Wegrand, beobachtet mich von weitem und empfängt mich mit grosser Entschlossenheit. Sie gehört zu einer sehr grossen Herde, die über alle hier zusammenkommenden Wanderwege verstreut ist. Als ich die Kuhherde hinter mir lasse, bin ich umgeben von mehreren Spaziergänger-Herden, es ist spürbar Sonntag und ich wittere die Ausflugslokale am Weg. Es ist ein bisschen zum Schmunzeln, dass ich es bis jetzt immer geschafft habe, meine Pausentage ausgerechnet in touristischen Hotspots zu verbringen; der Kulturschock zwischen den ruhigen, manchmal einsamen Bergen zu den vielen, vielen Menschen könnte wohl kaum grösser sein.',
+    latLon: [46.67251, 12.43465],
+    orientation: "portrait"
+  },
 };
