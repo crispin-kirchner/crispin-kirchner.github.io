@@ -299,4 +299,11 @@ ENTRIES = {
     latLon: [46.66864, 12.54015],
     orientation: "portrait"
   },
+  "2023-07-01T21:46-nach-sonnenuntergang-ist-die-nebeldecke-ins-tal-abgerutscht": {
+    img: "DSC04109.JPG",
+    title: "Nach Sonnenuntergang ist die Nebeldecke ins Tal abgerutscht",
+    text: 'Später kommt noch eine Münchner Trailrunning-Gruppe (die <em>erste</em> Trailrunning-Gruppe des Alpenvereins, betonen sie stolz) und es wird kuschelig in der Hütte. Sie sind meine letzten zwei Etappen an einem Tag gerannt und die motivierten haben noch einen Klettersteig dran gehängt. Sehr beeindruckend. Als ich ins Bett gehe sehe ich draussen dieses Naturspektakel. Die Berge sind eingebettet in die Wolkenwatte und plötzlich sieht man ganz weit, nach zwei Tagen im Nebel. Der Mond ist aufgegangen, aber ohne Stativ bekomme ich ihn leider nicht aufs Bild.',
+    latLon: [46.67068, 12.53446],
+    orientation: "landscape"
+  },
 };
