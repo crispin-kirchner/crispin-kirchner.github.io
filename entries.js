@@ -292,4 +292,11 @@ ENTRIES = {
     latLon: [46.65705, 12.57517],
     orientation: "portrait"
   },
+  "2023-07-01T10:38-filmoor-hutte-mit-konigswand": {
+    img: "DSC04102.JPG",
+    title: "Filmoor-Hütte mit Königswand",
+    text: 'Deutlich vor Mittag kommen wir an der Filmoor-Hütte an. Es gibt nur 14 Betten und die Hütte ist komplett reserviert heute, deswegen sagen wir uns tschüss und Marco, Laureen und Jordan gehen weiter zur nächsten Hütte. Ich mache noch einen Ausflug auf die Filmoor-Höhe, weil der Gemeinschaftsraum der Hütte hoffnungslos überfüllt ist mit Mittagsgästen. Als ich zurückkomme ist es ganz ruhig, ausser einem sächsischen Pärchen aus der Nähe von Dresden bin ich der einzige Gast. Es ist eine sehr gemütliche Hütte. Die Küche ist offen und macht die Hälfte des Gemeinschaftsraums aus. Es herrscht Wohnzimmer-Flair, das Personal ist nur wenig älter als ich. Alles ist liebevoll gestaltet mit handgemalten Schildchen, die Gäste protokollieren ihre Konsumationen selbst. Es gibt vegetarische Gerichte, hinter dem Kruzifix klemmt ein Bierdeckel mit der Aufschrift <em>Kein Platz für Nazis</em>. Es gibt handbedruckte T-Shirts zu kaufen. Ich fühle mich sehr zu Hause.',
+    latLon: [46.66864, 12.54015],
+    orientation: "portrait"
+  },
 };
