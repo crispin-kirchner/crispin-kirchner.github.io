@@ -348,4 +348,11 @@ ENTRIES = {
     latLon: [46.62853, 12.34361],
     orientation: "landscape"
   },
+  "2023-07-04T20:48-hagel-im-juli-lavaredo-hutte-2345m": {
+    img: "DSC04211.JPG",
+    title: "Hagel im Juli. Lavaredo-Hütte, 2345m",
+    text: 'Auf der Hütte feiern Laureen, Jordan, Marco (von dem ich inzwischen erfahren habe, dass er wohl Jean-Marc heisst) und ich ein fröhliches Wiedersehen. Die Hütte ist sehr sympa, das Personal tätowiert, gepierct und mit schicken Frisuren, auf der Anlage läuft guter Rock. Die Aussicht ist wunderschön, wenn auch durch die Wolkendecke abgeschnitten. Ich hole bei einem Picknick abseits der Hütte das Mittagessen nach, auf das ich wegen des Gewitterrisikos verzichtet habe. Dabei höre ich zum ersten Mal seit Wochen bewusst und laut (über Kopfhörer) Musik; es ist eine Wohltat.<br/>Kurz vor dem Schlafen gehen kommt dann auch noch das versprochene Gewitter, es ist so heftig dass es sogar hagelt.',
+    latLon: [46.61835, 12.31207],
+    orientation: "landscape"
+  },
 };
