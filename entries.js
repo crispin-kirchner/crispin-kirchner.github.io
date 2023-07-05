@@ -334,4 +334,11 @@ ENTRIES = {
     latLon: [46.68744, 12.36791],
     orientation: "landscape"
   },
+  "2023-07-04T08:55-weidenwald-im-talboden": {
+    img: "DSC04161.JPG",
+    title: "Weidenwald im Talboden",
+    text: 'Wieder auf dem Wanderweg. So lange es in der Ebene geht, gehe ich schnell; am Nachmittag ist ein Gewitter angesagt. Team Frankreich ist deswegen schon am Vorabend 1h in die Talschlusshütte gewandert; ich hoffe dass ich es nicht bereuen werde, in Moos geblieben zu sein.<br/>Der Talweg ist ein Träumchen. Er führt durch einen sehr lockeren Arvenwald, in dem immer wieder Schuppen in verschiedenen Verfallsstadien stehen. Durch den verwunschensten Schuppen kann man durch schauen und es wächst ein Baum auf dem Dach. Die Wiesen zwischen den Bäumen werden anscheinend als Heuweiden genutzt; eine davn ist gemäht.',
+    latLon: [46.67458, 12.35675],
+    orientation: "portrait"
+  },
 };
