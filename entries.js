@@ -341,4 +341,11 @@ ENTRIES = {
     latLon: [46.67458, 12.35675],
     orientation: "portrait"
   },
+  "2023-07-04T12:02-zwolferkofel-rechts": {
+    img: "DSC04177.JPG",
+    title: "Zwölferkofel (rechts)",
+    text: 'Nach einem knackigen Anstieg finde ich mich in einer völlig anderen Welt wieder. Ich bin im UNESCO-Welterbe der Dolomiten. Die Berge um mich herum sehen aus, als wären sie aus Lego gebaut. Die Gesteinsschichten sind ganz dünn und brechen sehr kleinteilig. Sie wirken heftig ausgewaschen; was stehen bleibt sind eindrückliche Türme in grau-gelbem Gestein, immer wieder überzogen mit dunkler Patina. Die Gipfel haben hier sehr buchhalterische Namen, es gibt die Dreischusterspitze, den Neuner-  und Zwölferkofel. Später komme ich noch am Passportenkofel vorbei.',
+    latLon: [46.62853, 12.34361],
+    orientation: "landscape"
+  },
 };
