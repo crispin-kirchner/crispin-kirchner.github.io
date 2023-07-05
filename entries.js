@@ -327,4 +327,11 @@ ENTRIES = {
     latLon: [46.67251, 12.43465],
     orientation: "portrait"
   },
+  "2023-07-03T13:37-die-turen-von-moos": {
+    img: "DSC04151.JPG",
+    title: "Die Türen von Moos",
+    text: 'Ich verbringe meinen Pausentag in Moos, ein kleines Dörfchen entlang einer Landstrasse. Auffallend viele Häuser haben Türen in diesem Stil; Brauner Metallrahmen mit goldgerahmten Glasscheiben.<br/>Für einen Tag mutiere ich zu einem Reisebüro und rufe eine Unterkunft nach der anderen an. Am Abend habe ich dann alle Unterkünfte für die nächsten 12 Tage vorreserviert und kann zur Belohnung noch in ein wirklich ausgezeichnetes Thermalbad im benachbarten Campingplatz. Neben mehreren Saunen und Whirlpools gibt ein Schwimmbecken, dessen Boden mit kleinen Steinchen bedeckt ist, wie eine Fussmassage beim Gehen. Wundervoll.',
+    latLon: [46.68744, 12.36791],
+    orientation: "landscape"
+  },
 };
