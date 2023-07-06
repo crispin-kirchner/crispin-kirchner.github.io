@@ -362,4 +362,18 @@ ENTRIES = {
     latLon: [46.63624, 12.31081],
     orientation: "landscape"
   },
+  "2023-07-05T09:56-rienz-tal": {
+    img: "DSC04237.JPG",
+    title: "Rienz-Tal",
+    text: 'Heute sind wir so richtig als Vierergruppe unterwegs. Wir steigen durch das Rienz-Tal ab. Es ist eine entspannte Strecke entlang einer Forststrasse. Die Regenfälle der letzten Tage sind hier nicht spurlos vorüber gegangen, an einer Stelle ist der Weg über eine Breite von ca. 20m weggeschemmt. Es sind aber nur noch kleine Bäche und kein ganzer Strom mehr, somit kann man mit den Wanderstöcken trockenen Fusses queren.',
+    latLon: [46.63399, 12.28479],
+    orientation: "portrait"
+  },
+  "2023-07-05T12:20-rubber": {
+    img: "DSC04276.JPG",
+    title: "Rubber",
+    text: 'Das ganze Mittagessen über sitzt dieser bedrohliche Reifen hinter uns. Er bewegt sich aber nicht und niemand wird verletzt. Der Weg heute ist sehr schön und abwechslungsreich. Fast den ganzen Nachmittag sind wir mit Aufstieg beschäftigt. Stellenweise geht der Weg sogar an einem Abgrund entlang, ist aber sehr gut gesichert. Da die anderen schneller gehen als ich, sehe ich sie noch ein paar Mal. Am Abend scheinen sie aber keinen Platz mehr auf meiner Hütte bekommen zu haben, ich hoffe dass ich sie nochmal wiedersehen werde, bevor Laureen und Jordan die gemeinsame Route verlassen.',
+    latLon: [46.64182, 12.23099],
+    orientation: "landscape"
+  },
 };
