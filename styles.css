@@ -2,6 +2,21 @@
     transition-duration: .25s;
 }
 
+a[href^="http"]::after {
+  content: '\F1C5';
+  display: inline-block;
+  margin-left: 1ex;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 #bgimage {
     filter: blur(10px) brightness(70%); 
     transform: scale(1.05);
