@@ -156,3 +156,23 @@
     width: 90%;
   }
 }
+
+.leaflet-popup-content-wrapper {
+	border-radius: 8px;
+}
+
+.leaflet-popup-content {
+  margin: 2px;
+  width: 32px !important;
+}
+
+.leaflet-popup-content img {
+  width: 32px;
+}
+
+.leaflet-popup-tip {
+	width: 9px;
+	height: 9px;
+
+	margin: -5px auto 0;
+}

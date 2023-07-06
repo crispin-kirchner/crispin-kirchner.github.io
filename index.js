@@ -21,15 +21,25 @@ L.tileLayer('https://c.tile.opentopomap.org/{z}/{x}/{y}.png', {
     attribution: 'Kartendaten: © <a href="https://openstreetmap.org/copyright">OpenStreetMap</a>-Mitwirkende, SRTM | Kartendarstellung: © <a href="http://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
 }).addTo(MAP);
 const ALL_ENTRIES_BOUNDS = L.latLngBounds();
-KEYS.forEach(key => {
+for(let i = KEYS.length - 1; i >= 0; --i) {
+  let key = KEYS[i];
   let entry = ENTRIES[key];
   ALL_ENTRIES_BOUNDS.extend(L.latLng(entry.latLon));
   entry.dateFormatted = DATE_FORMAT.format(new Date(key.substr(0, 10)));
-  L.marker(entry.latLon)
-    .on('click', evt => location = `#/${key}`)
-    .bindTooltip(`<img src="images/thumbs/${entry.img}"/><br/>${entry.dateFormatted} ${entry.title}`)
-    .addTo(MAP);
-});
+
+  let popup = new L.Popup(entry.latLon, {
+    closeButton: false,
+    content: `<a href="#/${key}"><img class="rounded" src="images/96w/${entry.img}" srcset="images/32w/${entry.img} 32w, images/64w/${entry.img} 64w, images/96w/${entry.img} 96w" sizes="32px"></a>`,
+    minWidth: 29,
+    closeOnEscapeKey: false,
+    closeOnClick: false,
+    autoClose: false,
+    interactive: true,
+    autoPan: false,
+    offset: L.point(0, 14)
+  });
+  MAP.addLayer(popup);
+};
 
 document.getElementById('map-visible').checked = localStorage.getItem('mapVisible') === 'true';
 document.getElementById('read-more').checked = localStorage.getItem('readMore') === 'true';
@@ -38,7 +48,7 @@ document.getElementById('map-visible').onchange = evt => {
     localStorage.setItem('mapVisible', evt.target.checked);
 };
 document.getElementById('read-more').onchange = evt => {
-    localStorage.setItem('readMore', evt.target.checked);
+  localStorage.setItem('readMore', evt.target.checked);
 };
 document.getElementById('fullscreen-map').onchange = evt => {
   setTimeout(() => MAP.invalidateSize(), TRANSITION_DELAY_MS);
@@ -152,7 +162,6 @@ function getCloseButtonHref() {
 function showOverlay(name) {
   let overlay = document.getElementById(name);
   closeOverlays(name);
-  // TODO map-fullscreen muss hier noch berücksichtigt werden
   overlay.getElementsByClassName('close-overlay')[0].href = document.getElementById('fullscreen-map').checked
     ? '#/map'
     : getCloseButtonHref();

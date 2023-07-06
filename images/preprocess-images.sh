@@ -5,7 +5,9 @@ function imInstruction {
 }
 
 mkdir -p bg
-mkdir -p thumbs
+mkdir -p 32w
+mkdir -p 64w
+mkdir -p 96w
 mkdir -p 720w
 mkdir -p 1280w
 mkdir -p 1920w
@@ -14,22 +16,32 @@ mkdir -p 4096w
 
 for i in ~/storage/external-1/blog/*.JPG ; do
   sourceFilename="$(basename "$i")"
-  if [ -e "4096w/$sourceFilename" ] ; then
+  sizes=""
+  command=""
+  if [ ! -e bg/$sourceFilename ] ; then
+    sizes="$sizes bg"
+    command="$command $(imInstruction "-scale 360" bg/$sourceFilename)"
+  fi
+  for size in 32 64 96 ; do
+    if [ ! -e ${size}w/$sourceFilename ] ; then
+      sizes="$sizes ${size}w"
+      command="$command $(imInstruction "-scale ${size}x${size}^ -gravity center -crop ${size}x${size}+0+0" ${size}w/$sourceFilename)"
+    fi
+  done
+  for size in 720 1280 1920 2560 4096 ; do
+    if [ ! -e "${size}w/$sourceFilename" ] ; then
+      sizes="$sizes ${size}w"
+      command="$command $(imInstruction "-scale $size" ${size}w/$sourceFilename)"
+    fi
+  done
+  if [ "$command" = "" ] ; then
     continue
   fi
-  command=""
-  command="$command $(imInstruction "-scale 360" bg/$sourceFilename)"
-  command="$command $(imInstruction "-scale 64x64^ -gravity center -crop 64x64+0+0" thumbs/$sourceFilename)"
-  command="$command $(imInstruction "-scale 720" 720w/$sourceFilename)"
-  command="$command $(imInstruction "-scale 1280" 1280w/$sourceFilename)"
-  command="$command $(imInstruction "-scale 1920" 1920w/$sourceFilename)"
-  command="$command $(imInstruction "-scale 2560" 2560w/$sourceFilename)"
-  command="$command $(imInstruction "-scale 4096" 4096w/$sourceFilename)"
-  echo $sourceFilename
+  echo "$sourceFilename$sizes"
   convert "$i" -write mpr:XY +delete -respect-parentheses $command null:
   # FIXME fix this im behavior
-  sourceBase=${sourceFilename:0:8}
-  for size in bg thumbs 720w 1280w 1920w 2560w 4096w ; do
+  sourceBase=${sourceFilename:0:-4}
+  for size in $sizes ; do
     mv $size/$sourceBase-0.JPG $size/$sourceFilename
     rm $size/$sourceBase-1.JPG
   done
