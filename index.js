@@ -132,6 +132,7 @@ function showImage(key) {
   document.getElementById('caption-date').innerHTML = entry.dateFormatted;
   document.getElementById('caption-title').innerHTML = entry.title;
   document.getElementById('entry-text').innerHTML = entry.text ? entry.text : '';
+  document.getElementById('entry-text').scrollTop = 0;
 
   let index = KEYS.findIndex(el => el === key);
   let isFirst = index === 0;
