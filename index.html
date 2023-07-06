@@ -85,19 +85,31 @@
       </div>
     </div>
     <div id="map-container" class="position-absolute position-relative start-0 w-100 transition">
-        <div id="map" class="w-100 h-100"></div>
-        <div class="position-absolute top-0 end-0 p-2 text-end" style="z-index: 1000">
-            <button type="button" class="btn btn-dark control-bg text-light me-1" onclick="zoomMapToAllEntries()">
-                <i class="bi-fullscreen"></i>
-            </button>
-            <a id="fullscreen-map-button" href="#" class="btn btn-dark control-bg text-light">
-              <i class="bi"></i>
-            </a>
-            <br />
-            <button type="button" class="btn btn-dark control-bg text-light mt-2" onclick="zoomToCurrentEntry()">
-                <i class="bi-geo-alt-fill"></i>
-            </button>
+      <div id="map" class="w-100 h-100"></div>
+      <div class="position-absolute top-0 start-0 p-2" style="z-index: 1000">
+        <div class="btn-group-vertical">
+          <button type="button" class="btn btn-dark control-bg text-light" onclick="MAP.zoomIn()">
+              <i class="bi-plus-lg"></i>
+          </button>
+          <button type="button" class="btn btn-dark control-bg text-light" onclick="MAP.zoomOut()">
+              <i class="bi-dash-lg"></i>
+          </button>
         </div>
+      </div>
+      <div class="position-absolute top-0 end-0 p-2 text-end" style="z-index: 1000">
+        <a id="fullscreen-map-button" href="#" class="btn btn-dark control-bg text-light">
+          <i class="bi"></i>
+        </a>
+        <br>
+        <div class="btn-group-vertical mt-2">
+          <button type="button" class="btn btn-dark control-bg text-light" onclick="zoomMapToAllEntries()">
+              <i class="bi-fullscreen"></i>
+          </button>
+          <button type="button" class="btn btn-dark control-bg text-light" onclick="zoomToCurrentEntry()">
+              <i class="bi-geo-alt-fill"></i>
+          </button>
+        </div>
+      </div>
     </div>
     <div id="privacy-box" class="position-absolute bottom-0 start-0 z-2000">
       <a class="text-light small text-shadow" href="#/privacy">Datenschutz</a>

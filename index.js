@@ -15,7 +15,7 @@ let currentKey;
 const KEYS = Object.keys(ENTRIES)
   .sort((k1, k2) => k2.localeCompare(k1));
 
-const MAP = L.map('map');
+const MAP = L.map('map', {zoomControl: false});
 L.tileLayer('https://c.tile.opentopomap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: 'Kartendaten: © <a href="https://openstreetmap.org/copyright">OpenStreetMap</a>-Mitwirkende, SRTM | Kartendarstellung: © <a href="http://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
