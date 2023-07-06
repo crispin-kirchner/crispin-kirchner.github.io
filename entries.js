@@ -337,14 +337,14 @@ ENTRIES = {
   "2023-07-04T08:55-weidenwald-im-talboden": {
     img: "DSC04161.JPG",
     title: "Weidenwald im Talboden",
-    text: 'Wieder auf dem Wanderweg. So lange es in der Ebene geht, gehe ich schnell; am Nachmittag ist ein Gewitter angesagt. Team Frankreich ist deswegen schon am Vorabend 1h in die Talschlusshütte gewandert; ich hoffe dass ich es nicht bereuen werde, in Moos geblieben zu sein.<br/>Der Talweg ist ein Träumchen. Er führt durch einen sehr lockeren Arvenwald, in dem immer wieder Schuppen in verschiedenen Verfallsstadien stehen. Durch den verwunschensten Schuppen kann man durch schauen und es wächst ein Baum auf dem Dach. Die Wiesen zwischen den Bäumen werden anscheinend als Heuweiden genutzt; eine davn ist gemäht.',
+    text: 'Wieder auf dem Wanderweg. So lange es in der Ebene geht, gehe ich schnell; am Nachmittag ist ein Gewitter angesagt. Team Frankreich ist deswegen schon am Vorabend 1h in die Talschlusshütte gewandert; ich hoffe dass ich es nicht bereuen werde, in Moos geblieben zu sein.<br/>Der Talweg ist ein Träumchen. Er führt durch einen sehr lockeren Lärchenwald, in dem immer wieder Schuppen in verschiedenen Verfallsstadien stehen. Durch den verwunschensten Schuppen kann man durch schauen und es wächst ein Baum auf dem Dach. Die Wiesen zwischen den Bäumen werden anscheinend als Heuweiden genutzt; eine davon ist gemäht.',
     latLon: [46.67458, 12.35675],
     orientation: "portrait"
   },
-  "2023-07-04T12:02-zwolferkofel-rechts": {
+  "2023-07-04T10:49-zwolferkofel-rechts": {
     img: "DSC04177.JPG",
     title: "Zwölferkofel (rechts)",
-    text: 'Nach einem knackigen Anstieg finde ich mich in einer völlig anderen Welt wieder. Ich bin im UNESCO-Welterbe der Dolomiten. Die Berge um mich herum sehen aus, als wären sie aus Lego gebaut. Die Gesteinsschichten sind ganz dünn und brechen sehr kleinteilig. Sie wirken heftig ausgewaschen; was stehen bleibt sind eindrückliche Türme in grau-gelbem Gestein, immer wieder überzogen mit dunkler Patina. Die Gipfel haben hier sehr buchhalterische Namen, es gibt die Dreischusterspitze, den Neuner-  und Zwölferkofel. Später komme ich noch am Passportenkofel vorbei.',
+    text: 'Nach einem knackigen Anstieg finde ich mich in einer völlig anderen Welt wieder. Ich bin im UNESCO-Welterbe der Sextener Dolomiten. Die Berge um mich herum sehen aus, als wären sie aus Lego gebaut. Die Gesteinsschichten sind ganz dünn und brechen sehr kleinteilig. Sie wirken heftig ausgewaschen; was stehen bleibt sind eindrückliche Türme in grau-gelbem Gestein, immer wieder überzogen mit dunkler Patina. Die Gipfel haben hier sehr buchhalterische Namen, es gibt die Dreischusterspitze, den Neuner-  und Zwölferkofel. Später komme ich noch am Passportenkofel vorbei.',
     latLon: [46.62853, 12.34361],
     orientation: "landscape"
   },
@@ -352,7 +352,7 @@ ENTRIES = {
     img: "DSC04211.JPG",
     title: "Hagel im Juli. Lavaredo-Hütte, 2345m",
     text: 'Auf der Hütte feiern Laureen, Jordan, Marco (von dem ich inzwischen erfahren habe, dass er wohl Jean-Marc heisst) und ich ein fröhliches Wiedersehen. Die Hütte ist sehr sympa, das Personal tätowiert, gepierct und mit schicken Frisuren, auf der Anlage läuft guter Rock. Die Aussicht ist wunderschön, wenn auch durch die Wolkendecke abgeschnitten. Ich hole bei einem Picknick abseits der Hütte das Mittagessen nach, auf das ich wegen des Gewitterrisikos verzichtet habe. Dabei höre ich zum ersten Mal seit Wochen bewusst und laut (über Kopfhörer) Musik; es ist eine Wohltat.<br/>Kurz vor dem Schlafen gehen kommt dann auch noch das versprochene Gewitter, es ist so heftig dass es sogar hagelt.',
-    latLon: [46.61835, 12.31207],
+    latLon: [46.63049, 12.36006],
     orientation: "landscape"
   },
 };
