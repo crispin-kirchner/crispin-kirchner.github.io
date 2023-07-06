@@ -355,4 +355,11 @@ ENTRIES = {
     latLon: [46.61829, 12.31209],
     orientation: "landscape"
   },
+  "2023-07-05T09:07-die-drei-zinnen": {
+    img: "DSC04228.JPG",
+    title: "Die drei Zinnen",
+    text: 'Als das Wahrzeichen der Sextener Dolomiten zeichnen diese drei Gipfel verantwortlich für die Menschenmassen hier oben. Nachdem ich gestern nichtsahnend auf der Rückseite der <em>kleinen Zinne</em> (im Bild links) übernachtet habe, bekomme ich das Trio heute in seiner ganzen Riesenhaftigkeit zu sehen. Obwohl ich in den letzten Tagen hunderte Bilder von diesen drei Gipfeln gesehen habe, treffen sie mich mit voller Wucht. Sie sind unbeschreiblich gross umd dadurch extrem ehrfurchtgebietend. Ich habe mir Mühe gegeben, dass auf dem Foto Menschen sichtbar sind, aber natürlich ist das Gefühl, vor dieser schieren Naturgewalt zu stehen, einfach nicht fotografierbar.',
+    latLon: [46.63624, 12.31081],
+    orientation: "landscape"
+  },
 };
