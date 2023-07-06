@@ -34,7 +34,7 @@ ENTRIES = {
     latLon: [46.16440, 14.06534],
     orientation: "landscape"
   },
-  "2023-06-17T10:28:00-senik": {
+  "2023-06-17T10:28:00-kozolec": {
     img: "DSC03313.JPG",
     title: "Kozolec",
     text: 'Die <em>Kozolec</em>s (<a href="https://de.m.wikipedia.org/wiki/Harpfe" target="_blank">Harpfen</a>) empfinde ich als typisch für Slowenien. Sie sind denkmalgeschützt. Fast jeder Hof hat einen, und sie sind von Region zu Region verschieden. Hier sehen sie aus wie Scheunen ohne Wände, weiter nördlich sind es oft nur drei Säulen mit Gestänge dazwischen und einem ganz schmalen Dach.',
