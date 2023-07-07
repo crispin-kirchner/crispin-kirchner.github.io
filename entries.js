@@ -376,4 +376,25 @@ ENTRIES = {
     latLon: [46.64182, 12.23099],
     orientation: "landscape"
   },
+  "2023-07-06T08:02-hohe-gaisl-3140m": {
+    img: "DSC04295.JPG",
+    title: "Hohe Gaisl, 3140m",
+    text: 'Gestern hat sie mich schon seit den drei Zinnen in ihrem feurigen Rostrot angeblitzt, heute bekomme ich sie in ihrer ganzen Gewaltigkeit vor die Linse. Oben ist sie noch weiss vom erneuten Hagel gestern Abend. Eigentlich führt der Weg heute entlang ihrer Flanken, allerdings ist er als <em>schwierig</em> ausgezeichnet. Da alles nass sein dürfte und weiterer Niederschlag angesagt ist, entscheide ich mich schweren Herzens für die sichere Route durchs Tal. Ich habe seit gestern nichts mehr von meinen Wanderkamerad:innen gehört und hoffe, dass sie die Nacht trotz Hagel gut überstanden haben.',
+    latLon: [46.64854, 12.18690],
+    orientation: "landscape"
+  },
+  "2023-07-06T10:31-belegstelle-des-sudtiroler-koniginnenzuchtvereins": {
+    img: "DSC04322.JPG",
+    title: "Belegstelle des Südtiroler Königinnenzuchtvereins",
+    text: 'Im Talboden angekommen begegnet mir diese Kuriosität; Neben dem Waldweg ist ein abgesperrter, videoüberwachter Bereich. Darin stehen viele solche kleine Kistchen, die aussehen wie Schuhkartons aus Styropor. Gemäss einem Schild werden hier Königinnen der <em>Carnica</em>-Biene gezüchtet. Demnach ist es eine hier heimische Hochleistungsbiene.<br>Der wieder-Aufstieg ist anstrengend, aber es ist angenehm kalt, nieselt hin und wieder ein bisschen und der Nebel umschmeichelt weiterhin mystisch die Berge.',
+    latLon: [46.67144, 12.14547],
+    orientation: "portrait"
+  },
+  "2023-07-06T14:02-schichtarbeit-auf-dem-weg-zur-seekofel-hutte": {
+    img: "DSC04341.JPG",
+    title: "Schichtarbeit auf dem Weg zur Seekofel-Hütte",
+    text: 'Nach Querung eines Sattels sehe ich zunächst gar nichts mehr, aber bald klart es auf und wird sogar so warm, dass ich mich einiger Schichten entledigen muss. Schichten scheinen denn auch Programm dieser Teilstrecke: Auf den letzten Kilometern zur Seekofel-Hütte quere ich dieses riesige Feld an schrägen Gesteinsschichten. Die Linien gehen gerade weiter, bis sie sich an einem unbenannten Hoger (Bildmitte) aufwickeln. Es ist, wie eine umgekippte Treppe hochzulaufen. Nach den komplett anders wirkenden Dolomiten der letzten Tage fühlt es sich ein bisschen heimisch-bekannt an.',
+    latLon: [46.66220, 12.10514],
+    orientation: "landscape"
+  },
 };
