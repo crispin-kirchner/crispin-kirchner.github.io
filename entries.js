@@ -397,4 +397,25 @@ ENTRIES = {
     latLon: [46.66220, 12.10514],
     orientation: "landscape"
   },
+  "2023-07-07T07:55-rifugio-di-biella": {
+    img: "DSC04343.JPG",
+    title: "Rifugio di Biella",
+    text: 'Die Seekofel-Hütte heisst eigentlich eher <em>Rifugio di Biella</em>. Das Personal ist sehr herzlich, es wird italienisch gesprochen und nachgefragt, ob alle den obligatorischen <em>sheet sleeping bag</em> dabei haben. Da es keine Finken gibt, habe ich den ganzen Aufenthalt lang Eisfüsse. Es braucht am nächsten Tag viel Sonne, bis mir die Kälte aus den Knochen gewichen ist. Am Vorabend erhalte ich die Bestätigung, dass mich meine Französische Wandergruppe wohl endgültig überholt hat, Laureen schreibt mir dass Marco bereits am <a href="#/2023-07-07T09:05-der-pragser-wildsee-schiebt-sich-um-die-ecke">Pragser Wildsee</a> unten ist, während sie beide die "offizielle" Via Alpina verlassen haben und auf ihrer eigenen Route unterwegs sind.',
+    latLon: [46.66661, 12.08407],
+    orientation: "landscape"
+  },
+  "2023-07-07T09:05-der-pragser-wildsee-schiebt-sich-um-die-ecke": {
+    img: "DSC04346.JPG",
+    title: "Der Pragser Wildsee schiebt sich um die Ecke",
+    text: 'Heute bin ich mit einem jungen Israeli unterwegs, mit dem ich mir den Tisch in der Hütte geteilt habe. Er leistet gerade seinen Militärdienst und nutzt seine 18 Tage Urlaub voll aus, um auf seine Art reisen zu gehen. Er ist schon in Süditalien von Dorf zu Dorf unterwegs gewesen, um die Kultur kennen zu lernen und ist jetzt auf seiner ersten Alpentour überhaupt. Er ist eine Woche lang den Dolomiten-Höhenweg 1 gewandert und läuft jetzt seine letzten Kilometer mit mir zusammen. Er ist sehr interessiert und hilfsbereit und lächelt kaum merklich. Ich erfahre von ihm viel darüber wie sich das alltägliche Leben in Israel anfühlen muss.<br>Unten am See ist auf einen Schlag alles voll mit Spaziergägern und wir verabschieden uns; Roy fährt mit dem Bus weiter zum nächsten Bahnhof, während ich zu Fuss ins Tal gehe.',
+    latLon: [46.67997, 12.09273],
+    orientation: "portrait"
+  },
+  "2023-07-07T10:51-bauminhalation": {
+    img: "DSC04353.JPG",
+    title: "Bauminhalation",
+    text: 'Der Weg nach unten führt durch schattige, lockere Wälder. Ich komme an einem Vollernter vorbei und wenig später an dessen Tagwerk. Die Stämme sind feucht vom Regen und dampfen im Sonnenlicht. Dabei verströmen sie einen betörenden Duft. Es scheint ein Dampf mit ätherischen Ölen in der Luft zu schweben, wie in einem Fichtendampfbad. Ich bleibe ein bisschen stehen und atme tief ein und aus.<br>Die letzte Teilstrecke nach Welsberg führt an der Schnellstrasse entlang und macht nicht sonderlich viel Spass, weshalb ich in Welsberg ohne zu Zögern den Bus nehme um die vermutlich ähnliche Restwanderstrecke zu überspringen. Ich übernachte in St. Martin im Gsiesertal.',
+    latLon: [46.71405, 12.10914],
+    orientation: "portrait"
+  },
 };
