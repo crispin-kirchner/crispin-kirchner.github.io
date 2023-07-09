@@ -425,4 +425,11 @@ ENTRIES = {
     latLon: [46.83354, 12.18113],
     orientation: "landscape"
   },
+  "2023-07-08T10:22-die-neugierige": {
+    img: "DSC04373.JPG",
+    title: "Die Neugierige",
+    text: 'Zusammen mit einer Kollegin kommt mir diese Kuh auf dem Almweg entgegen, sie versperren mir fast den Weg. Es fällt mir nicht leicht, sie zu fotografieren, weil sie die ganze Zeit weiter auf mich zu laufen. Ich finde diese Kuhrasse wunderschön, weiss aber nicht wie sie heisst.',
+    latLon: [46.84391, 12.16198],
+    orientation: "portrait"
+  },
 };
