@@ -418,4 +418,11 @@ ENTRIES = {
     latLon: [46.71405, 12.10914],
     orientation: "portrait"
   },
+  "2023-07-08T09:43-kleine-flechtenbibliothek": {
+    img: "DSC04367.JPG",
+    title: "Kleine Flechtenbibliothek",
+    text: 'Heute habe ich eine Luxus-Etappe: Start und Ziel im Tal, allerdings mit einem Berg dazwischen. Es geht sanft entlang Almen bergauf.',
+    latLon: [46.83354, 12.18113],
+    orientation: "landscape"
+  },
 };
