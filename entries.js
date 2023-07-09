@@ -407,7 +407,7 @@ ENTRIES = {
   "2023-07-07T09:05-der-pragser-wildsee-schiebt-sich-um-die-ecke": {
     img: "DSC04346.JPG",
     title: "Der Pragser Wildsee schiebt sich um die Ecke",
-    text: 'Heute bin ich mit einem jungen Israeli unterwegs, mit dem ich mir den Tisch in der Hütte geteilt habe. Er leistet gerade seinen Militärdienst und nutzt seine 18 Tage Urlaub voll aus, um auf seine Art reisen zu gehen. Er ist schon in Süditalien von Dorf zu Dorf unterwegs gewesen, um die Kultur kennen zu lernen und ist jetzt auf seiner ersten Alpentour überhaupt. Er ist eine Woche lang den Dolomiten-Höhenweg 1 gewandert und läuft jetzt seine letzten Kilometer mit mir zusammen. Er ist sehr interessiert und hilfsbereit und lächelt kaum merklich. Ich erfahre von ihm viel darüber wie sich das alltägliche Leben in Israel anfühlen muss.<br>Unten am See ist auf einen Schlag alles voll mit Spaziergägern und wir verabschieden uns; Roy fährt mit dem Bus weiter zum nächsten Bahnhof, während ich zu Fuss ins Tal gehe.',
+    text: 'Heute bin ich mit einem jungen Israeli unterwegs, mit dem ich mir den Tisch in der Hütte geteilt habe. Er leistet gerade seinen Militärdienst und nutzt seine 18 Tage Urlaub voll aus, um auf seine Art reisen zu gehen. Er ist schon in Süditalien von Dorf zu Dorf unterwegs gewesen, um die Kultur kennen zu lernen und ist jetzt auf seiner ersten Alpentour überhaupt. Er ist eine Woche lang den <em>Dolomiten-Höhenweg 1</em> gewandert und läuft jetzt seine letzten Kilometer mit mir zusammen. Er ist sehr interessiert und hilfsbereit und lächelt kaum merklich. Ich erfahre von ihm viel darüber wie sich das alltägliche Leben in Israel anfühlen muss.<br>Unten am See ist auf einen Schlag alles voll mit Spaziergägern und wir verabschieden uns; Roy fährt mit dem Bus weiter zum nächsten Bahnhof, während ich zu Fuss ins Tal gehe.',
     latLon: [46.67997, 12.09273],
     orientation: "portrait"
   },
@@ -428,8 +428,15 @@ ENTRIES = {
   "2023-07-08T10:22-die-neugierige": {
     img: "DSC04373.JPG",
     title: "Die Neugierige",
-    text: 'Zusammen mit einer Kollegin kommt mir diese Kuh auf dem Almweg entgegen, sie versperren mir fast den Weg. Es fällt mir nicht leicht, sie zu fotografieren, weil sie die ganze Zeit weiter auf mich zu laufen. Ich finde diese Kuhrasse wunderschön, weiss aber nicht wie sie heisst.',
+    text: 'Zusammen mit einer Kollegin kommt mir diese Kuh auf dem Almweg entgegen, sie versperren mir fast den Weg. Es fällt mir nicht leicht, sie zu fotografieren, weil sie die ganze Zeit weiter auf mich zu laufen. Ich finde diese Kuhrasse wunderschön, mit den verschiedenen eleganten Grautönen und dem frechen Rotschopf auf den Hörnern.',
     latLon: [46.84391, 12.16198],
     orientation: "portrait"
+  },
+  "2023-07-08T11:34-diawechsel": {
+    img: "DSC04376.JPG",
+    title: "Diawechsel",
+    text: 'Wenn man über eine Scharte geht, passiert es oft, dass die Landschaft dahinter eine komplett neue ist. <em>Diawechsel</em> nenne ich das gerne. Auf dieser Scharte hatte ich das Gefühl, es ist der bis jetzt eindrücklichste. Nach dem sanften Aufstieg hatte ich einen ähnlichen Weg nach unten erwartet. Stattdessen geht es so steil runter, dass ich bis ins Tal sehe. Und gegenüber erhebt sich mit Pauken und Trompeten eine ebenso steile Wand, nur viel höher, schroffer und unnahbarer als wo ich jetzt stehe. Auf deren Rückseite liegt der Rieserferner, ein Gletscher, nach dem meine morgige Hütte benannt ist.<br>Da es erst Mittag ist und nur noch der Abstieg bevorsteht, gehe ich noch ein bisschen auf de Grat entlang um mir einen schönen Hoger zum Mittagessen zu suchen.<br>Später, auf dem Weg nach unten, komme ich an der <em>Grübelalm</em> vorbei. Sie sieht so aus als wäre sie erst dieses Jahr gebaut worden und verströmt einen betörenden Arvenduft.',
+    latLon: [46.85498, 12.14263],
+    orientation: "landscape"
   },
 };
