@@ -439,4 +439,11 @@ ENTRIES = {
     latLon: [46.85498, 12.14263],
     orientation: "landscape"
   },
+  "2023-07-09T12:54-stairway-to-heaven": {
+    img: "DSC04407.JPG",
+    title: "Stairway to Heaven",
+    text: 'Heute brennt wieder die Sonne, es geht steil bergauf. Zum Glück komme ich just um die Mittagessenszeit an einem Schatten spendenden Bretterverschlag vorbei. Ohne Schatten ist es immer ganz schön schwierig, sich Brote zu schmieren und gleichzeitig sicherzustellen, dass alle Zutaten im Schatten sind.<br>Von unten her wirkt der Berg so steil, dass es unvorstellbar ist, dass ein Wanderweg hoch führen könnte. Des Rätsels Lösung ist denn auch, dass kein Wanderweg hoch führt, sondern sehr viele Treppen, die sicher 100 Höhenmeter abdecken.',
+    latLon: [46.88881, 12.08413],
+    orientation: "landscape"
+  },
 };
