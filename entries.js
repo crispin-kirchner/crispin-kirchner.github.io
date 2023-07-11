@@ -474,7 +474,7 @@ ENTRIES = {
     latLon: [46.94243, 12.04438],
     orientation: "portrait"
   },
-  "2023-07-10T13:38-die-distel-und-die-biene": {
+  "2023-07-10T13:38-der-subalpine-distelrussler": {
     img: "DSC04473_1.JPG",
     title: "Der subalpine Distelrüssler*",
     text: 'Eleganter als die Biene macht es der Distelrüssler. Er ist etwa 2/3 eines kleinen Fingers lang und hat einen sehr langen Rüssel, den er im Flug zusammenrollt. Er setzt sich nie auf eine Distel, sondern fliegt nur ran und steckt den Rüssel in die Blüte. Dabei bewegen sich seine Flügel in irrsinniger Frequenz, um in der Schwebe zu verharren. Etwa so stelle ich mir einen Kolibri vor.<br><span class="small">*Name frei erfunden</span>',
