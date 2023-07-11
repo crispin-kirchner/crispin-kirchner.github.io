@@ -460,4 +460,25 @@ ENTRIES = {
     latLon: [46.89945, 12.08819],
     orientation: "landscape"
   },
+  "2023-07-10T07:55-die-farben-des-geltalferners": {
+    img: "DSC04423.JPG",
+    title: "Die Farben des Geltalferners",
+    text: 'Beim Start in der Hütte spreche ich noch mit einer slowenischen Gruppe. Sie sind im mittleren Alter und zu sechst unterwegs. Sie wandern auch die Via Alpina, aber in Abschnitten; jedes Jahr einige Tage lang.<br>Beim Aufbruch bestaune ich noch den Geltalferner, der durch die Schmelze in zwei Teile zerfallen ist. Der obere Teil liegt am gegenüberliegenden Berg, durch ein Loch im Schnee sehe ich die grauen Rippen des Eises schimmern. Der zweite Teil findet sich in der Senke zwischen Hütte und Berg. Die Hälfte davon ist mit Staub bedeckt, ich erkenne nur an der bläulichen, mit Dreck durchsetzten Abbruchkante, dass es ein Gletscherteil ist. Die zweite Hälfte ist, bläulich schimmernd und mit Spalten durchzogen, dem Sonnenlicht ausgesetzt. Im Gletschersee schwimmt Eis, das Wasser leuchtet in einem fast künstlichen Grün.<br>Die Etappe beginnt mit einem langen Abstieg, von der Hütte bis ins Tal herunter. Von dort aus führt nur eine Fahrstrasse weiter, daher geht der Wanderweg in die entgegengesetzte Richtung tiefer ins Tal und steigt dort auf, um in der Höhe Richtung Talausgang zu führen.',
+    latLon: [46.89945, 12.08819],
+    orientation: "landscape"
+  },
+  "2023-07-10T13:32-die-distel-und-die-biene": {
+    img: "DSC04460.JPG",
+    title: "Die Distel und die Biene",
+    text: 'Ich mache Mittagspause im Schatten von Bäumen und muss zweimal eine neugierige Kuh vertreiben, die entweder an mir oder meinem Essen interessiert ist.<br>Der Aufstieg in der prallen Sonne ist streng, ich habe mehrmals das Gefühl in einer Arven-Sauna zu wandern, so heiss ist es und so fein duften die Bäume. Am Wanderweg blüht und summt es geschäftig. Es gibt hüfthohe Disteln mit prächtigen Blüten, die allerlei Insekten anziehen. Die Blüten scheinen herausfordernd für die Bienen; um an den Nektar zu kommen müssen sie den Kopf so tief hinein stecken, bis nur noch das Hinterteil herausschaut.',
+    latLon: [46.94243, 12.04438],
+    orientation: "portrait"
+  },
+  "2023-07-10T13:38-die-distel-und-die-biene": {
+    img: "DSC04473_1.JPG",
+    title: "Der subalpine Distelrüssler*",
+    text: 'Eleganter als die Biene macht es der Distelrüssler. Er ist etwa 2/3 eines kleinen Fingers lang und hat einen sehr langen Rüssel, den er im Flug zusammenrollt. Er setzt sich nie auf eine Distel, sondern fliegt nur ran und steckt den Rüssel in die Blüte. Dabei bewegen sich seine Flügel in irrsinniger Frequenz, um in der Schwebe zu verharren. Etwa so stelle ich mir einen Kolibri vor.<br><span class="small">*Name frei erfunden</span>',
+    latLon: [46.94250, 12.04383],
+    orientation: "landscape"
+  }
 };
