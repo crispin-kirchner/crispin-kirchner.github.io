@@ -428,7 +428,7 @@ ENTRIES = {
   "2023-07-08T10:22-die-neugierige": {
     img: "DSC04373.JPG",
     title: "Die Neugierige",
-    text: 'Zusammen mit einer Kollegin kommt mir diese Kuh auf dem Almweg entgegen, sie versperren mir fast den Weg. Es fällt mir nicht leicht, sie zu fotografieren, weil sie die ganze Zeit weiter auf mich zu laufen. Ich finde diese Kuhrasse wunderschön, mit den verschiedenen eleganten Grautönen und dem frechen Rotschopf auf den Hörnern.',
+    text: 'Zusammen mit einer Kollegin kommt mir diese Kuh auf dem Almweg entgegen, sie versperren mir fast den Weg. Es fällt mir nicht leicht, sie zu fotografieren, weil sie die ganze Zeit weiter auf mich zu laufen. Ich finde diese Kuhrasse wunderschön, mit den verschiedenen eleganten Grautönen und dem frechen Rotschopf auf den Hörnern.<br>Nach der letzten Alp wird die Forststrasse wieder zu einem Pfad. Die losen Steine schillern und glänzen rostrot bis silber und klirren unter meinen Stiefeln wie Kohlen.',
     latLon: [46.84391, 12.16198],
     orientation: "portrait"
   },
