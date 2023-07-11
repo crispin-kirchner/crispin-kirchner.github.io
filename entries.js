@@ -453,4 +453,11 @@ ENTRIES = {
     latLon: [46.88975, 12.08177],
     orientation: "landscape"
   },
+  "2023-07-09T14:48-auf-dem-weg-zum-fernerkopfl": {
+    img: "DSC04416.JPG",
+    title: "Auf dem Weg zum Fernerköpfl",
+    text: 'Hier ist es so richtig Alpin, die Berge um die Rieserfernerhütte wirken allesamt wie riesige Schutthaufen. Der Blick zurück reicht sehr weit. Ich sehe die <a href="#/2023-07-08T11:34-diawechsel">Scharte von gestern Mittag</a>, den Seekofel, die <a href="#/2023-07-06T08:02-hohe-gaisl-3140m">hohe Gaisl</a> strahlt auch von hier rot, sogar zwei der <a href="#/2023-07-05T09:07-die-drei-zinnen">drei Zinnen</a> sehe ich. Links davon viele Grate, von denen einer der Karnische Höhenweg sein muss, auf dem ich vorher unterwegs war. Es ist ein bisschen überwältigend, so viele Tage meiner Reise aufs Mal vor mir liegen zu sehen. Ich bleibe oft stehen und blicke zurück.<br>Ich sehe immer wieder das Gipfelkreuz des Fernerköpfls, es wirkt ganz nah, aber gleichzeitig kommt es nicht näher. Währenddessen wird die Blockhalde auf der ich unterwegs bin immer steiler, bis der Punkt erreicht ist an dem ich mich nicht mehr wohl fühle. Gipfel und Rieserferner hin oder her, ich beschliesse dass jetzt wo ich allein unterwegs bin nicht die Zeit für Experimente ist und kehre um &ndash; der Rieserferner muss wohl bis ein ander Mal warten.<br>Am Abend gibt es noch ein wenig Aufregung auf der Hütte: Ein Gleitschirmflieger landet auf dem Schneefeld vor der Hütte, um zu übernachten. Er hat nur noch wenige kurze braune Haare, aber dafür auch im Gesicht. Sein offenes Lächeln steht ihm mit zahlreichen Lachfältchen ins Gesicht geschrieben. Er kommt aus Kanada und hat sich vier Wochen Urlaub genommen um in Europa zu fliegen. Heute ist er aus Davos hierher geflogen. Luftlinie sind das 170km. Er ist froh, die Hütte zufällig gesehen zu haben, sonst hätte er im Tal übernachten müssen, was am nächsten Morgen zum weiterfliegen unpraktisch ist. Von Beruf ist er Lawinen-Experte. Laut ihm ist ein wichtiger Unterschied zwischen Europa und Kanada, dass die Leute hier wirklich in den Bergen leben und daher auch viel Erfahrung damit haben, mit den Begen zu leben &ndash; in Kanada ist so viel Platz um die Berge herum, dass sich das niemensch freiwillig antut.',
+    latLon: [46.89945, 12.08819],
+    orientation: "landscape"
+  },
 };
