@@ -446,4 +446,11 @@ ENTRIES = {
     latLon: [46.88881, 12.08413],
     orientation: "landscape"
   },
+  "2023-07-09T13:18-rieserfernerhutte-mit-hausgletscher": {
+    img: "DSC04409.JPG",
+    title: "Rieserfernerhütte mit Hausgletscher",
+    text: 'Da die Etappe zwar steil, aber nur kurz ist, bin ich schon kurz nach Mittag an der Rieserfernerhütte. Sie ist mit 2800m Höhe bis jetzt meine höchste Übernachtung. Das Personal ist ausgesprochen warmherzig. Drin hängen Fotos vom <em>Firngleiterrennen</em>, das wohl jährlich auf dem winzigen Gletscher direkt unterhalb der Hütte stattfindet. Leute in T-Shirt und kurzer Hose beim Skifahren.<br>Weil es noch so früh ist und ich die Hoffnung habe, noch einen richtig grossen Gletscher zu sehen, lasse ich mein schweres Gepäck auf der Hütte und starte noch in Richtung <em>Fernerköpfl</em>. Von dessen Gipfel kann man auf die andere Seite, auf den <em>Rieserferner</em> herunter schauen.',
+    latLon: [46.88975, 12.08177],
+    orientation: "landscape"
+  },
 };
