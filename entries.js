@@ -488,4 +488,11 @@ ENTRIES = {
     latLon: [46.91736, 11.98458],
     orientation: "portrait"
   },
+  "2023-07-11T10:54-blick-zuruck-uber-den-sonnklar-nock": {
+    img: "DSC04588.JPG",
+    title: "Blick zurück über den Sonnklar Nock",
+    text: 'Am nächsten Morgen meldet sich mein linkes Sprunggelenk mit leichten Schmerzen, womit die Frage, ob ich über den Skilift abkürze, beantwortet ist. So überwinde ich die ersten 1000 Höhenmeter mit der Gondel. Eine Stunde Aufstieg später bin ich auf dem Kellerbauer-Höhenweg angekommen. Im Blick zurück sehe ich den von gestern bekannten Hochgall-Ferner und den Ferner des Schneebigen Nock, aber der Rieserferner versteckt sich endgültig vor mir.<br>Am Weg liegt die Ruine der Speikboden-Hütte, welche wichtig war in den Anfangszeiten dieses Höhenwegs. In einem Krieg wurde sie geplündert und zerstört, und seither nicht wieder aufgebaut.',
+    latLon: [46.91535, 11.89531],
+    orientation: "landscape"
+  },
 };
