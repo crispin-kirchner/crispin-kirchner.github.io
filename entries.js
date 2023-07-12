@@ -495,4 +495,11 @@ ENTRIES = {
     latLon: [46.91535, 11.89531],
     orientation: "landscape"
   },
+  "2023-07-11T15:46-chemnitzer-hutte-mit-hohem-weiszint": {
+    img: "DSC04610.JPG",
+    title: "Chemnitzer Hütte mit Hohem Weißzint",
+    text: 'Die Chemnitzer Hütte wurde durch Kriegswirren zur Nevesjochhütte. Sie steht immer noch auf dem Nevesjoch, hat aber ihren ursprünglichen Namen wieder. Karl-Marx-Stadt-Hütte hiess sie gemäss Hüttenwart nie. Einen kleinen Karl-Marx-Kopf gibt es aber in der Stube. Die Slowenische Gruppe kommt deutlich nach mir an. Nur ein paar von ihnen haben die Gondel genommen. Diejenigen, die alles gegangen sind, waren 11h unterwegs.<br>Nach dem Abendessen kommt noch ein Wanderer an. Jünger als ich, gelockt und mit einem zögerlichen, aber kräftigen Lächeln. Er kommt aus Innsbruck, ist an einem Tag drei Etappen der Via Alpina gegangen. Zu unserer Überraschung schläft er nicht in der Hütte; er hat einen Biwaksack dabei. Ich werde in der Nacht mehrmals von heftigem Gewitter geweckt, der Regen peitscht gegen die Hütte. Ich bin froh, dass ich nicht biwakiere.',
+    latLon: [46.95590, 11.81513],
+    orientation: "landscape"
+  },
 };
