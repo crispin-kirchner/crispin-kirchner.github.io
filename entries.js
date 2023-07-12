@@ -480,5 +480,12 @@ ENTRIES = {
     text: 'Eleganter als die Biene macht es der Distelrüssler. Er ist etwa 2/3 eines kleinen Fingers lang und hat einen sehr langen Rüssel, den er im Flug zusammenrollt. Er setzt sich nie auf eine Distel, sondern fliegt nur ran und steckt den Rüssel in die Blüte. Dabei bewegen sich seine Flügel in irrsinniger Frequenz, um in der Schwebe zu verharren. Etwa so stelle ich mir einen Kolibri vor.<br><span class="small">*Name frei erfunden</span>',
     latLon: [46.94250, 12.04383],
     orientation: "landscape"
-  }
+  },
+  "2023-07-10T16:31-reinbachfalle": {
+    img: "DSC04546.JPG",
+    title: "Reinbachfälle",
+    text: 'Nach dem erneuten Aufstieg geht es zügig bergab. Die Via Alpina möchte hier eigentlich oben bleiben, da meine Übernachtung aber in <em>Sand</em> unten im Tal ist, nehme ich eine direktere Route, die schneller abfällt. Ich verpasse meinen Abzweig und muss nochmal zurück, was mich zweifeln lässt, ob ich nicht einfach der offiziellen Route folgen soll und später absteigen.<br>Wie ich unten bin, höre ich ein kräftiges Rauschen. Wenig später bin ich auf dem <em>Wasserfallweg</em> und sehe einen eindrücklichen Wasserfall nach dem anderen; die Variante hat sich mehr als gelohnt. Sie sind alle im Charakter verschieden, der erste hat eine wunderschöne Grotte mit sanft gewölbten Wänden geformt, in die er stürzt. Der zweite (im Bild) ist einfach nur riesig, beim dritten rinnt das Wasser über viele kleine Stufen hinab.<br>Auf den letzten Metern regnet es noch ein wenig, eine Wohltat nach diesem langen, heissen Tag. Mein Zimmer in der Pension erinnert mich wahnsinnig an die Wohnug meiner Grosseltern, Möbel in dunklem Holz, ein schwerer, samtiger, grüner Vorhang mit Leuchtstoffröhre an der Aufhängung. Ich fühle mich sehr wohl dort.',
+    latLon: [46.91736, 11.98458],
+    orientation: "portrait"
+  },
 };
