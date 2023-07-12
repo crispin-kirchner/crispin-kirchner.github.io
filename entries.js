@@ -372,7 +372,7 @@ ENTRIES = {
   "2023-07-05T12:20-rubber": {
     img: "DSC04276.JPG",
     title: "Rubber",
-    text: 'Das ganze Mittagessen über sitzt dieser bedrohliche Reifen hinter uns. Er bewegt sich aber nicht und niemand wird verletzt. Der Weg heute ist sehr schön und abwechslungsreich. Fast den ganzen Nachmittag sind wir mit Aufstieg beschäftigt. Stellenweise geht der Weg sogar an einem Abgrund entlang, ist aber sehr gut gesichert. Da die anderen schneller gehen als ich, sehe ich sie noch ein paar Mal. Am Abend scheinen sie aber keinen Platz mehr auf meiner Hütte bekommen zu haben, ich hoffe dass ich sie nochmal wiedersehen werde, bevor Laureen und Jordan die gemeinsame Route verlassen.',
+    text: 'Das ganze Mittagessen über sitzt dieser bedrohliche Reifen hinter uns. Er bewegt sich aber nicht und niemand wird verletzt. Der Weg heute ist sehr schön und abwechslungsreich. Fast den ganzen Nachmittag sind wir mit Aufstieg beschäftigt. Stellenweise geht der Weg sogar an einem Abgrund entlang, ist aber sehr gut gesichert. Da die anderen schneller gehen als ich, sehe ich sie noch ein paar Mal. Am Abend scheinen sie aber keinen Platz mehr auf meiner Hütte bekommen zu haben, ich hoffe dass ich sie nochmal wiedersehen werde, bevor <a href="https://instagram.com/neo_nomades" target="_blank">Laureen und Jordan</a> die gemeinsame Route verlassen.',
     latLon: [46.64182, 12.23099],
     orientation: "landscape"
   },
