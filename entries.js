@@ -502,4 +502,11 @@ ENTRIES = {
     latLon: [46.95590, 11.81513],
     orientation: "landscape"
   },
+  "2023-07-12T08:49-der-nebel-steigt-auf-vor-dem-moselekopf-mit-westlichem-nofesferner": {
+    img: "DSC04622.JPG",
+    title: "Der Nebel steigt auf vor dem Möselekopf mit westlichem Nöfesferner",
+    text: 'Ich mache mich eine halbe Stunde nach der slowenischen Gruppe auf den Weg. Ich habe keine Eile, da die heutige Etappe nur dreieinhalb Stunden dauert. Der Wetterbericht sagt etwas Niesel, aber nichts dramatisches. Nach der heissen gestrigen Etappe bin ich dankbar um die kühlenden Nebelschwaden. Bald nach Start wird der Niesel zu Regen. Als ich die Regenjacke anziehe windet es so stark, dass ich komplett durchnässt bin, bis die Jacke zu ist. Es donnert zweimal, zum Glück keine weiteren Gewitteranzeichen.<br>Um warm zu bleiben und dem Wetter zu entrinnen gehe ich schneller als sonst. Die Handschuhe wringe ich regelmässig aus. Bei einer Flussquerung überhole ich die Slowenische Gruppe, wir reden kurz übers Wetter.<br>Als ich an der Edeltraut-Hütte ankomme, regnet es noch immer Bindfäden. Ich hänge alles zum trocknen auf, auch die Sachen im Rucksack sind nass geworden. Ich gönne mir einen Kaiserschmarrn und eine heisse Schokolade.',
+    latLon: [46.96157, 11.79955],
+    orientation: "landscape"
+  },
 };
