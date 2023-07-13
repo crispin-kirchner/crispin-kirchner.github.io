@@ -509,4 +509,11 @@ ENTRIES = {
     latLon: [46.96157, 11.79955],
     orientation: "landscape"
   },
+  "2023-07-12T15:05-auf-der-unteren-weisszintscharte": {
+    img: "DSC04642.JPG",
+    title: "Auf der unteren Weisszintscharte",
+    text: 'Nach einem Nickerchen ist es draussen plötzlich bestes Wetter. Die Schuhe sind schon ein bisschen getrocknet und es zieht mich wieder nach draussen. 400 Meter über der Hütte ist die untere Weisszintscharte, von dort ist ein Blick auf die andere Seite und den Gliederferner möglich. Mich packt die Hoffnung, dass es diesmal klappen könnte mit dem Gletscherblick. Die Befürchtung, dass es jederzeit wieder neblig werden könnte und der leichte Rucksack treiben mich zu Höchstgeschwindigkeiten an. Unterwegs sehe ich immer wieder Fetzen blauen Himmels über der Scharte und ich werde immer euphorischer. Eine Stunde später stehe ich auf der Scharte und es hat sich wirklich gelohnt. Strahlend blauer Himmel, ungetrübte Sicht auf den Gletscher, der sich noch tief ins Tal zieht, und den Hochfeiler dahinter. Ich geniesse dieses Naturschauspiel und bin sehr froh, nochmal raus gegangen zu sein.',
+    latLon: [46.95567, 11.72657],
+    orientation: "landscape"
+  },
 };
