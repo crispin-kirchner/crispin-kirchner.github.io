@@ -44,6 +44,8 @@ for(let i = KEYS.length - 1; i >= 0; --i) {
 document.getElementById('map-visible').checked = localStorage.getItem('mapVisible') === 'true';
 document.getElementById('read-more').checked = localStorage.getItem('readMore') === 'true';
 
+document.getElementById('nav-end').href =`#/${KEYS[KEYS.length - 1]}`;
+
 document.getElementById('map-visible').onchange = evt => {
     localStorage.setItem('mapVisible', evt.target.checked);
 };
@@ -140,7 +142,6 @@ function showImage(key) {
     ? '#'
     : `#/${KEYS[index - 1]}`;
   toggleClass(document.getElementById('nav-left'), 'd-none', isFirst);
-  toggleClass(document.getElementById('nav-start'), 'd-none', isFirst);
   let isLast = index === KEYS.length - 1;
   document.getElementById('nav-right').href = isLast
     ? '#'

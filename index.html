@@ -28,9 +28,14 @@
       <div id="caption-and-controls" class="position-absolute position-relative top-0 start-0 w-100 h-100">
         <div id="controls" class="position-relative h-100">
           <div class="position-absolute top-0 start-0 p-2">
-            <button id="nav-start" class="btn btn-dark control-bg text-light d-none" onclick="goToNewestEntry()">
-                <i class="bi-house-door"></i>
-            </button>
+            <div class="btn-group">
+              <button id="nav-start" class="btn btn-dark control-bg text-light" onclick="goToNewestEntry()">
+                  <i class="bi-skip-start"></i>
+              </button>
+              <a id="nav-end" class="btn btn-dark control-bg text-light">
+                  <i class="bi-skip-end"></i>
+              </a>
+            </div>
           </div>
           <div class="position-absolute top-0 end-0 p-2">
             <span class="text-shadow text-light m-2">
