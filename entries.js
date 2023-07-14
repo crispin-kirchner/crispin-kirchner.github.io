@@ -464,7 +464,7 @@ ENTRIES = {
     img: "DSC04423.JPG",
     title: "Die Farben des Geltalferners",
     text: 'Beim Start in der Hütte spreche ich noch mit einer slowenischen Gruppe. Sie sind im mittleren Alter und zu sechst unterwegs. Sie wandern auch die Via Alpina, aber in Abschnitten; jedes Jahr einige Tage lang.<br>Beim Aufbruch bestaune ich noch den Geltalferner, der durch die Schmelze in zwei Teile zerfallen ist. Der obere Teil liegt am gegenüberliegenden Berg, durch ein Loch im Schnee sehe ich die grauen Rippen des Eises schimmern. Der zweite Teil findet sich in der Senke zwischen Hütte und Berg. Die Hälfte davon ist mit Staub bedeckt, ich erkenne nur an der bläulichen, mit Dreck durchsetzten Abbruchkante, dass es ein Gletscherteil ist. Die zweite Hälfte ist, bläulich schimmernd und mit Spalten durchzogen, dem Sonnenlicht ausgesetzt. Im Gletschersee schwimmt Eis, das Wasser leuchtet in einem fast künstlichen Grün.<br>Die Etappe beginnt mit einem langen Abstieg, von der Hütte bis ins Tal herunter. Von dort aus führt nur eine Fahrstrasse weiter, daher geht der Wanderweg in die entgegengesetzte Richtung tiefer ins Tal und steigt dort auf, um in der Höhe Richtung Talausgang zu führen.',
-    latLon: [46.89945, 12.08819],
+    latLon: [46.89078, 12.07730],
     orientation: "landscape"
   },
   "2023-07-10T13:32-die-distel-und-die-biene": {
