@@ -2,11 +2,15 @@
 
 // Constants
 const LAST_READ = 'lastRead';
+const MAP_VISIBLE = 'mapVisible';
+const READ_MORE = 'readMore';
+const MAP_OPT_IN = 'mapOptIn';
+const CONVENIENCE_OPT_IN = 'convenienceOptIn';
 const DATE_FORMAT = new Intl.DateTimeFormat(navigator.language, { dateStyle: 'short' });
 const EMAIL_ADDRESS = ['h_c_._n_i_w_e_u_l_b', 'm_a_p_s_._r_e_n_h_c_r_i_k_._n_i_p_s_i_r_c'];
 const DEFAULT_ZOOM_LEVEL = 15;
 const TRANSITION_DELAY_MS = 250;
-const OVERLAYS = ['about', 'privacy', '404'];
+const OVERLAYS = ['about', 'privacy', 'impressum', '404'];
 
 // State
 let currentKey;
@@ -16,10 +20,8 @@ const KEYS = Object.keys(ENTRIES)
   .sort((k1, k2) => k2.localeCompare(k1));
 
 const MAP = L.map('map', {zoomControl: false});
-L.tileLayer('https://c.tile.opentopomap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: 'Kartendaten: © <a href="https://openstreetmap.org/copyright">OpenStreetMap</a>-Mitwirkende, SRTM | Kartendarstellung: © <a href="http://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
-}).addTo(MAP);
+let TILE_LAYER;
+setupMap(localStorage.getItem(MAP_OPT_IN) === 'true');
 const ALL_ENTRIES_BOUNDS = L.latLngBounds();
 for(let i = KEYS.length - 1; i >= 0; --i) {
   let key = KEYS[i];
@@ -41,17 +43,15 @@ for(let i = KEYS.length - 1; i >= 0; --i) {
   MAP.addLayer(popup);
 };
 
-document.getElementById('map-visible').checked = localStorage.getItem('mapVisible') === 'true';
-document.getElementById('read-more').checked = localStorage.getItem('readMore') === 'true';
+if(localStorage.getItem(CONVENIENCE_OPT_IN) === 'true') {
+  document.getElementById('map-visible').checked = localStorage.getItem(MAP_VISIBLE) === 'true';
+  document.getElementById('read-more').checked = localStorage.getItem(READ_MORE) === 'true';
+}
 
 document.getElementById('nav-end').href =`#/${KEYS[KEYS.length - 1]}`;
 
-document.getElementById('map-visible').onchange = evt => {
-    localStorage.setItem('mapVisible', evt.target.checked);
-};
-document.getElementById('read-more').onchange = evt => {
-  localStorage.setItem('readMore', evt.target.checked);
-};
+// event handlers
+registerConvenienceEventHandlers();
 document.getElementById('fullscreen-map').onchange = evt => {
   setTimeout(() => MAP.invalidateSize(), TRANSITION_DELAY_MS);
 };
@@ -59,6 +59,125 @@ document.getElementById('fullscreen-map').onchange = evt => {
 Array.prototype.forEach.call(
     document.getElementsByClassName('subscribe-link'),
     a => a.href = `mailto:${EMAIL_ADDRESS.join('_@_').split('_').reverse().join('')}?subject=%22Bilder%20und%20Koordinaten%22%20abonnieren&body=Hi%20Crispin%0A%0AKannst%20du%20mir%20bitte%20eine%20E-Mail%20schreiben,%20wenn%20du%20ein%20neues%20Bild%20ver%C3%B6ffentlichst%3F%0A%0AMerci,%0A`);
+
+function setupMap(active) {
+  if(!!active === !!TILE_LAYER) {
+    return;
+  }
+  if(active) {
+    TILE_LAYER = L
+      .tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: 'Kartendaten: © <a href="https://openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>-Mitwirkende, SRTM | Kartendarstellung: © <a href="http://opentopomap.org" target="_blank">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank">CC-BY-SA</a>)'
+      })
+      .addTo(MAP);
+  }
+  else {
+    TILE_LAYER.remove();
+    TILE_LAYER = null;
+  }
+  toggleClass(document.getElementById('map-opt-out-notice'), 'd-none', active);
+}
+
+function registerConvenienceEventHandlers() {
+  if(localStorage.getItem(CONVENIENCE_OPT_IN) === 'true') {
+    document.getElementById('map-visible').onchange = evt => {
+      localStorage.setItem(MAP_VISIBLE, evt.target.checked);
+    };
+    document.getElementById('read-more').onchange = evt => {
+      localStorage.setItem(READ_MORE, evt.target.checked);
+    };
+  }
+  else {
+    document.getElementById('map-visible').onchange = null;
+    document.getElementById('read-more').onchange = null;
+  }
+}
+
+function mountConsentForm(container, close) {
+  document.getElementById(container).innerHTML = `
+      <form id="consent-form">
+        <p>Bestimmte Funktionalitäten kann ich aus Datenschutzgründen nur mit deiner Zustimmung aktivieren. Deine Datenschutzeinstellungen werden auf deinem Gerät gespeichert.</p>
+        <div class="form-check form-switch h5">
+          <input class="form-check-input" type="checkbox" id="map-opt-in"></input>
+          <label class="form-check-label h2" for="map-opt-in">Landkarte anzeigen</label>
+        </div>
+        <p>
+          Ich kann eine Landkarte anzeigen, damit du zu jedem Foto siehst, wo es aufgenommen wurde. Die Landkarte wird vom Dienst <a href="https://opentopomap.org" target="_blank">OpenTopoMap</a> abgerufen. Es gelten deren Datenschutzbestimmungen.
+        </p>
+        <div class="form-check form-switch h5">
+          <input class="form-check-input" type="checkbox" id="convenience-opt-in"></input>
+          <label class="form-check-label h2" for="convenience-opt-in">Daten auf deinem Gerät speichern</label>
+        </div>
+        <p>
+          Wenn du das wünschst, speichere ich gewisse Daten auf deinem Gerät, um dir die Bedienung zu erleichtern. Das sind:
+          <ul>
+            <li>Neuster gelesener Beitrag</li>
+            <li>Karte an/aus</li>
+            <li><em>Mehr lesen</em> an/aus</li>
+          </ul>
+          Die Daten verbleiben auf deinem Gerät und werden nicht gesammelt oder ausgewertet.
+        </p>
+        <div class="d-flex flex-column flex-sm-row justify-content-between mt-4">
+          <button type="button" class="btn btn-secondary" onclick="optAll(false)">Alles ablehnen</button>
+          <div class="d-none d-sm-block">
+            <button type="submit" class="btn btn-outline-light">Speichern</button>
+            <button type="button" class="btn btn-primary" onclick="optAll(true)">Alles akzeptieren</button>
+          </div>
+          <button type="submit" class="d-sm-none mt-2 btn btn-outline-light">Speichern</button>
+          <button type="button" class="d-sm-none mt-2 btn btn-primary" onclick="optAll(true)">Alles akzeptieren</button>
+        </div>
+      </form>`;
+  document.getElementById('consent-form').onsubmit = onConsentFormSubmit(close);
+  document.getElementById('map-opt-in').checked = localStorage.getItem(MAP_OPT_IN) === 'true';
+  document.getElementById('convenience-opt-in').checked = localStorage.getItem(CONVENIENCE_OPT_IN) === 'true';
+}
+
+function isOptInsUndefined() {
+  return (localStorage.getItem(CONVENIENCE_OPT_IN)  === null)
+    || (localStorage.getItem(MAP_OPT_IN)  === null);
+}
+
+function optAll(optIn) {
+  document.getElementById('map-opt-in').checked = optIn;
+  document.getElementById('convenience-opt-in').checked = optIn;
+  document.getElementById('consent-form').requestSubmit();
+}
+
+function onConsentFormSubmit(close) {
+  return evt => {
+    const convenienceOptIn = document.getElementById('convenience-opt-in').checked;
+    localStorage.setItem(CONVENIENCE_OPT_IN, convenienceOptIn);
+    if(!convenienceOptIn) {
+      localStorage.removeItem(LAST_READ);
+      localStorage.removeItem(MAP_VISIBLE);
+      localStorage.removeItem(READ_MORE);
+    }
+    else {
+      localStorage.setItem(MAP_VISIBLE, document.getElementById('map-visible').checked);
+      localStorage.setItem(READ_MORE, document.getElementById('read-more').checked);
+      if(localStorage.getItem(LAST_READ) === null) {
+        localStorage.setItem(LAST_READ, KEYS[0]);
+      }
+    }
+    registerConvenienceEventHandlers();
+
+    const mapOptIn = document.getElementById('map-opt-in').checked;
+    const changed = (localStorage.getItem(MAP_OPT_IN) === 'true') !== !!mapOptIn;
+    setMapOptIn(mapOptIn);
+    if(!mapOptIn && changed) {
+      document.getElementById('map-visible').checked = false;
+    }
+
+    close();
+    evt?.preventDefault();
+  }
+}
+
+function setMapOptIn(optIn) {
+  localStorage.setItem(MAP_OPT_IN, optIn);
+  setupMap(optIn);
+}
 
 function getLastUnreadKey() {
   let index = 0;
@@ -96,21 +215,26 @@ function showImage(key) {
   
   currentKey = key;
 
-  // update last read
-  let lastRead = localStorage.getItem(LAST_READ) || '';
-  if (key > lastRead) {
-      lastRead = key;
-      localStorage.setItem(LAST_READ, lastRead);
-  }
+    let unreadIndicator = document.getElementById('unread-indicator');
+  if(localStorage.getItem(CONVENIENCE_OPT_IN) === 'true') {
+    // update last read
+    let lastRead = localStorage.getItem(LAST_READ) || '';
+    if (key > lastRead) {
+        lastRead = key;
+        localStorage.setItem(LAST_READ, lastRead);
+    }
 
-  // display unread count
-  let lastReadIndex = KEYS.findIndex(el => el === lastRead);
-  let unreadIndicator = document.getElementById('unread-indicator');
-  let hasUnread = lastReadIndex > 0;
-  if (hasUnread) {
-      unreadIndicator.textContent = lastReadIndex;
+    // display unread count
+    let lastReadIndex = KEYS.findIndex(el => el === lastRead);
+    let hasUnread = lastReadIndex > 0;
+    if (hasUnread) {
+        unreadIndicator.textContent = lastReadIndex;
+    }
+    toggleClass(unreadIndicator, 'd-none', !hasUnread);
   }
-  toggleClass(unreadIndicator, 'd-none', !hasUnread);
+  else {
+    toggleClass(unreadIndicator, 'd-none', true);
+  }
 
   let entry = ENTRIES[key];
 
@@ -153,6 +277,9 @@ function closeOverlays(withoutFilter) {
   OVERLAYS
     .filter(n => n !== withoutFilter)
     .forEach(n => toggleClass(document.getElementById(n), 'd-none', true));
+  if(withoutFilter === 'privacy') {
+    document.getElementById('privacy-consent-form-container').innerHTML = '';
+  }
 }
 
 function getCloseButtonHref() {
@@ -164,19 +291,23 @@ function getCloseButtonHref() {
 function showOverlay(name) {
   let overlay = document.getElementById(name);
   closeOverlays(name);
-  overlay.getElementsByClassName('close-overlay')[0].href = document.getElementById('fullscreen-map').checked
+  const closeHref = document.getElementById('fullscreen-map').checked
     ? '#/map'
     : getCloseButtonHref();
+  overlay.getElementsByClassName('close-overlay')[0].href = closeHref;
+  if(name === 'privacy') {
+    mountConsentForm('privacy-consent-form-container', () => location = closeHref);
+  }
   toggleClass(overlay, 'd-none', false);
 }
 
 function toggleClass(elem, clazz, toggle) {
-    if (toggle) {
-        elem.classList.add(clazz);
-    }
-    else {
-        elem.classList.remove(clazz);
-    }
+  if (toggle) {
+    elem.classList.add(clazz);
+  }
+  else {
+    elem.classList.remove(clazz);
+  }
 }
 
 function fullscreenMap() {
@@ -188,8 +319,24 @@ function fullscreenMap() {
   }
 }
 
+function closeConsent() {
+  document.getElementById('consent').classList.add('d-none');
+  document.getElementById('consent-consent-form-container').innerHTML = '';
+}
+
 function router(evt) {
   let route = location.hash.slice(1) || '/';
+  let routeSliced = route.slice(1);
+
+  // privacy opt-ins
+  if(isOptInsUndefined() && routeSliced !== 'privacy') {
+    mountConsentForm('consent-consent-form-container', closeConsent);
+    toggleClass(document.getElementById('consent'), 'd-none', false);
+  }
+  else {
+    closeConsent();
+  }
+
   if(route === '/' || !currentKey) {
     showImage(getLastUnreadKey());
     if(route === '/') {
@@ -197,7 +344,6 @@ function router(evt) {
     }
   }
 
-  let routeSliced = route.slice(1);
   if(OVERLAYS.includes(routeSliced)) {
     showOverlay(routeSliced);
     return;

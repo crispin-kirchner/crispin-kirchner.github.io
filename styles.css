@@ -67,7 +67,12 @@ a[href^="http"]::after {
 }
 
 .text-shadow {
-    text-shadow: 0px 0px 9px black;
+  text-shadow:
+    0px 0px 3px black,
+    0px 0px 5px black,
+    0px 0px 7px black,
+    0px 0px 13px black,
+    0px 0px 15px black;
 }
 
 #entry-text {
@@ -164,6 +169,7 @@ a[href^="http"]::after {
 
 .overlay {
   width: 519px;
+  max-height: 95%;
 }
 
 @media(max-width: 576px) {
@@ -190,4 +196,9 @@ a[href^="http"]::after {
 	height: 9px;
 
 	margin: -5px auto 0;
+}
+
+.reverse {
+  unicode-bidi: bidi-override;
+  direction: rtl;
 }
