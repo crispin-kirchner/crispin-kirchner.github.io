@@ -523,4 +523,11 @@ ENTRIES = {
     latLon: [46.94688, 11.73883],
     orientation: "landscape"
   },
+  "2023-07-13T08:53-die-gaisscharte": {
+    img: "DSC04674.JPG",
+    title: "Die Gaisscharte",
+    text: 'Die heutige Etappe hat den Ruf, schwierig zu sein und der Ruf des Wetters ist auch nicht besser. Daher schliesse ich mich meinen Zimmerkollegen an. Es sind eineiige Zwillinge, ca. 10 Jahre älter als ich und der Sohn vom einen der beiden. Die Zwillinge sind sehr erfahren auf diesem Höhenweg, sie sind ihn schon fünfmal gegangen. Sie haben die gleiche Kleidung an, zum Glück verschiedene Rucksäcke.<br>Im Bild ist die Schlüsselstelle der Etappe, etwa nach zwei Stunden Gehzeit. Alleine wäre ich hier wohl umgedreht. Der Steig führt etwa 20 Meter senkrecht die Wand hoch. Es gibt metallene Fusstritte und eine Kette zum festhalten &ndash; gesichert ist er gut, aber ich hätte hier nicht allein sein wollen für den Fall dass etwas passiert.',
+    latLon: [46.94280, 11.71887],
+    orientation: "portrait"
+  },
 };
