@@ -544,4 +544,11 @@ ENTRIES = {
     latLon: [46.91992, 11.61871],
     orientation: "portrait"
   },
+  "2023-07-14T09:43-diese-wie-glas-schimmernden-grunen-steine": {
+    img: "DSC04725.JPG",
+    title: "Diese wie Glas schimmernden grünen Steine",
+    text: 'Das Sandjöchl ist geschwind erreicht. Auf der anderen Seite erwartet mich ein eiskalter Wind bei gleichzeitig starker Sonne und eine kleine Blockkletterei. Fast das ganze Geröllfeld scheint aus diesen Steinen zu bestehen. Sie brechen ganz glatt, mir kommt es fast so vor würden die Schuhe ein bisschen rutschen darauf. So hatte ich mir immer das <em>Dragonglass</em> aus <em>A Song of Ice and Fire</em> vorgestellt. Danach folgt ein kurzer Abstieg auf Pfaden, ein langer auf Forststrasse, eine Busfahrt und schonn ich an meinem Pausenort.',
+    latLon: [46.92364, 11.60290],
+    orientation: "portrait"
+  },
 };
