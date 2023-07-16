@@ -537,4 +537,11 @@ ENTRIES = {
     latLon: [46.94241, 11.64777],
     orientation: "landscape"
   },
+  "2023-07-14T09:20-edelweiss": {
+    img: "DSC04720.JPG",
+    title: "Edelweiss",
+    text: 'Meine Weggenossen von gestern gehen heute auf dem Pfunderer Höhenweg weiter. Für mich steht ein Pausen- und Planungstag in Sterzing bevor, deshalb nehme ich den direkteren Weg ins Tal.<br>Vollkommen unverhofft stehe ich plötzlich vor einem Sträusschen Edelweiss. Ich hatte mich schon gefragt, ob ich welche sehen würde auf der Tour. Bis jetzt war ich noch nie welchen begegnet.',
+    latLon: [46.91992, 11.61871],
+    orientation: "portrait"
+  },
 };
