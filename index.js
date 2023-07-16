@@ -255,6 +255,7 @@ function showImage(key) {
   document.getElementById('bgimage').src = `images/bg/${entry.img}`;
   document.getElementById('image').srcset = `images/720w/${entry.img} 720w, images/1280w/${entry.img} 1280w, images/1920w/${entry.img} 1920w, images/2560w/${entry.img} 2560w, images/4096w/${entry.img} 4096w`;
   document.getElementById('image').src = `images/4096w/${entry.img}`;
+  document.getElementById('image').alt = entry.title;
   document.getElementById('caption-date').innerHTML = entry.dateFormatted;
   document.getElementById('caption-title').innerHTML = entry.title;
   document.getElementById('entry-text').innerHTML = entry.text ? entry.text : '';
