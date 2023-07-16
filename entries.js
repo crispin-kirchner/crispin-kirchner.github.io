@@ -551,4 +551,11 @@ ENTRIES = {
     latLon: [46.92364, 11.60290],
     orientation: "portrait"
   },
+  "2023-07-14T16:59-sterzing": {
+    img: "DSC04730.JPG",
+    title: "Sterzing",
+    text: 'Hier verbringe ich einen Tag um den nächsten und auch letzten Abschnitt meiner Tour zu planen &ndash; in weniger als 10 Tagen werde ich mein Ziel, die Schweizer Grenze, erreicht haben.<br>Durch die Lage am Brenner ist Sterzing schon lange eine Handelsstadt. Der Altstadt ist es anzusehen: herrschaftliche, gut erhaltene Häuser reihen sich aneinander. Der Schein auf dem Foto trügt; die Fassaden sind keineswegs so gerade wie es aussieht. Beim durch die Strassen gehen habe ich das Gefühl, die Häuser wären alle beim betrunken tanzen eingefroren worden &ndash; nichts ist gerade. Es ist stark touristisch geprägt; obwohl es mit 6500 Einwohnenden eher klein ist, ist die Innenstadt sehr belebt und es gibt alle möglichen Geschäfte.',
+    latLon: [46.89811, 11.43158],
+    orientation: "portrait"
+  },
 };
