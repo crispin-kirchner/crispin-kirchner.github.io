@@ -530,4 +530,11 @@ ENTRIES = {
     latLon: [46.94280, 11.71887],
     orientation: "portrait"
   },
+  "2023-07-13T13:58-da-kommt-eine-regenwand-auf-uns-zu": {
+    img: "DSC04686.JPG",
+    title: "Da kommt eine Regenwand auf uns zu",
+    text: 'Zwei weitere, harmlosere Scharten sind geschafft und ich lerne so langsam, die Zwillinge zu unterscheiden. Nicht optisch, aber vom Wesen her sind sie verschieden. Der gesprächigere macht die versauteren Witze. Beide lachen sehr gern, nehmen sich selbst nicht so ernst. Es macht sehr viel Spass, mit ihnen unterwegs zu sein. Sie sind ein bisschen wie zwei erwachsen gewordene Lausbuben, die das Schelmische in sich konserviert haben und es hervorholen, wenn sie zu zweit unterwegs sind. Der Weg ist auch irgendwie ihrer; es beschleicht mich das Gefühl, sie haben zu jeder zweiten Kehre eine gemeinsame Erinnerung. <em>Weisst du noch, als wir hier mit den Biwaksäcken unterwegs waren? War hier nicht früher ein Seil?</em><br>Auf dem Weg voraus ist der Regen zu erkennen, und zum Glück ist da auch ein windschiefes Hüttchen am Horizont. Als uns der Regenguss erwischt, machen wir einen Spurt unters Vordach und bleiben so deutlich trockener als gestern.',
+    latLon: [46.94241, 11.64777],
+    orientation: "landscape"
+  },
 };
