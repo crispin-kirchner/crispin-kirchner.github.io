@@ -516,4 +516,11 @@ ENTRIES = {
     latLon: [46.95567, 11.72657],
     orientation: "landscape"
   },
+  "2023-07-12T16:04-edeltrauthutte": {
+    img: "DSC04659.JPG",
+    title: "Edeltrauthütte",
+    text: 'Die Edeltrauthütte ist die neuste Hütte in der ich je war. Sie wurde erst vor ein paar Jahren fertiggestellt. Der Trockenraum ist interessant: Statt einen ganzen Raum zu beheizen, gibt es beheizte Schränke; mit Kleiderbügeln, mit Stangen zum Sachen drüberhängen, mit Schuhgestellen. Sie haben Löcher unten und oben, damit die Luft gut durchströmen kann, und irgendwas darin riecht fein nach Arve. Wahrscheinlich ein geringerer Energiebedarf, und auch die Geruchkulisse ist angenehmer als wenn Socken und Schuhe frei im Raum hängen.<br>Innen ist alles in Holz gehalten. Die Bretter an der inneren Dachschräge des Gemeinschaftsraums sind "normal" gehobelt während die Wandverkleidung nur gesägt ist und dadurch dunkler wirkt. Ein schöner Kontrast. Sie sind immer paarweise angeordnet, wie nach dem Sägen auseinandergeklappt. Dadurch ergeben sich tolle spiegelbildliche Muster aus Astlöchern und Jahrringen.',
+    latLon: [46.94688, 11.73883],
+    orientation: "landscape"
+  },
 };
