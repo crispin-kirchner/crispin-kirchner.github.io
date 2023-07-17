@@ -572,4 +572,11 @@ ENTRIES = {
     latLon: [46.84045, 11.26239],
     orientation: "landscape"
   },
+  "2023-07-16T15:45-licht-und-schattenspiel": {
+    img: "DSC04804.JPG",
+    title: "Licht- und Schattenspiel",
+    text: 'Die Berge entlang des Höhenwegs sind wunderbar vielfältig. Manche sind bewaldete Hügel, andere ragen deutlich über die Waldgrenze auf. Von der Hütte sind sogar Gletscher auf der gegenüberliegenden Talseite zu sehen. Das Wetter ist ebenfalls sehr wechselhaft, mal brennt die Sonne, mal türmen sich die Wolken. Dann bilden sich schöne Sonnenbänder, die zwischen den Wolken durch strahlen. Oft ist es sehr schön windig.<br>Heute ist es keine Alpenvereinshütte und die Wirtsleute scheinen einen gewissen Hotel-Anspruch zu haben. Gestern meinte der Wirt noch: "das passt schon irgendwie, eine Person bringen wir unter". Er hatte darauf gepokert dass nicht alle kommen, die sich angemeldet haben &ndash; Es kommen alle, und die grösste Gruppe hat noch eine Person mehr dabei. Seiner Mutter ist die Situation merklich unangenehm, aber es geht schlussendlich wunderbar auf. Ich bekomme im Lager unter dem Dach eine Matratze auf den Boden gelegt. Die grosse Reisegruppe ist etwa in meinem Alter, der Reiseleiter ist Geologe &ndash; das hätte ich mir schon ein paar Mal gewünscht, eine Person dabei zu haben, die mir etwas Hintergrundwissen zu den ganzen Naturwundern erklären kann, die ich jeden Tag sehe.',
+    latLon: [46.84545, 11.20816],
+    orientation: "landscape"
+  },
 };
