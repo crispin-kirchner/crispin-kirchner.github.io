@@ -558,4 +558,11 @@ ENTRIES = {
     latLon: [46.89811, 11.43158],
     orientation: "portrait"
   },
+  "2023-07-16T10:08-auge-in-auge-mit-dem-frosch": {
+    img: "DSC04745.JPG",
+    title: "Auge in Auge mit dem Frosch",
+    text: 'Da die erste mögliche Hütte ab Sterzing nur Reservierungen für die Wintersaison entgegennimmt, fahre ich mit dem Bus ein Stück ins Tal. Der Aufstieg führt durch lichte und angenehm schattige Fichtenwälder, der Boden ist dicht mit Heidelbeeren bewachsen. Dort begegne ich diesem jungen Frosch, der sich vom Weg in eine ebenso junge Fichte rettet.',
+    latLon: [46.85861, 11.30714],
+    orientation: "landscape"
+  },
 };
