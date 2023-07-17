@@ -565,4 +565,11 @@ ENTRIES = {
     latLon: [46.85861, 11.30714],
     orientation: "landscape"
   },
+  "2023-07-16T13:35-blick-am-fleckner-vorbei-ins-waltental": {
+    img: "DSC04778.JPG",
+    title: "Blick am Fleckner vorbei ins Waltental",
+    text: 'Nachdem ich das Skigebiet hinter mir gelassen habe, bin ich auf einem Höhenweg mit wunderbarem Weitblick in die angrenzenden Täler. Während meinem Mittagessen kommt eine sehr nette Familie mit einem sehr interessierten Vater vorbei.<br>Vater: <em>Guten Appetit!</em> Sohn (ca. 4): <em>Ja genau, guten Appetit</em> Vater: <em>Na, Mehrtagestour?</em> Sohn: <em>Guck mal, den Blumenstraus hab ich für meine Oma und meinen Opa gepflückt</em>. Sie bleiben auf dem Weg und halten dadurch höfliche 10m Abstand, während mich der Vater in der nötigen Lautstärke zu meiner Tour befragt und bei jeder Antwort mehr strahlt und wissbegieriger wird. Ich fühle mich sehr geschmeichelt.',
+    latLon: [46.84045, 11.26239],
+    orientation: "landscape"
+  },
 };
