@@ -579,4 +579,11 @@ ENTRIES = {
     latLon: [46.84545, 11.20816],
     orientation: "landscape"
   },
+  "2023-07-17T13:39-der-seemoos-wassertonnen-aufzug": {
+    img: "DSC04869.JPG",
+    title: "Der Seemoos Wassertonnen-Aufzug",
+    text: 'Da die Wirtsleute und die grosse Gruppe von gestern den Weg als am Anfang sehr ausgesetzt beschreiben, schliesse ich mich einer Niederländischen Familie an, die heute den gleichen Weg geht wie ich. Wir kommen aber zum Schluss, dass die anderen wohl nicht ganz den richtigen Weg gegangen sind; wir kommen nur an wenig ausgesetztem vorbei.<br>Heute Abend bin ich in einem ehemaligen Bergbaudorf einquartiert, dem Schneeberg. Das Dorf bildet den Endpunkt der längsten Erz-Förderanlage der Welt (auf Schienen). Im Bild ist der letzte Abschnitt der Strecke zu sehen, die bis nach <a href="#/2023-07-14T16:59-sterzing">Sterzing</a> reicht. Um die Erze den Berg hoch zu transportieren, wurden Wassertonnen als Gegengewicht verwendet, um bergab zu bremsen Lebensmittel, die auf dem Berg benötigt wurden. Auf den <em>Flachrollbahnen</em> wurden die Loren von Pferden gezogen. Der Seemoos-Aufzug war noch bis zur Aufgabe des Schneebergs 1967 in Betrieb.',
+    latLon: [46.89660, 11.17653],
+    orientation: "portrait"
+  },
 };
