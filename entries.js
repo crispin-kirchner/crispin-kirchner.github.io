@@ -586,4 +586,11 @@ ENTRIES = {
     latLon: [46.89660, 11.17653],
     orientation: "portrait"
   },
+  "2023-07-17T15:08-schneeberg-schutzhutte": {
+    img: "DSC04882.JPG",
+    title: "Schneeberg-Schutzhütte",
+    text: 'Jahrhundertelang wurde hier Bergbau betrieben. Einer der ersten Stollen wurde 1.5km in den Berg getrieben. Dafür brauchten die Arbeiter damals 90 Jahre. Später, mit Sprengstoff, wurden vergleichbare Strecken in einem Jahr geschafft. Die Arbeiter hier waren vom Militärdienst befreit. Dafür betrug die durchschnittliche Lebenserwartung nur 40 Jahre. Der Bergbau wurde erst 1967 eingestellt, als die <em>Knappenkaue</em>, die Unterkunft der Arbeiter, niederbrannte.<br>Die Schutzhütte ist im ehemaligen "Herrenhaus" untergebracht. Die Stubendecke ist künstlerisch verziert, das Dachgeschoss ist ein einziges, grosses Lager. Sehr gemütlich.<br>Die Niederländische Familie kommt guter Dinge an der Hütte an und wir sitzen noch ein bisschen beisammen. Die Eltern bestellen Cola, die Tochter ein Bier. Der Kellner stellt das Bier ohne zu fragen dem Vater hin.',
+    latLon: [46.89916, 11.18183],
+    orientation: "landscape"
+  },
 };
