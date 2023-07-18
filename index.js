@@ -57,8 +57,8 @@ document.getElementById('fullscreen-map').onchange = evt => {
 };
 
 Array.prototype.forEach.call(
-    document.getElementsByClassName('subscribe-link'),
-    a => a.href = `mailto:${EMAIL_ADDRESS.join('_@_').split('_').reverse().join('')}?subject=%22Bilder%20und%20Koordinaten%22%20abonnieren&body=Hi%20Crispin%0A%0AKannst%20du%20mir%20bitte%20eine%20E-Mail%20schreiben,%20wenn%20du%20ein%20neues%20Bild%20ver%C3%B6ffentlichst%3F%0A%0AMerci,%0A`);
+  document.getElementsByClassName('subscribe-link'),
+  a => a.href = `mailto:${EMAIL_ADDRESS.join('_@_').split('_').reverse().join('')}?subject=%22Bilder%20und%20Koordinaten%22%20abonnieren&body=Hi%20Crispin%0A%0AKannst%20du%20mir%20bitte%20eine%20E-Mail%20schreiben,%20wenn%20du%20ein%20neues%20Bild%20ver%C3%B6ffentlichst%3F%0A%0AMerci,%0A`);
 
 function setupMap(active) {
   if(!!active === !!TILE_LAYER) {
@@ -313,6 +313,7 @@ function toggleClass(elem, clazz, toggle) {
 
 function fullscreenMap() {
   closeOverlays();
+  document.getElementById('map-visible').checked = true;
   let fullscreenMap = document.getElementById('fullscreen-map');
   if(!fullscreenMap.checked) {
     fullscreenMap.click();
@@ -328,7 +329,8 @@ function closeConsent() {
 function router(evt) {
   let route = location.hash.slice(1) || '/';
   let routeSliced = route.slice(1);
-
+  // FIXME Corner-case: geht man auf #map ist der root container gescrollt
+  
   // privacy opt-ins
   if(isOptInsUndefined() && routeSliced !== 'privacy') {
     mountConsentForm('consent-consent-form-container', closeConsent);

@@ -18,78 +18,80 @@
     <input type="checkbox" name="map-visible" id="map-visible" class="d-none">
     <input type="checkbox" name="read-more" id="read-more" class="d-none">
     <input type="checkbox" name="fullscreen-map" id="fullscreen-map" class="d-none">
-    <div id="image-frame" class="position-absolute top-0 start-0 w-100 position-relative transition">
-      <div class="position-absolute top-0 start-0 w-100 h-100">
-        <img id="bgimage" src="" class="w-100 h-100 object-fit-cover" />
-      </div>
-      <div class="position-absolute top-0 start-0 w-100 h-100">
-        <img id="image" src="" class="w-100 h-100 object-fit-contain" />
-      </div>
-      <div id="caption-and-controls" class="position-absolute position-relative top-0 start-0 w-100 h-100">
-        <div id="controls" class="position-relative h-100">
-          <div class="position-absolute top-0 start-0 p-2">
-            <div class="btn-group">
-              <button id="nav-start" class="btn btn-dark control-bg text-light" onclick="goToNewestEntry()">
-                  <i class="bi-skip-start"></i>
-              </button>
-              <a id="nav-end" class="btn btn-dark control-bg text-light">
-                  <i class="bi-skip-end"></i>
-              </a>
-            </div>
-          </div>
-          <div class="position-absolute top-0 end-0 p-2">
-            <span class="text-shadow text-light m-2">
-              <i class="bi-question-circle"></i>
-              <a class="text-light" href="#/about">
-                Über
-              </a>
-            </span>
-            <span class="text-shadow text-light m-2">
-              <i class="bi-bell-fill"></i>
-              <a class="subscribe-link text-light" href="#">
-                Abonnieren
-              </a>
-            </span>
-          </div>
-          <div class="position-absolute bottom-0 end-0 p-2">
-              <label for="map-visible" class="btn btn-dark control-bg text-light">
-                  <i id="expand-map" class="bi-caret-up-fill"></i>
-                  <i id="collapse-map" class="bi-caret-down-fill"></i>
-                  <i class="bi-map"></i>
-              </label>
-          </div>
-          <div class="position-absolute top-50 start-0 translate-middle-y p-2">
-            <a id="nav-left" href="#" class="btn btn-dark control-bg position-relative">
-              <i class="bi-chevron-left"></i>
-              <span id="unread-indicator"
-                  class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger d-none"></span>
-            </a>
-          </div>
-          <div class="position-absolute top-50 end-0 translate-middle-y p-2">
-            <a id="nav-right" href="#" class="btn btn-dark control-bg">
-              <i class="bi-chevron-right"></i>
-            </a>
-          </div>
+    <div id="image-frame" class="w-100 transition">
+      <div class="w-100 h-100 position-relative">
+        <div class="position-absolute top-0 start-0 w-100 h-100">
+          <img id="bgimage" src="" class="w-100 h-100 object-fit-cover" />
         </div>
-        <div id="caption-text">
-            <div class="p-1 rounded text-light control-bg overflow-auto">
-              <div class="overflow-auto">
-                <label for="read-more" class="float-end">
-                  <u>
-                    <span id="read-more-more">Mehr</span>
-                    <span id="read-more-less">Weniger</span>
-                    lesen</u>
-                  <i id="read-more-chevron" class="bi-chevron-up transition d-inline-block"></i>
-                </label>
-                <span id="caption-date" class="fst-italic"></span>
-                <span id="caption-title" class="fst-italic"></span>
+        <div class="position-absolute top-0 start-0 w-100 h-100">
+          <img id="image" src="" class="w-100 h-100 object-fit-contain" />
+        </div>
+        <div id="caption-and-controls" class="position-absolute position-relative top-0 start-0 w-100 h-100">
+          <div id="controls" class="position-relative h-100">
+            <div class="position-absolute top-0 start-0 p-2">
+              <div class="btn-group">
+                <button id="nav-start" class="btn btn-dark control-bg text-light" onclick="goToNewestEntry()">
+                    <i class="bi-skip-start"></i>
+                </button>
+                <a id="nav-end" class="btn btn-dark control-bg text-light">
+                    <i class="bi-skip-end"></i>
+                </a>
               </div>
-              <div id="entry-text" class="transition"></div>
             </div>
+            <div class="position-absolute top-0 end-0 p-2">
+              <span class="text-shadow text-light m-2">
+                <i class="bi-question-circle"></i>
+                <a class="text-light" href="#/about">
+                  Über
+                </a>
+              </span>
+              <span class="text-shadow text-light m-2">
+                <i class="bi-bell-fill"></i>
+                <a class="subscribe-link text-light" href="#">
+                  Abonnieren
+                </a>
+              </span>
+            </div>
+            <div class="position-absolute bottom-0 end-0 p-2">
+                <label for="map-visible" class="btn btn-dark control-bg text-light">
+                    <i id="expand-map" class="bi-caret-up-fill"></i>
+                    <i id="collapse-map" class="bi-caret-down-fill"></i>
+                    <i class="bi-map"></i>
+                </label>
+            </div>
+            <div class="position-absolute top-50 start-0 translate-middle-y p-2">
+              <a id="nav-left" href="#" class="btn btn-dark control-bg position-relative">
+                <i class="bi-chevron-left"></i>
+                <span id="unread-indicator"
+                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger d-none"></span>
+              </a>
+            </div>
+            <div class="position-absolute top-50 end-0 translate-middle-y p-2">
+              <a id="nav-right" href="#" class="btn btn-dark control-bg">
+                <i class="bi-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+          <div id="caption-text">
+              <div class="p-1 rounded text-light control-bg overflow-auto">
+                <div class="overflow-auto">
+                  <label for="read-more" class="float-end">
+                    <u>
+                      <span id="read-more-more">Mehr</span>
+                      <span id="read-more-less">Weniger</span>
+                      lesen</u>
+                    <i id="read-more-chevron" class="bi-chevron-up transition d-inline-block"></i>
+                  </label>
+                  <span id="caption-date" class="fst-italic"></span>
+                  <span id="caption-title" class="fst-italic"></span>
+                </div>
+                <div id="entry-text" class="transition"></div>
+              </div>
+          </div>
         </div>
       </div>
     </div>
-    <div id="map-container" class="position-absolute position-relative start-0 w-100 transition">
+    <div id="map-container" class="position-absolute start-0 position-relative w-100 transition">
       <div id="map" class="w-100 h-100"></div>
       <div class="position-absolute top-0 start-0 p-2" style="z-index: 1000">
         <div class="btn-group-vertical">

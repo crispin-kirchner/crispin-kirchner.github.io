@@ -1,3 +1,7 @@
+:root {
+  --map-height: 200px;
+}
+
 .transition {
     transition-duration: .25s;
 }
@@ -17,24 +21,30 @@ a[href^="http"]::after {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#bgimage {
-    filter: blur(10px) brightness(70%); 
-    transform: scale(1.05);
+.leaflet-control-attribution a::after {
+  display: none;
 }
 
-#map-visible:checked ~ #image-frame {
-    height: calc(100vh - 200px);
+#bgimage {
+  filter: blur(10px) brightness(70%); 
+  transform: scale(1.05);
 }
 
 #image-frame {
-    height: 100%;
-    transition-property: height;
+  height: 100%;
+}
+
+#map-visible:checked ~ #image-frame {
+  padding-bottom: var(--map-height);
 }
 
 #map-container {
-    height: 200px;
-    top: 100vh;
-    transition-property: top, height;
+  height: var(--map-height);
+  bottom: calc(-1 * var(--map-height));
+}
+
+#map-visible:checked ~ #map-container {
+  bottom: 0;
 }
 
 #fullscreen-map-button > i::before {
@@ -46,16 +56,11 @@ a[href^="http"]::after {
 }
 
 #fullscreen-map:checked ~ #map-container {
-  top: 0 !important;
-  height: 100vh;
-}
-
-#map-visible:checked ~ #map-container {
-    top: calc(100vh - 200px);
+  height: 100%;
 }
 
 #map-visible:checked ~ div #expand-map {
-    display: none;
+  display: none;
 }
 
 #map-visible:not(:checked) ~ div #collapse-map {
