@@ -600,4 +600,11 @@ ENTRIES = {
     latLon: [46.91369, 11.09406],
     orientation: "landscape"
   },
+  "2023-07-18T14:17-auf-dem-rotkogel-hinter-mir-der-heutige-grat": {
+    img: "DSC05044.JPG",
+    title: "Auf dem Rotkogel, hinter mir der heutige Grat",
+    text: 'Nach den Schafen geht es schon auf den heutigen Zielgrat. Es ist eine schöne Kraxelei, ein bisschen Geröll, nicht zu steil. Um mich herum ein sagenhaftes Panorama. Vor mir liegt das Ötztal, ich sehe in mehrere Seitentäler hinein. Zahlreiche Gipfel haben einen Gletscher. Ich glaube, ich habe noch nie so viele Gletscher gleichzeitig gesehen. Der Rotkogel ist der höchste Gipfel heute, danach kommt noch ein kleinerer und dann bin ich schon an der Hütte.',
+    latLon: [46.94055, 11.05747],
+    orientation: "landscape"
+  },
 };
