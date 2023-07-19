@@ -607,4 +607,11 @@ ENTRIES = {
     latLon: [46.94055, 11.05747],
     orientation: "landscape"
   },
+  "2023-07-18T15:15-innerhalb-kurzester-zeit-zieht-es-zu": {
+    img: "DSC05074.JPG",
+    title: "Innerhalb kürzester Zeit zieht es zu",
+    text: 'Um 15:00 komme ich bei Sonnenschein auf der Hütte an, eine Viertelstunde später ist Weltuntergang. Vor der Hütte peitscht es uns den Staub ins Gesicht. Was nicht festgemacht ist, fliegt weg. Es regnet waagrecht. Donnerschläge rollen durchs Tal. Wir sind alle heilfroh, wohlbehalten auf der Hütte zu sein.',
+    latLon: [46.94730, 11.04880],
+    orientation: "landscape"
+  },
 };
