@@ -593,4 +593,11 @@ ENTRIES = {
     latLon: [46.89916, 11.18183],
     orientation: "landscape"
   },
+  "2023-07-18T11:12-schafe-mit-tiefenbacherner": {
+    img: "DSC04965.JPG",
+    title: "Schafe mit Tiefenbachferner",
+    text: 'Heute habe ich eine lange Etappe mit vielen Höhenmetern vor mir. Weil der Wetterbericht, so wie jeden Tag, für den Nachmittag Gewitter ansagt, starte ich so früh wie möglich am Schneeberg. Ich kann am Vormittag gut Strecke machen, der Abstieg und darauffolgende Aufstieg zum Timmelsjoch gehen mir leicht vom Fuss. Am Timmelsjoch ist Pass-Rummel, plötzlich überall Menschen. Wie immer ist der Spuk nach ein paar hundert Metern Wanderweg wieder vorbei.<br>Der Tiefenbachferner fasziniert mich, mir ist so als hätte ich ihn vor 20 Jahren schon einmal auf einer Postkarte gesehen, die mir ein Schulfreund aus dem Skiurlaub geschickt hat.',
+    latLon: [46.91369, 11.09406],
+    orientation: "landscape"
+  },
 };
