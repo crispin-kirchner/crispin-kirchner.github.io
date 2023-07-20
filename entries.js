@@ -614,4 +614,11 @@ ENTRIES = {
     latLon: [46.94730, 11.04880],
     orientation: "landscape"
   },
+  "2023-07-19T08:29-der-wasserfallferner": {
+    img: "DSC05080.JPG",
+    title: "Der Wasserfallferner",
+    text: 'Gestern in der Hütte hat mich dieser Gletscher den ganzen Abend hypnotisiert. Ich habe noch nie so einen breiten, mächtigen Gletscher gesehen. Von der Hütte aus geht es steil abwärts, durch einen immer höheren Bewuchs aus Weymouth-Föhren.',
+    latLon: [46.94610, 11.04667],
+    orientation: "landscape"
+  },
 };
