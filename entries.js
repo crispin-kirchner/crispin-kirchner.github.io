@@ -619,6 +619,13 @@ ENTRIES = {
     title: "Der Wasserfallferner",
     text: 'Gestern in der Hütte hat mich dieser Gletscher den ganzen Abend hypnotisiert. Ich habe noch nie so einen breiten, mächtigen Gletscher gesehen. Von der Hütte aus geht es steil abwärts, durch einen immer höheren Bewuchs aus Weymouth-Föhren.',
     latLon: [46.94610, 11.04667],
-    orientation: "landscape"
+    orientation: "portrait"
+  },
+  "2023-07-19T09:37-umgekippter-wald": {
+    img: "DSC05085.JPG",
+    title: "Umgekippter Wald",
+    text: 'Als ich im richtigen Wald ankomme, wird das Ausmass des Sturms im Tal sichtbar. An vielen Stellen sind Bäume über die Wanderwege gestürzt.<br>Die heutige Tagesetappe ist eher kurz, aber ich muss in Sölden einkaufen. Sölden wurde vom Sturm hart getroffen; es ist auch jetzt noch ohne Strom. Alle Lebensmittelgeschäfte haben geschlossen, die Feuerwehr fährt durch die Strassen und informiert, dass die Stromversorgung im Laufe des Nachmittags wiederhergestellt sein wird. Ich setze mich also vor den geschlossenen Bäcker an die Kaffeetische und esse zu Mittag, um etwas Zeit totzuschlagen. Danach suche ich mir eine Bank im Wald und halte dort einen Mittagsschlaf, aber <em>im Laufe des Nachmittags</em> scheint noch nicht erreicht. In einem Sportgeschäft bekomme ich den Hinweis, dass es einige Kilometer weiter, in Längenfeld, wieder Strom gibt. Ich nehme den Bus und kann dort meine Besorgungen erledigen. Auf der Fahrt sehe ich immer wieder entlang des Tals sehr viele umgestürzte Bäume. Die Ötztaler Ache schäumt wild und hat eine graubraune Farbe.',
+    latLon: [46.95434, 11.02576],
+    orientation: "portrait"
   },
 };
