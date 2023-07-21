@@ -628,4 +628,11 @@ ENTRIES = {
     latLon: [46.95434, 11.02576],
     orientation: "portrait"
   },
+  "2023-07-20T09:30-nach-ein-bisschen-aufstieg-klart-es-auf": {
+    img: "DSC05097.JPG",
+    title: 'Nach ein bisschen Aufstieg klart es auf',
+    text: 'Als ich am nächsten Tag starte, ist es zugezogen, kühl. Es ist eine verhältnismässig lange Etappe, aber zunächst muss ich es ruhig angehen lassen, denn der Weg beginnt mit einem langen Aufstieg. Zu meinem Entzücken ist der <a href="#/2023-07-18T11:12-schafe-mit-tiefenbacherner">Tiefenbachferner</a> angeschrieben, den ich vorgestern so lange bestaunt hatte.<br>Ein bisschen weiter oben löst sich der Nebel und es öffnet sich ein fantastischer Blick auf die umliegende Bergwelt. In der Bildmitte der <a href="#/2023-07-18T14:17-auf-dem-rotkogel-hinter-mir-der-heutige-grat">Grat von vorgestern</a>, auf dessen linkestem Gipfel das Brunnkogelhaus steht.',
+    latLon: [46.92253, 10.96615],
+    orientation: "landscape"
+  },
 };
