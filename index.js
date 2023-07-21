@@ -324,6 +324,26 @@ function closeConsent() {
   document.getElementById('consent-consent-form-container').innerHTML = '';
 }
 
+function share() {
+  const popup = document.getElementById('share-popup');
+  toggleClass(popup, 'd-none', false);
+  const input = document.getElementById('share-input');
+  const url = `${location.protocol}//${location.host}/#/${currentKey}`;
+  input.value = url;
+  input.select();
+  navigator.clipboard.writeText(url).then(
+    () => showClipboardAlert(true),
+    () => showClipboardAlert(false));
+}
+
+function showClipboardAlert(success) {
+  const sharePopup = document.getElementById('share-popup');
+  const alertSuccess = sharePopup.getElementsByClassName('alert-success')[0];
+  const alertDanger = sharePopup.getElementsByClassName('alert-danger')[0];
+  toggleClass(alertSuccess, 'd-none', !success);
+  toggleClass(alertDanger, 'd-none', success);
+}
+
 function router(evt) {
   let route = location.hash.slice(1) || '/';
   let routeSliced = route.slice(1);
