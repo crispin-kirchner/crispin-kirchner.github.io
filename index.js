@@ -332,6 +332,7 @@ function share(showPopup) {
     const input = document.getElementById('share-input');
     const url = `${location.protocol}//${location.host}/#/${currentKey}`;
     input.value = url;
+    input.focus();
     input.select();
     navigator.clipboard.writeText(url).then(
       () => showClipboardAlert(true),
