@@ -635,4 +635,11 @@ ENTRIES = {
     latLon: [46.92253, 10.96615],
     orientation: "landscape"
   },
+  "2023-07-20T10:08-wollgras-am-ehemaligen-petznersee": {
+    img: "DSC05123.JPG",
+    title: 'Wollgras am ehemaligen Petznersee',
+    text: 'Der Petznersee ist verlandet und jetzt ein Sumpfgebiet mit einem Bach. Als ich dort ankomme, mäht es einmal rechts von mir, kurz darauf habe ich eine Schafherde adoptiert. Sie verlieren aber recht schnell das Interesse. Der Petznersee ist sehr idyllisch. Das Wasser des Baches hat die typische schlammgrüne Sedimentfarbe, die Felsen schimmern in Grün- und Rottönen. Überall wo kein Wasser ist, leuchten Moose in saftigem Grün.<br>Kurz darauf bin ich am Fuss des Tiefenbachferners und traue meinen Augen nicht. Was auf der Karte aussah wie ein Parkplatz, ist ein Parkplatz. Eine riesige Asphaltwüste, dahinter Seilbahn- und Liftgebäude aus Beton. Ein Tunnel im Berg spuckt vereinzelt Autos und einen Bus aus. Der Tiefenbachferner ist im oberen Drittel abgedeckt, vermutlich ist darunter ein Schneedepot.',
+    latLon: [46.92190, 10.95773],
+    orientation: "portrait"
+  },
 };
