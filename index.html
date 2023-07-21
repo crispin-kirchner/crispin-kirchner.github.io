@@ -62,16 +62,17 @@
             <div class="position-absolute top-0 end-0 p-2">
               <span class="text-shadow text-light m-2 position-relative">
                 <i class="bi-share"></i>
-                <a class="text-light" href="#" onclick="share()">
+                <a class="text-light" onclick="share(true)">
                   Teilen
                 </a>
-                <div id="share-popup" class="position-absolute start-0 bottom-0 control-bg rounded p-3 d-none" style="width: 25em; transform: translate(-50%, 100%)">
+                <div id="share-popup" class="position-absolute position-relative start-0 bottom-0 control-bg rounded p-3 d-none" style="width: 25em; transform: translate(-50%, 100%); text-shadow: initial">
+                  <a class="position-absolute top-0 end-0 p-3 text-light" onclick="share(false)"><i class="bi-x-lg"></i></a>
                   <strong>Link zu diesem Bild teilen</strong>
                   <input id="share-input" class="form-control" disabled>
-                  <div class="alert alert-success d-none">
-                    Link in Zwischenablage kopiert
+                  <div class="alert alert-success d-none mt-2">
+                    Link in die Zwischenablage kopiert
                   </div>
-                  <div class="alert alert-danger d-none">
+                  <div class="alert alert-danger d-none mt-2">
                     Link konnte nicht in die Zwischenablage kopiert werden
                   </div>
                 </div>
