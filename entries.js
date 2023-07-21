@@ -315,7 +315,7 @@ ENTRIES = {
   },
   "2023-07-02T10:48-schmetterling-auf-kackwurst": {
     img: "DSC04126_1.JPG",
-    title: "Schmetterling auf Kackwurst",
+    title: "Rotklee-Bläuling auf Kackwurst",
     text: 'Heute steige ich ins Tal ab, um dort einen Tag Pause zu machen und den nächten Abschnitt zu planen. Nach dem letzten Pass erreichen mich die ersten Anzeichen von touristischer Infrastruktur: mir kommt eine riesige Gruppe Mountainbiker, ca. 50 Stück, entgegen. Danach entecke ich diesen leuchtend blauen Schmetterling, der sich leider ein wenig elegantes Sitzmöbel ausgesucht hat; schön ist er trotzdem.',
     latLon: [46.67256, 12.43903],
     orientation: "landscape"
@@ -476,8 +476,8 @@ ENTRIES = {
   },
   "2023-07-10T13:38-der-subalpine-distelrussler": {
     img: "DSC04473_1.JPG",
-    title: "Der subalpine Distelrüssler*",
-    text: 'Eleganter als die Biene macht es der Distelrüssler. Er ist etwa 2/3 eines kleinen Fingers lang und hat einen sehr langen Rüssel, den er im Flug zusammenrollt. Er setzt sich nie auf eine Distel, sondern fliegt nur ran und steckt den Rüssel in die Blüte. Dabei bewegen sich seine Flügel in irrsinniger Frequenz, um in der Schwebe zu verharren. Etwa so stelle ich mir einen Kolibri vor.<br><span class="small">*Name frei erfunden</span>',
+    title: "Taubenschwänzchen an Distelblüte",
+    text: 'Eleganter als die Biene macht es das Taubenschwänzchem. Es ist etwa 2/3 eines kleinen Fingers lang und hat einen sehr langen Rüssel, den es im Flug zusammenrollt. Es setzt sich nie auf eine Distel, sondern fliegt nur ran und steckt den Rüssel in die Blüte. Dabei bewegen sich seine Flügel in irrsinniger Frequenz, um in der Schwebe zu verharren. Etwa so stelle ich mir einen Kolibri vor.',
     latLon: [46.94250, 12.04383],
     orientation: "landscape"
   },
