@@ -642,4 +642,11 @@ ENTRIES = {
     latLon: [46.92190, 10.95773],
     orientation: "portrait"
   },
+  "2023-07-20T13:55-latsch-ferner": {
+    img: "DSC05150.JPG",
+    title: 'Latsch-Ferner',
+    text: 'Ab dem Parkplatz sind plötzlich sehr viele Wandernde unterwegs. Drei grosse geführte Gruppen und weitere kleinere Gruppen. Der Weg führt über dem Tal entlang, ohne viel Höhenunterschied. Ich gehe noch bis hinter den Abzweig, der ins Tal herunterführt und sehe keine einzige der Gruppen wieder. Der Weg bleibt angenehm, die Gletscher die ich vorgestern von weitem gesehen habe, sind jetzt ganz nah. An fast jedem Gipfel hängt einer. Schritt für Schritt schiebt sich Gletscher nach Gletscher hinter Bergrücken hervor.<br>Bevor ich zur Hütte abbiege, komme ich noch an einer Sesselbahn vorbei, und plötzlich ist wieder Halli-Galli. Der Weg zur Hütte trotzt mir noch die letzten 200 Höhenmeter ab, dann bin ich oben. Von der Hüttenterasse habe ich ein eindrückliches Bergpanorama. Zwei weitere Gletscher sind zum Vorschein gekommen, und ich bin jetzt über einem unbewohnten Hochtal. Die Umgebung strahlt eine grosse Ruhe aus.',
+    latLon: [46.87217, 10.90483],
+    orientation: "portrait"
+  },
 };
