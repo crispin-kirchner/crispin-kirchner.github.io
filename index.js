@@ -370,12 +370,13 @@ onhashchange = router;
 
 function initTracks() {
   const trackKeys = Object.keys(TRACKS).sort();
-  trackKeys.forEach((k, i) => {
+  for(let i = trackKeys.length - 1; i >= 0; --i) {
     const color = i % 2 === 0
       ? '#0d6efd' // bs-primary
       : '#6c757d';// bs-secondary
+    const k = trackKeys[i];
     L.geoJson(TRACKS[k], {color}).addTo(MAP);
-  });
+  }
 }
 
 (function () {
