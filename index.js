@@ -10,7 +10,7 @@ const DATE_FORMAT = new Intl.DateTimeFormat(navigator.language, { dateStyle: 'sh
 const EMAIL_ADDRESS = ['h_c_._n_i_w_e_u_l_b', 'm_a_p_s_._r_e_n_h_c_r_i_k_._n_i_p_s_i_r_c'];
 const DEFAULT_ZOOM_LEVEL = 15;
 const TRANSITION_DELAY_MS = 250;
-const OVERLAYS = ['about', 'privacy', 'impressum', '404'];
+const OVERLAYS = ['about', 'privacy', 'impressum', '404', 'share-popup'];
 
 // State
 let currentKey;
@@ -293,9 +293,15 @@ function showOverlay(name) {
   const closeHref = document.getElementById('fullscreen-map').checked
     ? '#/map'
     : getCloseButtonHref();
-  overlay.getElementsByClassName('close-overlay')[0].href = closeHref;
+  const closeA = overlay.getElementsByClassName('close-overlay')[0];
+  if(closeA) {
+    closeA.href = closeHref;
+  }
   if(name === 'privacy') {
     mountConsentForm('privacy-consent-form-container', () => location = closeHref);
+  }
+  if(name === 'share-popup') {
+    initShareOverlay();
   }
   toggleClass(overlay, 'd-none', false);
 }
@@ -324,24 +330,20 @@ function closeConsent() {
   document.getElementById('consent-consent-form-container').innerHTML = '';
 }
 
-function share(showPopup) {
-  const popup = document.getElementById('share-popup');
-  toggleClass(popup, 'd-none', !showPopup);
-  if(showPopup) {
-    showClipboardAlert();
-    const input = document.getElementById('share-input');
-    const url = `${location.protocol}//${location.host}/#/${currentKey}`;
-    input.value = url;
-    input.focus();
-    input.select();
-    if(!navigator.clipboard) {
-      showClipboardAlert(false);
-      return;
-    }
-    navigator.clipboard.writeText(url).then(
-      () => showClipboardAlert(true),
-      () => showClipboardAlert(false));
+function initShareOverlay() {
+  showClipboardAlert();
+  const input = document.getElementById('share-input');
+  const url = `${location.protocol}//${location.host}/#/${currentKey}`;
+  input.value = url;
+  input.focus();
+  input.select();
+  if(!navigator.clipboard) {
+    showClipboardAlert(false);
+    return;
   }
+  navigator.clipboard.writeText(url).then(
+    () => showClipboardAlert(true),
+    () => showClipboardAlert(false));
 }
 
 function showClipboardAlert(success) {
@@ -365,8 +367,6 @@ function router(evt) {
   else {
     closeConsent();
   }
-
-  share(false);
 
   if(route === '/' || !currentKey) {
     showImage(getLastUnreadKey());

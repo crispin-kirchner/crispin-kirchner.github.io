@@ -62,20 +62,9 @@
             <div class="position-absolute top-0 end-0 p-2">
               <span class="text-shadow text-light m-2 position-relative">
                 <i class="bi-share"></i>
-                <a class="text-light" onclick="share(true)">
+                <a class="text-light" onclick="showOverlay('share-popup')">
                   Teilen
                 </a>
-                <div id="share-popup" class="position-absolute position-relative start-0 bottom-0 control-bg rounded p-3 d-none" style="width: 25em; transform: translate(-50%, calc(100% + 0.5rem)); text-shadow: initial">
-                  <a class="position-absolute top-0 end-0 p-3 text-light" onclick="share(false)"><i class="bi-x-lg"></i></a>
-                  <h5>Link zu diesem Bild teilen</h5>
-                  <input id="share-input" class="form-control" disabled>
-                  <div class="alert alert-success d-none mt-2">
-                    <i class="bi-check-lg"></i> Link in die Zwischenablage kopiert
-                  </div>
-                  <div class="alert alert-warning d-none mt-2">
-                    <i class="bi-x-lg"></i> Link konnte nicht in die Zwischenablage kopiert werden, bitte manuell kopieren
-                  </div>
-                </div>
               </span>
               <span class="text-shadow text-light m-2">
                 <i class="bi-question-circle"></i>
@@ -254,6 +243,26 @@
           <div id="consent-consent-form-container"></div>
           <p class="small mt-2">Du kannst diese Einstellungen jederzeit unter <a href="#/privacy">Datenschutz</a> anpassen.</p>
         </div>
+    </div>
+    <div id="share-popup"
+        class="overlay position-absolute position-relative top-50 start-50 translate-middle control-bg rounded p-4 d-none z-2000 d-flex flex-column">
+      <a class="position-absolute top-0 end-0 p-4 text-light" onclick="closeOverlays()">
+        <i class="bi-x-lg"></i>
+      </a>
+      <div class="overflow-auto p-4 text-light">
+        <h1>Link zu diesem Bild teilen</h1>
+        <input id="share-input" class="form-control" disabled>
+        <div class="alert alert-success d-none mt-2 d-flex align-items-center">
+          <i class="bi-check-lg me-3"></i>
+          <span style="hyphens: auto">Link in die Zwischenablage kopiert</span>
+        </div>
+        <div class="alert alert-warning d-none mt-2 d-flex align-items-center">
+          <i class="bi-x-lg me-3"></i>
+          <span style="hyphens: auto">
+            Link konnte nicht in die Zwischenablage kopiert werden, bitte manuell kopieren
+          </span>
+        </div>
+      </div>
     </div>
   </div>
   <script src="node_modules/leaflet/dist/leaflet.js"></script>
