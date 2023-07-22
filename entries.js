@@ -670,4 +670,11 @@ ENTRIES = {
     latLon: [46.82766, 10.82807],
     orientation: "landscape"
   },
+  "2023-07-21T09:28-die-bache-schaumen-noch-immer": {
+    img: "DSC05215.JPG",
+    title: 'Die Bäche schäumen immer noch vom Unwetter vor ein paar Tagen',
+    text: 'Das Bachrauschen war in den letzten Tagen omnipräsent. Schon beim <a href="#/2023-07-19T08:29-der-wasserfallferner">Abstieg nach Sölden</a> war ich überrascht, dass das Dröhnen aus dem Tal nicht von Autos kam, sondern vom Fluss. Alle Bäche über die ich heute gehe, führen ordentlich Wasser, so auch der Bach aus dem Hochjochtal. Das Wetter hält weiterhin, ich komme ohne einen Tropfen Regen am Joch an.',
+    latLon: [46.81348, 10.82789],
+    orientation: "landscape"
+  },
 };
