@@ -334,6 +334,10 @@ function share(showPopup) {
     input.value = url;
     input.focus();
     input.select();
+    if(!navigator.clipboard) {
+      showClipboardAlert(false);
+      return;
+    }
     navigator.clipboard.writeText(url).then(
       () => showClipboardAlert(true),
       () => showClipboardAlert(false));
@@ -343,7 +347,7 @@ function share(showPopup) {
 function showClipboardAlert(success) {
   const sharePopup = document.getElementById('share-popup');
   const alertSuccess = sharePopup.getElementsByClassName('alert-success')[0];
-  const alertDanger = sharePopup.getElementsByClassName('alert-danger')[0];
+  const alertDanger = sharePopup.getElementsByClassName('alert-warning')[0];
   toggleClass(alertSuccess, 'd-none', !success);
   toggleClass(alertDanger, 'd-none', success || typeof(success) === 'undefined');
 }
