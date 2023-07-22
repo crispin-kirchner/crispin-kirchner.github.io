@@ -663,4 +663,11 @@ ENTRIES = {
     latLon: [46.85706, 10.85874],
     orientation: "portrait"
   },
+  "2023-07-21T08:07-hochjochferner-mit-finailspitze": {
+    img: "DSC05208.JPG",
+    title: 'Hochjochferner mit Finailspitze',
+    text: 'Die Gletscher kommen immer näher. Ab hier sind eigentlich alle Gletscher im Tal Teile des Hochjochferners. Passend dazu heisst die zweite Hütte, an der ich vorbei komme, <em>Hochjochhospiz</em>. Wie ich später auf der Karte entdecke ist es nicht die erste Hütte mit diesem Namen. Zunächst stand eine Hütte mit gleichem Namen am gegenüberliegenden Hang, von der heute nur noch Ruinen übrig sind.<br>Inzwischen ist es hell und ich bin schon am letzten Abstieg des Tages angekommen &ndash; danach geht es nur noch bergauf. Es fühlt sich komisch an, dass es noch so früh ist und ich schon so weit gegangen bin. Der pessimistischste Wetterbericht hatte bereits ab 8 Uhr die ersten Gewitter angekündigt, bis jetzt ist es ruhig.<br>Hinter dem Joch links der Finailspitze liegt die Ötzi-Fundstelle.',
+    latLon: [46.82766, 10.82807],
+    orientation: "landscape"
+  },
 };
