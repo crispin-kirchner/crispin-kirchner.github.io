@@ -42,6 +42,7 @@ for(let i = KEYS.length - 1; i >= 0; --i) {
   });
   MAP.addLayer(popup);
 };
+initTracks();
 
 if(localStorage.getItem(CONVENIENCE_OPT_IN) === 'true') {
   document.getElementById('map-visible').checked = localStorage.getItem(MAP_VISIBLE) === 'true';
@@ -366,6 +367,16 @@ function router(evt) {
 
 onload = router;
 onhashchange = router;
+
+function initTracks() {
+  const trackKeys = Object.keys(TRACKS).sort();
+  trackKeys.forEach((k, i) => {
+    const color = i % 2 === 0
+      ? '#0d6efd' // bs-primary
+      : '#6c757d';// bs-secondary
+    L.geoJson(TRACKS[k], {color}).addTo(MAP);
+  });
+}
 
 (function () {
     var src = 'node_modules/eruda/eruda.js';
