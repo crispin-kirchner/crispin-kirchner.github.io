@@ -654,6 +654,13 @@ ENTRIES = {
     title: 'Heimat Schlesien',
     text: 'Heute übernachte ich auf der Breslauer Hütte. Das Hüttenpersonal hat dem Akzent nach eine slawische Muttersprache. Ich fand das ein bisschen kurios, eine Hütte die einem heute existierenden deutschen Alpenverein gehört, sich aber auf eine Stadt in Polen bezieht, deswegen habe ich ein bisschen recherchiert. Die Hütte gehört der Sektion Breslau, die gemäss <a href="http://www.dav-sektion-breslau.de/" target="_blank">Homepage</a> "nach Vertreibung und Flucht [...] 1950 in Ludwigsburg wiederbegründet" wurde. Die Mitgliedsbeiträge sind geringfügig niedriger als die der Sektion Stuttgart. Die Mitgliederzahlen sinken tendenziell. Anders als bei DAV, ÖAV und SAC scheinen beim polnischen PTTK die Hütten keinen Sektionen zugeordnet zu sein, ich konnte auch keinen Hinweis darauf finden dass der PTTK Wrocław eine Hütte besitzt. Im Vorraum der Hütte hängt das aktuelle Wappen von Wrocław, kein veraltetes.<br>Den Abendessenstisch teile ich mir mit einer Architektin aus Hamburg, die in den letzten Tagen einen Gletscherkurs gemacht hat und jetzt noch ein paar Wandertage dranhängt. Sie sieht ihren Berufsstand aufgrund der vielen Ersatzneubauten und der vielen Verwendung von klimaschädlichem Beton kritisch. Laut ihr sind die Bauvorschriften in Deutschland hinderlich beim klimafreundlicheren Bauen. Und sie weiht mich ein: meistens, wenn in einem Gebäude etwas absurdes gemacht wurde und man sich instinktiv fragt: "Was hat sich die Architektin nur dabei gedacht?" dann hat die Architektin vorher sehr lange probiert, das der Bauherrin auszureden.',
     latLon: [46.86816, 10.87938],
+    orientation: "landscape"
+  },
+  "2023-07-21T06:00-hochnebel-uber-dem-rofental": {
+    img: "DSC05176.JPG",
+    title: 'Hochnebel über dem Rofental',
+    text: 'Der Wetterbericht für heute ist alles andere als schmeichelhaft, schlimmstenfalls schon am Morgen soll es beginnen zu regnen und gewittern, begleitet von Böen. Die Breslauer Hütte bietet zum Glück ein <em>frühes Frühstück</em> um 5:00 an. Da ich mich noch gut an die letzten Böen erinnern kann, nehme ich diesen Service in Anspruch und bin um 5:30 bereits auf dem Weg. Die Sonne hat es noch nicht über die Berge geschafft, aber es ist hell genug. Im Tal liegen die Nebelschwaden, es ist eine magische Stimmung. Ich war noch nie so früh unterwegs. Der Pfad ist einfach und bleibt fast dauerhaft auf der gleichen Höhe, ich komme zügig voran. Es geht durch ein Kar, vorbei an der Vernagthütte, die ähnlich wie die Breslauer auf einer Anhöhe thront.',
+    latLon: [46.85706, 10.85874],
     orientation: "portrait"
   },
 };
