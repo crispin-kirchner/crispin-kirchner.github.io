@@ -677,4 +677,11 @@ ENTRIES = {
     latLon: [46.81348, 10.82789],
     orientation: "landscape"
   },
+  "2023-07-21T11:18-hochjochferner-gar-nicht-fern": {
+    img: "DSC05236.JPG",
+    title: 'Hochjochferner gar nicht fern',
+    text: 'Zwischen mir und den Gletschern auf der anderen Talseite liegt nur noch der Bach und seine sandigen Ufer. Der Hochjochferner streckt mir eine seiner mächtigen Zungen entgegen. Vermutlich wirkte ein mehrstöckiges Wohnhaus immer noch klein neben der Eisdecke. Ich kann das bläuliche Schimmern ganz klar sehen, so nah bin ich. Leider muss ich dem Drang, an den Rand zu laufen, widerstehen. Es wirkt als wäre auch der Staub neben dem Eis untergletschert, daher bleibe ich lieber wo ich bin und bestaune den Ferner aus der Ferne.<br>Ich bin bereits um die Mittagszeit an der Hütte. Die Hütte ist mehr ein Hotel in den Bergen. Beim Viergangmenü am Abend lassen sie so lange Pausen zwischen den Gängen, dass ich befürchte am Tisch einzuschlafen. Es war ein langer Tag.',
+    latLon: [46.79228, 10.80558],
+    orientation: "portrait"
+  },
 };
