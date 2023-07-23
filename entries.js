@@ -684,4 +684,11 @@ ENTRIES = {
     latLon: [46.79228, 10.80558],
     orientation: "portrait"
   },
+  "2023-07-22T06:15-morgenstimmung-uber-dem-schnalstal": {
+    img: "DSC05252.JPG",
+    title: 'Morgenstimmung über dem Schnalstal',
+    text: 'Ich bin auf den Geschmack gekommen was das Frühaufstehen angeht. Am Morgen bin ich um 6 Uhr auf dem Wanderweg. Es ist kühl und noch leicht dunkel, der Nebel steht dicht. Als es die Sonne über die Berge schafft, löst er sich langsam. Zuerst sehe ich durch ein Wolkenfenster die Spitzen entfernter Berge im Morgenrot glühen, dann klart es auf und auch die Flanken der Lazaunspitze werden angezündet.',
+    latLon: [46.78342, 10.78467],
+    orientation: "landscape"
+  },
 };
