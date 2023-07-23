@@ -118,14 +118,12 @@ function mountConsentForm(container, close) {
           </ul>
           Die Daten verbleiben auf deinem Gerät und werden nicht gesammelt oder ausgewertet.
         </p>
-        <div class="d-flex flex-column flex-sm-row justify-content-between mt-4">
-          <button type="button" class="btn btn-secondary" onclick="optAll(false)">Alles ablehnen</button>
-          <div class="d-none d-sm-block">
-            <button type="submit" class="btn btn-outline-light">Speichern</button>
-            <button type="button" class="btn btn-primary" onclick="optAll(true)">Alles akzeptieren</button>
+        <div class="d-flex flex-column-reverse flex-sm-row justify-content-between mt-4">
+          <div class="mt-2 mt-sm-0 d-flex d-sm-block">
+            <button type="button" class="btn btn-secondary flex-fill me-2" onclick="optAll(false)">Alles ablehnen</button>
+            <button type="button" class="btn btn-secondary flex-fill" onclick="optAll(true)">Alles akzeptieren</button>
           </div>
-          <button type="submit" class="d-sm-none mt-2 btn btn-outline-light">Speichern</button>
-          <button type="button" class="d-sm-none mt-2 btn btn-primary" onclick="optAll(true)">Alles akzeptieren</button>
+          <button type="submit" class="btn btn-primary">Speichern</button>
         </div>
       </form>`;
   document.getElementById('consent-form').onsubmit = onConsentFormSubmit(close);
