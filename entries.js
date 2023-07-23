@@ -691,4 +691,11 @@ ENTRIES = {
     latLon: [46.78342, 10.78467],
     orientation: "landscape"
   },
+  "2023-07-22T07:52-weymouth-fohren-und-die-rossblattrige-alpenrose": {
+    img: "DSC05279.JPG",
+    title: 'Weymouth-Föhren und die rossblättrige Alpenrose',
+    text: 'Über dem Skigebietsdörfchen <em>Kurzras</em> (es besteht eigentlich nur aus einer Hotelburg) endet schon der Abstieg des heutigen Tages; ab jetzt geht es fast nur noch bergauf. Zunächst führt der Weg durch Weymouth-Föhren-Wälder, hin und wieder mit ein paar Lärchen gesprenkelt. Der Boden ist dicht bewachsen mit den altbekannten Alpenrosen, aber inzwischen sind sie verblüht. Dennoch verströmen sie einen betörenden Duft. Sie duften ätherisch-schwer und gleichzeitig frisch-blumig. Wenn ich tief einatme fühlt es sich so an, als würde mir die Lunge weiter. Immer wieder beuge ich mich herunter um einen Atemzug zu nehmen. Ich zerreibe auch ein paar Blätter zwischen den Fingern, um den Duft mit mir zu tragen. Leider lese ich später, dass die Alpenrose giftig ist, also besser nicht nachmachen.<br>Nach ein paar Weiden wird es wieder richtig alpin. Der Steig führt mehrere Stunden steil die Wand hinauf. Er ist so deutlich erkennbar, dass ich meine Gedanken abschweifen lassen kann und einfach vor mich hin laufen ohne den Weg zu verlieren. Der Blick zurück ist immer wieder atemberaubend. Ich bin so hoch oben, dass ich alle umliegenden Bergketten und deren Seitenarme sehen kann. Es ist glaube ich das erste Mal, dass ich auf über 3000 Metern bin, das Bildstöckljoch ist fast 3100m hoch. Beim Aufstieg hat die Kälte an den nackten Armen gebissen, aber durch die Anstrengung war es warm genug. Jetzt während meiner Pause muss ich mich warm anziehen.',
+    latLon: [46.76041, 10.77549],
+    orientation: "portrait"
+  },
 };
