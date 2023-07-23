@@ -649,4 +649,11 @@ ENTRIES = {
     latLon: [46.87217, 10.90483],
     orientation: "portrait"
   },
+  "2023-07-20T17:11-heimat-schlesien": {
+    img: "DSC05159.JPG",
+    title: 'Heimat Schlesien',
+    text: 'Heute übernachte ich auf der Breslauer Hütte. Das Hüttenpersonal hat dem Akzent nach eine slawische Muttersprache. Ich fand das ein bisschen kurios, eine Hütte die einem heute existierenden deutschen Alpenverein gehört, sich aber auf eine Stadt in Polen bezieht, deswegen habe ich ein bisschen recherchiert. Die Hütte gehört der Sektion Breslau, die gemäss <a href="http://www.dav-sektion-breslau.de/" target="_blank">Homepage</a> "nach Vertreibung und Flucht [...] 1950 in Ludwigsburg wiederbegründet" wurde. Die Mitgliedsbeiträge sind geringfügig niedriger als die der Sektion Stuttgart. Die Mitgliederzahlen sinken tendenziell. Anders als bei DAV, ÖAV und SAC scheinen beim polnischen PTTK die Hütten keinen Sektionen zugeordnet zu sein, ich konnte auch keinen Hinweis darauf finden dass der PTTK Wrocław eine Hütte besitzt. Im Vorraum der Hütte hängt das aktuelle Wappen von Wrocław, kein veraltetes.<br>Den Abendessenstisch teile ich mir mit einer Architektin aus Hamburg, die in den letzten Tagen einen Gletscherkurs gemacht hat und jetzt noch ein paar Wandertage dranhängt. Sie sieht ihren Berufsstand aufgrund der vielen Ersatzneubauten und der vielen Verwendung von klimaschädlichem Beton kritisch. Laut ihr sind die Bauvorschriften in Deutschland hinderlich beim klimafreundlicheren Bauen. Und sie weiht mich ein: meistens, wenn in einem Gebäude etwas absurdes gemacht wurde und man sich instinktiv fragt: "Was hat sich die Architektin nur dabei gedacht?" dann hat die Architektin vorher sehr lange probiert, das der Bauherrin auszureden.',
+    latLon: [46.86816, 10.87938],
+    orientation: "portrait"
+  },
 };
