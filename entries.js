@@ -698,4 +698,11 @@ ENTRIES = {
     latLon: [46.76041, 10.77549],
     orientation: "portrait"
   },
+  "2023-07-22T11:58-achaologischer-wanderweg": {
+    img: "DSC05333.JPG",
+    title: 'Archäologischer Wanderweg',
+    text: 'Kurz schlängelt sich der Weg zwischen Geröll und kleinen Seen und Schneefeldern hindurch, dann beginnt bereits der Abstieg zur Hütte. Es ist genau so steil und geröllig wie im Aufstieg. Ich bin in einer rostroten, gezackten Welt, die Hütte unter mir im Blick. Unten angekommen ist es unvorstellbar, wie ein Weg durch diese steile Wand führen kann.<br>Da noch genug Zeit bis zum Abendessen bleibt, gönne ich mir auf der Hütte einen Kaiserschmarrn. Mein Lagerkollege von der letzten Hütte ist bereits seit Stunden da, er läuft von Bayern an den Gardasee und sein Rhythmus ist, immer vor Mittag an der nächsten Hütte zu sein. Kein Wunder habe ich ihn seit dem Start heute Morgen nie wieder gesehen. Seine Freundin ist Fotografin und arbeitet bei einem Objektivhersteller. Er erzählt mir, dass Profi-Naturfotografen mitunter mehrere Tage an einer Stelle campen, weil sie auf das richtige Wetter fürs Motiv warten.',
+    latLon: [46.76135, 10.72211],
+    orientation: "landscape"
+  },
 };
