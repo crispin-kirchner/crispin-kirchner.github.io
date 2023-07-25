@@ -712,4 +712,11 @@ ENTRIES = {
     latLon: [46.77764, 10.71192],
     orientation: "portrait"
   },
+  "2023-07-23T07:02-die-erste-seilschaft-ist-schon-auf-dem-gletscher": {
+    img: "DSC05386.JPG",
+    title: 'Die erste Seilschaft ist schon auf dem Gletscher',
+    text: 'Der Matscher Ferner ist um einen Vorgipfel der Weisskugel gewickelt. Rechts und links davon fliesst er herunter. Die Rechte Seite macht eine Kehrtwende und zeigt somit am Ende in die gleiche Richtung wie die linke Seite. Im Bild die rechte Seite, oben vor- und unten nach der Kehrtwende.<br>Von weitem sehe ich die vielen Bergsteigenden, die sich am Rand der Gletscherzunge für die Querung parat machen. Die erste Seilschaft ist bereits auf dem Eis. Die Sonne scheint oben über die Gletscherkante, hat es aber noch nicht auf die andere Seite der Berge geschafft.',
+    latLon: [46.77828, 10.71233],
+    orientation: "portrait"
+  },
 };
