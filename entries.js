@@ -719,4 +719,11 @@ ENTRIES = {
     latLon: [46.77828, 10.71233],
     orientation: "portrait"
   },
+  "2023-07-23T07:34-am-gletschertor": {
+    img: "DSC05397.JPG",
+    title: 'Am Gletschertor',
+    text: 'Das erste Highlight heute, dem ich entgegenfiebere seit ich den Gletscher das erste Mal erblickt habe, ist erreicht: Der Wanderweg führt am Ende der Gletscherzunge vorbei! Also fast. Aber nie und nimmer könnte ich mir entgehen lassen, das aus der Nähe zu sehen. Es ist unfassbar eindrücklich. Aus dem Gletscher fliesst ein veritabler Bach heraus, das Eis um die Öffnung bildet einen perfekten Bogen. Drinnen schimmert es blau, ich spüre die Kälte aus dem Gletschertor strömen. Vor dem Gletscher liegt Eisbruch, die kleineren Blöcke sind so gross wie Kälber. An der Oberfläche sehen sie porös aus, als wären sie weich. Sie sind aber aus massivem, solidem Eis, der Wanderstock hat keine Chance dagegen. Obwohl die Gletscherzunge hier von weitem sehr flach aussieht, ist die Abbruchkante dicker als ich gross bin.',
+    latLon: [46.78242, 10.70774],
+    orientation: "landscape"
+  },
 };
