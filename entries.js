@@ -726,4 +726,11 @@ ENTRIES = {
     latLon: [46.78242, 10.70774],
     orientation: "landscape"
   },
+  "2023-07-23T09:27-matscher-ferner": {
+    img: "DSC05450.JPG",
+    title: 'Matscher Ferner',
+    text: 'Nach dem Gletscher folgt ein typischer Scharten-Aufstieg: es ist sehr lang sehr steil. Im Blick zurück kann ich den Matscher Ferner in seiner ganzen Pracht sehen: In der Mitte der kleinere Gipfel, um den er sich wickelt. Der Berg, der seinen Kopf in die Wolken streckt (was den Gipfelstürmenden wahrscheinlich ziemlich stinkt) ist die Weisskugel. Ich stand vorhin am unteren Ende der rechten Zunge im Bild.<br>Die Tiroler Bezeichnung <em>Ferner</em> für Gletscher kommt übrigens salopp gesagt von <em>Schnee von gestern</em>: denn das ist der Schnee von <em>fern</em>, also vom letzten Jahr.',
+    latLon: [46.78601, 10.69171],
+    orientation: "landscape"
+  },
 };
