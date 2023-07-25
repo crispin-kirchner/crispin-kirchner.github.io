@@ -733,4 +733,11 @@ ENTRIES = {
     latLon: [46.78601, 10.69171],
     orientation: "landscape"
   },
+  "2023-07-23T09:49-permafrost": {
+    img: "DSC05464.JPG",
+    title: 'Permafrost?',
+    text: 'Auf der Scharte angekommen geht es durchs Geröll zwischen Seen hindurch. Die Sonne ist inzwischen über die Berge, aber jetzt wo der Aufstieg vorbei ist, muss ich sofort etwas warmes anziehen. Ab hier beginnt das zweite Highlight des Tages: Der Weg führt am Planeilferner entlang. Der Hüttenwirt hatte mich vorgewarnt, dass ab jetzt die Markierung schlecht ist; <em>einfach am Gletscherrand entlang und rechts nach einem grossen, roten Punkt Ausschau halten. Bloss nicht zu weit absteigen.</em> So kraxele ich durchs Geröll, am Rand der Senke in der der Gletscher verläuft. Bald bin ich mir gar nicht mehr so sicher, wo der Gletscher aufhört: Unter dem Geröll auf dem ich laufe ist ebenfalls massives Eis. Es ist sehr angenehm: ein Grossteil der Steine ist fest ins Eis verbacken und verrutscht nicht unter meinen Schritten. Auch denke ich, dass das Risiko, in eine Spalte einzubrechen so geringer ist, da Geröll fester ist als Schnee und alle Spalten sowieso mit Geröll gefüllt sind. Im Nachhinein bin ich mir nicht mehr so sicher, ob diese Überlegungen logisch waren, ich sollte mal eine Fachperson fragen. Aber im Moment haben sie mich beruhigt.',
+    latLon: [46.79108, 10.68283],
+    orientation: "landscape"
+  },
 };
