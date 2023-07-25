@@ -705,4 +705,11 @@ ENTRIES = {
     latLon: [46.76135, 10.72211],
     orientation: "landscape"
   },
+  "2023-07-23T06:56-eis": {
+    img: "DSC05380.JPG",
+    title: 'Eis',
+    text: 'Die Oberetteshütte bietet zwei Frühstücks-Uhrzeiten an: 4:30 und 7:30. Da die Etappe heute aus schwiergen Wegen besteht und weit in die Höhe geht, nehme ich die frühe Variante und frühstücke mit allen, die heute die Weisskugel besteigen. Um kurz vor sechs starte ich.<br>Die Pfützen auf dem Weg sind gefroren. Ich komme an ein Schneefeld. Die Steine an den Rändern haben Reif angesetzt. Normalerweise vermeide ich Querungen von Schneefeldern aus Angst, einzubrechen. Ich teste es mit dem Stock an; es ist bockelhart gefroren. Ich gehe sorgenlos darüber. Deshalb also starten Hochtourengehende immer so früh. Zum ersten Mal auf der Tour habe ich kalte Füsse, einfach weil es kalt ist.',
+    latLon: [46.77764, 10.71192],
+    orientation: "portrait"
+  },
 };
