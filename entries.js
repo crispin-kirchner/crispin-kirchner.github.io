@@ -754,10 +754,17 @@ ENTRIES = {
     latLon: [46.80624, 10.67836],
     orientation: "landscape"
   },
+  "2023-07-24T10:31-lichter-larchenwald": {
+    img: "DSC05550.JPG",
+    title: 'Lichter Lärchenwald',
+    text: 'Das Wetter spielt mir einen Streich und es beginnt zu schütten, als ich die Pension verlasse. Der <em>Panoramaweg</em> führt oberhalb der Dörfer aus dem Langtauferer Tal hinaus, mal im Wald als hutzliger Wurzelpfad, mal über Weiden. Es regnet eigentlich die ganze Zeit, mal mehr und mal weniger, aber die Temperaturen sind gerade so, dass mir bei Bewegung nicht kalt wird. Die meisten Berge sind wolkenverhangen. Der Wald im Bild scheint eine Waldweide zu sein, der Hang ist mit Trittschäden durchzogen und der Unterbewuchs wirkt schon fast wie gemäht.',
+    latLon: [46.81083, 10.55079],
+    orientation: "landscape"
+  },
   "2023-07-24T10:54-grauner-kirchturm": {
     img: "DSC05558.JPG",
     title: 'Grauner Kirchturm',
-    text: 'Das Wetter spielt mir einen Streich und es beginnt zu schütten, als ich die Pension verlasse. Der Weg führt oberhalb der Dörfer das Tal entlang, mal im Wald als hutzliger Wurzelpfad, mal über Weiden. Sehr angenehm zu gehen.<br>Graun ist ein bisschen ein Fixpunkt für mich. Das erste Mal sah ich den Kirchturm in der Einführungsveranstaltung zur Bildverarbeitung. Im selben Jahr machte ich eine Radtour von Magdeburg nach Verona und war begeistert, als ich merkte dass ich dort vorbeikommen würde. Auch auf meiner Radtour in den Iran fuhr ich hier durch, und so erschien es nur logisch, auch auf dieser Wanderung hier vorbei zu planen.',
+    text: 'Graun ist ein bisschen ein Fixpunkt für mich. Das erste Mal sah ich den Kirchturm in der Einführungsveranstaltung zur Bildverarbeitung. Im selben Jahr machte ich eine Radtour von Magdeburg nach Verona und war begeistert, als ich merkte dass ich dort vorbeikommen würde. Auch auf meiner Radtour in den Iran fuhr ich hier durch, und so erschien es nur logisch, auch auf dieser Wanderung hier vorbei zu planen.<br>Dieses Mal habe ich mir die Zeit genommen, auch ein bisschen die Info-Tafeln zu lesen. Was mir nicht bewusst war ist, dass das Dorf vollständig gesprengt wurde, sich also keine Ruinen mehr im See befinden. Der Kirchturm blieb erhalten, weil er denkmalgeschützt ist, er stammt aus dem 14. Jahrhundert. Er steht schon länger für sich, die letzte Kirche dazu wurde daneben erbaut. Ausser Graun versanken noch zwei weitere Dörfer im Stausee.<br>Das Wetter macht meiner Kamera wieder einmal zu schaffen, sie lässt sich bald nicht mehr anschalten. Von Graun fahre ich eine kurze Strecke Bus und mache mich dann an den Aufstieg zur Sesvennahütte, meiner letzten Übernachtung vor der Schweiz.',
     latLon: [46.81102, 10.53989],
     orientation: "portrait"
   },
