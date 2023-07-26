@@ -754,4 +754,11 @@ ENTRIES = {
     latLon: [46.80624, 10.67836],
     orientation: "landscape"
   },
+  "2023-07-24T10:54-grauner-kirchturm": {
+    img: "DSC05558.JPG",
+    title: 'Grauner Kirchturm',
+    text: 'Das Wetter spielt mir einen Streich und es beginnt zu schütten, als ich die Pension verlasse. Der Weg führt oberhalb der Dörfer das Tal entlang, mal im Wald als hutzliger Wurzelpfad, mal über Weiden. Sehr angenehm zu gehen.<br>Graun ist ein bisschen ein Fixpunkt für mich. Das erste Mal sah ich den Kirchturm in der Einführungsveranstaltung zur Bildverarbeitung. Im selben Jahr machte ich eine Radtour von Magdeburg nach Verona und war begeistert, als ich merkte dass ich dort vorbeikommen würde. Auch auf meiner Radtour in den Iran fuhr ich hier durch, und so erschien es nur logisch, auch auf dieser Wanderung hier vorbei zu planen.',
+    latLon: [46.81102, 10.53989],
+    orientation: "portrait"
+  },
 };
