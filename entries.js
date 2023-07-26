@@ -740,4 +740,11 @@ ENTRIES = {
     latLon: [46.79108, 10.68283],
     orientation: "landscape"
   },
+  "2023-07-23T10:20-planeilferner": {
+    img: "DSC05486.JPG",
+    title: 'Planeilferner',
+    text: 'Irgendwann entdecke ich Wanderweg-Markierungen auf dem Gletscher. Ich weiss nicht, ob sie der Gletscher dort hin getragen hat oder ob die Idee ist, dass ich über den Gletscher gehen soll, aber ich ignoriere sie. Meine Richtung ist klar. Der Planeilferner wirkt riesig. Da ich sehr nah bin, ist es unmöglich, ihn auf ein Foto zu bringen. Der Fels im Bild ist grösser als ich. Es ist keinesfalls still. Überall auf, im und unter dem Gletscher fliessen Bäche, es rauscht kräftig neben mir. Ich finde den grossen roten Punkt, für mich das Signal dass ich mich wieder vom Planeilferner entfernen muss.',
+    latLon: [46.79171, 10.67928],
+    orientation: "landscape"
+  },
 };
