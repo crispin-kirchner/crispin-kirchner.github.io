@@ -14,7 +14,7 @@ mkdir -p 1920w
 mkdir -p 2560w
 mkdir -p 4096w
 
-for i in ~/storage/external-1/blog/*.JPG ; do
+for i in ../../blog-fotos/*.JPG ; do
   sourceFilename="$(basename "$i")"
   sizes=""
   command=""
@@ -39,11 +39,5 @@ for i in ~/storage/external-1/blog/*.JPG ; do
   fi
   echo "$sourceFilename$sizes"
   convert "$i" -write mpr:XY +delete -respect-parentheses $command null:
-  # FIXME fix this im behavior
-  sourceBase=${sourceFilename:0:-4}
-  for size in $sizes ; do
-    mv $size/$sourceBase-0.JPG $size/$sourceFilename
-    rm $size/$sourceBase-1.JPG
-  done
 done
 
