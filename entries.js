@@ -747,4 +747,11 @@ ENTRIES = {
     latLon: [46.79171, 10.67928],
     orientation: "landscape"
   },
+  "2023-07-23T13:28-gepatschferner": {
+    img: "DSC05516.JPG",
+    title: 'Gepatschferner',
+    text: 'Mein Weg führt noch eine Weile entlang der 3000 Höhenmeter, nach zwei weiteren Scharten und viel Wegsuche kann der Abstieg nach Langtaufers beginnen. Der Diawechsel auf der Planeilscharte ist abermals beeindruckend: Ich kann die Abbruchkante des Gepatschferners sehen. Er ist riesenhaft. Aus seinem Inneren stürzt ein riesiger Wasserfall ins Tal. Der Teil hier auf dem Foto ist etwa ein Drittel des Gletschers.<br>Nachdem ich auf den komplizierten Abschnitten nur Riegel und Nüsse gegessen habe, gönne ich mir bei diesem Panorama ein richtiges Mittagessen, danach steige ich bis ins Tal ab. Ein Tag reich an Strecke, Höhenunterschieden und vor allem Eindrücken geht zu Ende.',
+    latLon: [46.80624, 10.67836],
+    orientation: "landscape"
+  },
 };
