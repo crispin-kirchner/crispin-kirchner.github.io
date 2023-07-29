@@ -782,4 +782,11 @@ ENTRIES = {
     latLon: [46.72386, 10.41109],
     orientation: "landscape"
   },
+  "2023-07-25T13:51-scuol-reformierte-kirche-am-inn": {
+    img: "DSC05738.JPG",
+    title: 'Scuol, reformierte Kirche am Inn',
+    text: 'Der Weg durchs Val S-Charl ist spannend. Die Strasse scheint auf Erdrutschen erbaut zu sein, aus zahlreichen Rinnen rechts und links des zahm dahinfliessenden Flusses ergiessen sich Massen von feinem Geröll. An einer Stelle ist die Strasse teilweise verschüttet, an einer anderen ist ein Teil weggebrochen. Immer wieder komme ich an Schildern mit Warnleuchten vorbei: Im Fall von heftigen Gewittern sind hier Erdrutsche wahrscheinlich. Wenn die Warnleuchten leuchten, muss mensch in deren Nähe bleiben, da diese Stellen als sicher angenommen werden.<br>Mein aberwitziger Plan geht tatsächlich auf: Ich bin ein wenig vor dem ersten Mittagsbus unten in Scuol. Meine Beine schmerzen, ich bin erschöpft und glücklich. Nach fast sechs Wochen Gehzeit habe ich, von Slowenien kommend, die Schweiz erreicht. Ich kaufe die obligatorische Nusstorte ein, gönne mir etwas feines vom Bäcker und ruhe mich im Park aus, bevor ich in den Zug nach Bern steige.',
+    latLon: [46.79396, 10.29671],
+    orientation: "portrait"
+  },
 };
