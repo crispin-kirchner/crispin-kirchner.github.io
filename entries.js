@@ -768,4 +768,11 @@ ENTRIES = {
     latLon: [46.81102, 10.53989],
     orientation: "portrait"
   },
+  "2023-07-25T08:42-der-follakopf-spiegelt-sich-im-furkelsee": {
+    img: "DSC05605.JPG",
+    title: 'Der Föllakopf spiegelt sich im Furkelsee',
+    text: 'Das Wetter am Morgen sieht blendend aus. Da der Wetterbericht aber sehr unsicher ist, entscheide ich mich für die kürzeste und hoffentlich sicherste Variante, in die Schweiz einzuwandern: die Sesvennascharte und das Val S-Charl. Auf den ersten Metern muss ich noch mit mir ringen, nicht doch die schönere (deutlich längere) Route über die Berge und direkt nach Scuol zu nehmen. Im Blick zurück sehe ich noch ein letztes Mal, Bergkette an Bergkette, die vergletscherten Gipfel der letzten Tage.',
+    latLon: [46.72427, 10.41238],
+    orientation: "landscape"
+  },
 };
