@@ -775,4 +775,11 @@ ENTRIES = {
     latLon: [46.72427, 10.41238],
     orientation: "landscape"
   },
+  "2023-07-25T08:49-mein-treuer-begleiter-auf-der-sesvennascharte": {
+    img: "DSC05614.JPG",
+    title: 'Mein treuer Begleiter auf der Sesvennascharte',
+    text: 'Ich habe mich lange gefragt, woran ich wohl erkennen würde, dass ich wieder in der Schweiz bin. Auf der Sesvennascharte angekommen muss ich lachen: Es sind die gelben Schweizer Wanderwegweiser. Auf der Anderen Seite erwartet mich nicht etwa eine Zollbeamtin die freundlich fragt: "Stuvaivat pajar dazi per alch?"* sondern zwei weitere Einwanderer: die ersten und einzigen Steinböcke auf meiner Tour. Ausgerechnet in Graubünden. Das Klischee ist perfekt. Der eine schwingt sofort die Hufe Richtung Italien, als er mich bemerkt. Der andere bewahrt Ruhe und Würde; er hält ordentlich Abstand, aber wenn ich stehen bleibe, bleibt auch er stehen.<br>Einen Hagelschauer später bin ich in S-Charl, gerade während der Mittagspause der Buschauffeure. Ich schnüre die Siebenmeilenstiefel: mein neues Ziel ist, vor dem ersten Bus nach der Mittagspause in Scuol zu sein.<br>*<em class="small">Heit dir öppis z vrzoue?</em>',
+    latLon: [46.72386, 10.41109],
+    orientation: "landscape"
+  },
 };
