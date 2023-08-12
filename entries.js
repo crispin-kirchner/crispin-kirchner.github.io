@@ -210,7 +210,7 @@ ENTRIES = {
   },
   "2023-06-27T08:32-wie-heisst-diese-pflanze": {
     img: "DSC03964.JPG",
-    title: "Weiss jemensch, wie diese Pflanze heisst?",
+    title: "Grosse Pimpernelle",
     text: 'Heute hängen die Wolken tief. Nach einem kurzen Anstieg, einer Alp und einer Gruppe sehr interessierter Ziegen (die mutigsten knabbern an meinem Hosensaum), fangen bald die heutigen Traversen an. Ein grosser Teil der Etappe führt quer über dicht bewachsene Hänge. Die Gräser überwachsen den Weg, kratzen und reizen die Haut an den Beinen, aber es ist zu schwül um in eine lange Hose zu wechseln. Am Wegesrand fallen mir immer wieder diese hüfthohen Pflanzen auf, mit meist weissen Blüten, aber manche haben auch diese wunderschönen zweifarbigen Blüten.',
     latLon: [46.60197, 13.03741],
     orientation: "landscape"
