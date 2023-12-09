@@ -6,11 +6,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Crispin Kirchner">
-  <meta name="description" content="Ich wandere diesen Sommer entlang der Via Alpina von Slowenien in die Schweiz. Fast jeden Tag lade ich hier Fotos hoch und erzähle ein bisschen dazu.">
+  <meta name="description"
+    content="Ich wandere diesen Sommer entlang der Via Alpina von Slowenien in die Schweiz. Fast jeden Tag lade ich hier Fotos hoch und erzähle ein bisschen dazu.">
 
   <meta property="og:locale" content="de_CH">
   <meta property="og:title" content="Bilder und Koordinaten">
-  <meta property="og:description" content="Ich wandere diesen Sommer entlang der Via Alpina von Slowenien in die Schweiz. Fast jeden Tag lade ich hier Fotos hoch und erzähle ein bisschen dazu.">
+  <meta property="og:description"
+    content="Ich wandere diesen Sommer entlang der Via Alpina von Slowenien in die Schweiz. Fast jeden Tag lade ich hier Fotos hoch und erzähle ein bisschen dazu.">
 
   <meta property="og:image" content="https://crispin-kirchner.github.io/images/og-image.JPG">
   <meta property="og:image:width" content="1200">
@@ -52,10 +54,10 @@
             <div class="position-absolute top-0 start-0 p-2">
               <div class="btn-group">
                 <button id="nav-start" class="btn btn-dark control-bg text-light" onclick="goToNewestEntry()">
-                    <i class="bi-skip-start"></i>
+                  <i class="bi-skip-start"></i>
                 </button>
                 <a id="nav-end" class="btn btn-dark control-bg text-light">
-                    <i class="bi-skip-end"></i>
+                  <i class="bi-skip-end"></i>
                 </a>
               </div>
             </div>
@@ -74,17 +76,17 @@
               </span>
             </div>
             <div class="position-absolute bottom-0 end-0 p-2">
-                <label for="map-visible" class="btn btn-dark control-bg text-light">
-                    <i id="expand-map" class="bi-caret-up-fill"></i>
-                    <i id="collapse-map" class="bi-caret-down-fill"></i>
-                    <i class="bi-map"></i>
-                </label>
+              <label for="map-visible" class="btn btn-dark control-bg text-light">
+                <i id="expand-map" class="bi-caret-up-fill"></i>
+                <i id="collapse-map" class="bi-caret-down-fill"></i>
+                <i class="bi-map"></i>
+              </label>
             </div>
             <div class="position-absolute top-50 start-0 translate-middle-y p-2">
               <a id="nav-left" href="#" class="btn btn-dark control-bg position-relative">
                 <i class="bi-chevron-left"></i>
                 <span id="unread-indicator"
-                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger d-none"></span>
+                  class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger d-none"></span>
               </a>
             </div>
             <div class="position-absolute top-50 end-0 translate-middle-y p-2">
@@ -94,20 +96,20 @@
             </div>
           </div>
           <div id="caption-text">
-              <div class="p-1 rounded text-light control-bg overflow-auto">
-                <div class="overflow-auto">
-                  <label for="read-more" class="float-end">
-                    <u>
-                      <span id="read-more-more">Mehr</span>
-                      <span id="read-more-less">Weniger</span>
-                      lesen</u>
-                    <i id="read-more-chevron" class="bi-chevron-up transition d-inline-block"></i>
-                  </label>
-                  <span id="caption-date" class="fst-italic"></span>
-                  <span id="caption-title" class="fst-italic"></span>
-                </div>
-                <div id="entry-text" class="transition"></div>
+            <div class="p-1 rounded text-light control-bg overflow-auto">
+              <div class="overflow-auto">
+                <label for="read-more" class="float-end">
+                  <u>
+                    <span id="read-more-more">Mehr</span>
+                    <span id="read-more-less">Weniger</span>
+                    lesen</u>
+                  <i id="read-more-chevron" class="bi-chevron-up transition d-inline-block"></i>
+                </label>
+                <span id="caption-date" class="fst-italic"></span>
+                <span id="caption-title" class="fst-italic"></span>
               </div>
+              <div id="entry-text" class="transition"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -117,20 +119,23 @@
       <div class="position-absolute top-0 start-0 p-2" style="z-index: 1000">
         <div class="btn-group-vertical">
           <button type="button" class="btn btn-dark control-bg text-light" onclick="MAP.zoomIn()">
-              <i class="bi-plus-lg"></i>
+            <i class="bi-plus-lg"></i>
           </button>
           <button type="button" class="btn btn-dark control-bg text-light" onclick="MAP.zoomOut()">
-              <i class="bi-dash-lg"></i>
+            <i class="bi-dash-lg"></i>
           </button>
         </div>
       </div>
-      <div id="map-opt-out-notice" class="control-bg w-100 h-100 position-absolute top-0 start-0 d-flex justify-content-center align-items-center" style="z-index: 1001">
+      <div id="map-opt-out-notice"
+        class="control-bg w-100 h-100 position-absolute top-0 start-0 d-flex justify-content-center align-items-center"
+        style="z-index: 1001">
         <div class="text-light text-center">
           <p>
             Die Landkarte ist aufgrund deiner Datenschutzeinstellungen deaktiviert.
             <button type="button" class="btn btn-primary" onclick="setMapOptIn(true)">Aktivieren</button>
           </p>
-          <p class="small">Es gelten die Datenschutzbestimmungen von <a href="https://opentopomap.org" target="_blank">OpenTopoMap</a></p>
+          <p class="small">Es gelten die Datenschutzbestimmungen von <a href="https://opentopomap.org"
+              target="_blank">OpenTopoMap</a></p>
         </div>
       </div>
       <div class="position-absolute top-0 end-0 p-2 text-end" style="z-index: 1000">
@@ -140,10 +145,10 @@
         <br>
         <div class="btn-group-vertical mt-2">
           <button type="button" class="btn btn-dark control-bg text-light" onclick="zoomMapToAllEntries()">
-              <i class="bi-fullscreen"></i>
+            <i class="bi-fullscreen"></i>
           </button>
           <button type="button" class="btn btn-dark control-bg text-light" onclick="zoomToCurrentEntry()">
-              <i class="bi-geo-alt-fill"></i>
+            <i class="bi-geo-alt-fill"></i>
           </button>
         </div>
       </div>
@@ -154,24 +159,27 @@
       <a class="text-light small text-shadow d-block d-xl-inline" href="#/impressum">Impressum</a>
     </div>
     <div id="about"
-        class="overlay position-absolute position-relative top-50 start-50 translate-middle control-bg rounded p-4 d-none z-2000 d-flex flex-column">
+      class="overlay position-absolute position-relative top-50 start-50 translate-middle control-bg rounded p-4 d-none z-2000 d-flex flex-column">
       <a href="#" class="close-overlay position-absolute top-0 end-0 p-4 text-light">
         <i class="bi-x-lg"></i>
       </a>
       <div class="overflow-auto p-4 text-light">
         <h1>Bilder und Koordinaten</h1>
-        <img class="w-100 rounded mb-2" src="images/about_header.JPG" srcset="images/about_header.JPG 520w, images/about_header_2x.JPG 1040w, images/about_header_3x.JPG 1560w" sizes="520px"/>
-        <p>Ich wandere diesen Sommer entlang der Via Alpina von Slowenien in die Schweiz. Fast jeden Tag lade ich hier Fotos hoch und erzähle ein bisschen dazu.</p>
+        <img class="w-100 rounded mb-2" src="images/about_header.JPG"
+          srcset="images/about_header.JPG 520w, images/about_header_2x.JPG 1040w, images/about_header_3x.JPG 1560w"
+          sizes="520px" />
+        <p>Ich wandere diesen Sommer entlang der Via Alpina von Slowenien in die Schweiz. Fast jeden Tag lade ich hier
+          Fotos hoch und erzähle ein bisschen dazu.</p>
         <p>
-            Möchtest du nichts verpassen?
-            Ich kann dich gerne benachrichtigen wenn ich etwas hinzufüge.
-            Klick einfach auf <a class="subscribe-link text-light" href="#">abonnieren</a>
+          Möchtest du nichts verpassen?
+          Ich kann dich gerne benachrichtigen wenn ich etwas hinzufüge.
+          Klick einfach auf <a class="subscribe-link text-light" href="#">abonnieren</a>
         </p>
         <p>Erstellt mit Bootstrap, ImageMagick, Leaflet, OpenTopoMap</p>
       </div>
     </div>
     <div id="privacy"
-        class="overlay position-absolute position-relative top-50 start-50 translate-middle control-bg rounded p-4 d-none z-2000 d-flex flex-column">
+      class="overlay position-absolute position-relative top-50 start-50 translate-middle control-bg rounded p-4 d-none z-2000 d-flex flex-column">
       <a href="#" class="close-overlay position-absolute top-0 end-0 p-4 text-light">
         <i class="bi-x-lg"></i>
       </a>
@@ -199,7 +207,7 @@
       </div>
     </div>
     <div id="impressum"
-        class="overlay position-absolute position-relative top-50 start-50 translate-middle control-bg rounded p-4 d-none z-2000 d-flex flex-column">
+      class="overlay position-absolute position-relative top-50 start-50 translate-middle control-bg rounded p-4 d-none z-2000 d-flex flex-column">
       <a href="#" class="close-overlay position-absolute top-0 end-0 p-4 text-light">
         <i class="bi-x-lg"></i>
       </a>
@@ -222,21 +230,25 @@
       </div>
     </div>
     <div id="404"
-        class="overlay position-absolute position-relative top-50 start-50 translate-middle control-bg rounded p-4 d-none z-2000 d-flex flex-column">
-        <div class="overflow-auto p-4 text-light">
-            <h1>Nicht gefunden</h1>
-            <img class="w-100 rounded mb-2" src="images/404_header.JPG" srcset="images/404_header.JPG 520w, images/404_header_2x.JPG 1040w, images/404_header_3x.JPG 1560w" sizes="520px"/>
-            <p>Unter der Adresse <em id="404-address"></em> finde ich leider kein Bild. Ich zeige dir stattdessen ein anderes.</p>
-            <a href="#" class="close-overlay btn btn-primary w-100">OK</a>
-        </div>
+      class="overlay position-absolute position-relative top-50 start-50 translate-middle control-bg rounded p-4 d-none z-2000 d-flex flex-column">
+      <div class="overflow-auto p-4 text-light">
+        <h1>Nicht gefunden</h1>
+        <img class="w-100 rounded mb-2" src="images/404_header.JPG"
+          srcset="images/404_header.JPG 520w, images/404_header_2x.JPG 1040w, images/404_header_3x.JPG 1560w"
+          sizes="520px" />
+        <p>Unter der Adresse <em id="404-address"></em> finde ich leider kein Bild. Ich zeige dir stattdessen ein
+          anderes.</p>
+        <a href="#" class="close-overlay btn btn-primary w-100">OK</a>
+      </div>
     </div>
     <div id="consent"
-        class="overlay position-absolute position-relative top-50 start-50 translate-middle control-bg rounded p-4 d-none z-2000 d-flex flex-column">
-        <div class="overflow-auto p-4 text-light">
-          <h1>Zustimmung</h1>
-          <div id="consent-consent-form-container"></div>
-          <p class="small mt-2">Du kannst diese Einstellungen jederzeit unter <a href="#/privacy">Datenschutz</a> anpassen.</p>
-        </div>
+      class="overlay position-absolute position-relative top-50 start-50 translate-middle control-bg rounded p-4 d-none z-2000 d-flex flex-column">
+      <div class="overflow-auto p-4 text-light">
+        <h1>Zustimmung</h1>
+        <div id="consent-consent-form-container"></div>
+        <p class="small mt-2">Du kannst diese Einstellungen jederzeit unter <a href="#/privacy">Datenschutz</a>
+          anpassen.</p>
+      </div>
     </div>
   </div>
   <script src="node_modules/leaflet/dist/leaflet.js"></script>
